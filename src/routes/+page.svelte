@@ -65,12 +65,12 @@
 </script>
 
 <div class="gallery">
-	<GalleryCard data={dataInveti} backgroundImage="images/home-section-1.png"
-							 backgroundImageDark="images/home-section-1-dark.png" />
-	<GalleryCard data={dataPredai} backgroundImage="images/home-section-2.png"
-							 backgroundImageDark="images/home-section-2-dark.png" />
-	<GalleryCard data={dataMuncesti} backgroundImage="images/home-section-3.png"
-							 backgroundImageDark="images/home-section-3-dark.png" />
+	<GalleryCard data={dataInveti} backgroundImage="/images/home-section-1.png"
+							 backgroundImageDark="/images/home-section-1-dark.png" />
+	<GalleryCard data={dataPredai} backgroundImage="/images/home-section-2.png"
+							 backgroundImageDark="/images/home-section-2-dark.png" />
+	<GalleryCard data={dataMuncesti} backgroundImage="/images/home-section-3.png"
+							 backgroundImageDark="/images/home-section-3-dark.png" />
 </div>
 
 <style>
