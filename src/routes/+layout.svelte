@@ -7,6 +7,8 @@
 	import youtubeIcon from "@iconify/icons-fe/youtube";
 	import linkedinIcon from "@iconify/icons-mdi/linkedin";
 	import slashForward from "@iconify/icons-mdi/slash-forward";
+	// import hamburgerMenu from "@iconify/icons-mdi/hamburger-menu";
+	// import closeIcon from "@iconify/icons-mdi/close";
 
 	let path;
 	let enableMobileMenu;
@@ -411,12 +413,17 @@
 		margin: 0.5rem 2rem;
 	}
 
-  .menu {
-      display: none;
-  }
-  .nav-mobile-list {
-      display: none;
-  }
+	.navbar-mobile {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+	.nav-mobile-list {
+		display: none;
+	}
+
 	@media screen and (max-width: 1024px) {
 		nav {
 			display: none;
