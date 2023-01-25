@@ -307,9 +307,9 @@
 			display: block;
 			text-decoration: none;
 		}
-		.nav-item-current {
+		/* .nav-item-current {
 			background: #c4132c;
-		}
+		} */
 		.nav-item-container {
 			cursor: pointer;
 			display: flex;
