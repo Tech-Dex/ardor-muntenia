@@ -7,8 +7,8 @@
 	import youtubeIcon from "@iconify/icons-fe/youtube";
 	import linkedinIcon from "@iconify/icons-mdi/linkedin";
 	import slashForward from "@iconify/icons-mdi/slash-forward";
-	// import hamburgerMenu from "@iconify/icons-mdi/hamburger-menu";
-	// import closeIcon from "@iconify/icons-mdi/close";
+	import hamburgerMenu from "@iconify/icons-mdi/hamburger-menu";
+	import closeIcon from "@iconify/icons-mdi/close";
 
 	let path;
 	let enableMobileMenu;
@@ -74,61 +74,46 @@
 	</nav>
 	<div class={enableMobileMenu ? "navbar-mobile open-nav" : "navbar-mobile"}>
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<svg
-			on:click={() => (enableMobileMenu = false)}
-			width="35"
-			height="35"
-			viewBox="0 0 35 35"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-			class="close"
-		>
-			<path
-				d="M28.3281 6.6719C27.9179 6.26181 27.3616 6.03143 26.7815 6.03143C26.2015 6.03143 25.6452 6.26181 25.235 6.6719L17.5 14.4069L9.76497 6.6719C9.3524 6.27343 8.79984 6.05294 8.22628 6.05793C7.65273 6.06291 7.10407 6.29297 6.69849 6.69855C6.29291 7.10413 6.06286 7.65278 6.05787 8.22634C6.05289 8.79989 6.27338 9.35246 6.67185 9.76503L14.4068 17.5L6.67185 25.235C6.27338 25.6476 6.05289 26.2002 6.05787 26.7737C6.06286 27.3473 6.29291 27.8959 6.69849 28.3015C7.10407 28.7071 7.65273 28.9371 8.22628 28.9421C8.79984 28.9471 9.3524 28.7266 9.76497 28.3282L17.5 20.5932L25.235 28.3282C25.6475 28.7266 26.2001 28.9471 26.7737 28.9421C27.3472 28.9371 27.8959 28.7071 28.3014 28.3015C28.707 27.8959 28.9371 27.3473 28.9421 26.7737C28.9471 26.2002 28.7266 25.6476 28.3281 25.235L20.5931 17.5L28.3281 9.76503C28.7382 9.35481 28.9686 8.79851 28.9686 8.21847C28.9686 7.63842 28.7382 7.08212 28.3281 6.6719Z"
-				fill="white"
-			/>
-		</svg>
-		<ul class="nav-mobile-list">
-			<li class="menu-nav-item">
-				<h4 class="nav-item-text">
-					<a class="nav-item nav-item-container" href="/">Home</a>
+		<div class="close" on:click={() => (enableMobileMenu = false)}>
+			<Icon icon={closeIcon} width="auto" style="color:white" />
+		</div>
+
+		<ul>
+			<li>
+				<h4>
+					<a class="nav-item-current" href="/">Home</a>
 				</h4>
 			</li>
-			<li class="menu-nav-item">
-				<h4 class="nav-item-text">
-					<a class="nav-item nav-item-container" href="/">Cine suntem?</a>
+			<li>
+				<h4>
+					<a class="nav-item-container" href="/">Cine suntem?</a>
 				</h4>
 			</li>
-			<li class="menu-nav-item">
-				<h4 class="nav-item-text">
-					<a class="nav-item nav-item-container" href="/">Dezbateri</a>
+			<li>
+				<h4>
+					<a class="nav-item-container" href="/">Dezbateri</a>
 				</h4>
 			</li>
-			<li class="menu-nav-item">
-				<h4 class="nav-item-text">
-					<a class="nav-item nav-item-container" href="/">Cum fac Dezbateri?</a>
+			<li>
+				<h4>
+					<a class="nav-item-container" href="/">Cum fac Dezbateri?</a>
 				</h4>
 			</li>
-			<li class="menu-nav-item">
-				<h4 class="nav-item-text">
-					<a class="nav-item nav-item-container" href="/">Resurse Debate</a>
+			<li>
+				<h4>
+					<a class="nav-item-container" href="/">Resurse Debate</a>
 				</h4>
 			</li>
-			<li class="menu-nav-item">
-				<h4 class="nav-item-text">
-					<a class="nav-item nav-item-container" href="/">Contact</a>
+			<li>
+				<h4>
+					<a class="nav-item-container" href="/">Contact</a>
 				</h4>
 			</li>
 		</ul>
 	</div>
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<div class="menu" on:click={() => (enableMobileMenu = !enableMobileMenu)}>
-		<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path
-				d="M4.375 6.5625H30.625V8.75H4.375V6.5625ZM4.375 26.25H30.625V28.4375H4.375V26.25ZM4.375 13.125H30.625V15.3125H4.375V13.125ZM4.375 19.6875H30.625V21.875H4.375V19.6875Z"
-				fill="#EA2340"
-			/>
-		</svg>
+		<Icon icon={hamburgerMenu} width="auto" />
 	</div>
 </header>
 
@@ -420,15 +405,16 @@
 	.menu {
 		display: none;
 	}
-	.nav-mobile-list {
+	.navbar-mobile ul {
 		display: none;
 	}
 
-	@media screen and (max-width: 1024px) {
+	@media screen and (max-width: 1023px) {
 		nav {
 			display: none;
 		}
 		.menu {
+			color: var(--color-primary);
 			cursor: pointer;
 			display: block;
 			margin-right: 2rem;
@@ -454,16 +440,16 @@
 		.open-nav {
 			transform: translateX(0%);
 		}
-		.nav-mobile-list {
+		.navbar-mobile ul {
 			display: block;
 			list-style-type: none;
 			padding: 0;
 			margin-top: 8em;
 		}
-		.nav-item-text {
+		.navbar-mobile ul li h4 {
 			margin: 0;
 		}
-		.nav-item {
+		.navbar-mobile ul li h4 a {
 			color: rgb(255, 255, 255);
 			font-size: 1rem;
 			font-family: "Poppins-Bold", sans-serif;
@@ -471,9 +457,9 @@
 			display: block;
 			text-decoration: none;
 		}
-		/* .nav-item-current {
+		.nav-item-current {
 			background: #c4132c;
-		} */
+		}
 		.nav-item-container {
 			cursor: pointer;
 			display: flex;
