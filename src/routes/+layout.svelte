@@ -195,7 +195,6 @@
 
 	:global(.slot-content) {
 		height: 85vh;
-		background-color: lightblue;
 	}
 
 	:global(footer) {

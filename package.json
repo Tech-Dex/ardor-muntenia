@@ -24,6 +24,7 @@
 	"dependencies": {
 		"@iconify/icons-fe": "^1.2.5",
 		"@iconify/icons-mdi": "^1.2.39",
-		"@iconify/svelte": "^3.0.1"
+		"@iconify/svelte": "^3.0.1",
+		"svelte-fullpage": "^1.0.7"
 	}
 }

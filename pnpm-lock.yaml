@@ -12,12 +12,14 @@ specifiers:
   prettier: ^2.8.0
   prettier-plugin-svelte: ^2.8.1
   svelte: ^3.54.0
+  svelte-fullpage: ^1.0.7
   vite: ^4.0.0
 
 dependencies:
   '@iconify/icons-fe': 1.2.5
   '@iconify/icons-mdi': 1.2.39
   '@iconify/svelte': 3.0.1_svelte@3.55.1
+  svelte-fullpage: 1.0.7_svelte@3.55.1
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.2_@sveltejs+kit@1.2.2
@@ -1146,6 +1148,14 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
     dev: true
+
+  /svelte-fullpage/1.0.7_svelte@3.55.1:
+    resolution: {integrity: sha512-gAISVmNDxLi2G7DOuphA7kOnQRmjc3DJTvJ+AQUBbThkDDRreLB7nSwhJi78wEmdAkx/l7HcHPxmNT4oEIB5Ug==}
+    peerDependencies:
+      svelte: ^3.0.0
+    dependencies:
+      svelte: 3.55.1
+    dev: false
 
   /svelte-hmr/0.15.1_svelte@3.55.1:
     resolution: {integrity: sha512-BiKB4RZ8YSwRKCNVdNxK/GfY+r4Kjgp9jCLEy0DuqAKfmQtpL38cQK3afdpjw4sqSs4PLi3jIPJIFp259NkZtA==}
