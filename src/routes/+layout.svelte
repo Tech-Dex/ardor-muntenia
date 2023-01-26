@@ -9,11 +9,19 @@
 	import slashForward from "@iconify/icons-mdi/slash-forward";
 	import hamburgerMenu from "@iconify/icons-mdi/hamburger-menu";
 	import closeIcon from "@iconify/icons-mdi/close";
+	import chevronDown from "@iconify/icons-mdi/chevron-down";
 
 	let path;
 	let enableMobileMenu;
 
+	let subListOpened;
+
 	$: path = $page.url.pathname;
+
+	function openSubList(number) {
+		if (subListOpened === number) subListOpened = null;
+		else subListOpened = number;
+	}
 </script>
 
 <svelte:head>
@@ -80,34 +88,70 @@
 
 		<ul>
 			<li>
-				<h4>
-					<a class="nav-item-current" href="/">Home</a>
-				</h4>
+				<a class="nav-item-current" href="/"><h4>Home</h4></a>
 			</li>
 			<li>
-				<h4>
-					<a class="nav-item-container" href="/">Cine suntem?</a>
-				</h4>
+				<a class="nav-item-container" href="/" on:click={() => openSubList(1)}
+					><h4>Cine suntem?</h4>
+					<div class="chevron-down">
+						<Icon icon={chevronDown} width="auto" style="color:white" />
+					</div>
+				</a>
+				<div
+					class={subListOpened === 1 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
+				>
+					<h4 class="sub-container-text">
+						<a href="/"> Text </a>
+					</h4>
+				</div>
 			</li>
 			<li>
-				<h4>
-					<a class="nav-item-container" href="/">Dezbateri</a>
-				</h4>
+				<a class="nav-item-container" href="/" on:click={() => openSubList(2)}
+					><h4>Dezbateri</h4>
+					<div class="chevron-down">
+						<Icon icon={chevronDown} width="auto" style="color:white" />
+					</div></a
+				>
+				<div
+					class={subListOpened === 2 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
+				>
+					<h4 class="sub-container-text">
+						<a href="/"> Text </a>
+					</h4>
+				</div>
 			</li>
 			<li>
-				<h4>
-					<a class="nav-item-container" href="/">Cum fac Dezbateri?</a>
-				</h4>
+				<a class="nav-item-container" href="/" on:click={() => openSubList(3)}
+					><h4>Cum fac Dezbateri?</h4>
+					<div class="chevron-down">
+						<Icon icon={chevronDown} width="auto" style="color:white" />
+					</div></a
+				>
+				<div
+					class={subListOpened === 3 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
+				>
+					<h4 class="sub-container-text">
+						<a href="/"> Text </a>
+					</h4>
+				</div>
 			</li>
 			<li>
-				<h4>
-					<a class="nav-item-container" href="/">Resurse Debate</a>
-				</h4>
+				<a class="nav-item-container" href="/" on:click={() => openSubList(4)}
+					><h4>Resurse Debate</h4>
+					<div class="chevron-down">
+						<Icon icon={chevronDown} width="auto" style="color:white" />
+					</div></a
+				>
+				<div
+					class={subListOpened === 4 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
+				>
+					<h4 class="sub-container-text">
+						<a href="/"> Text </a>
+					</h4>
+				</div>
 			</li>
 			<li>
-				<h4>
-					<a class="nav-item-container" href="/">Contact</a>
-				</h4>
+				<a class="nav-item-container" href="/"><h4>Contact</h4></a>
 			</li>
 		</ul>
 	</div>
@@ -424,6 +468,7 @@
 			position: fixed;
 			right: 0;
 			top: 0;
+			z-index: 999;
 			height: 100vh;
 			width: 50%;
 			background: var(--color-primary);
@@ -448,22 +493,43 @@
 		.navbar-mobile ul li h4 {
 			margin: 0;
 		}
-		.navbar-mobile ul li h4 a {
+		.chevron-down {
+			padding-left: 0.5rem;
+		}
+		.navbar-mobile ul li a {
 			color: rgb(255, 255, 255);
-			font-size: 1rem;
 			font-family: "Poppins-Bold", sans-serif;
 			padding: 0.75em 2em;
-			display: block;
+			display: flex;
 			text-decoration: none;
 		}
 		.nav-item-current {
+			font-size: 1.2rem;
 			background: #c4132c;
 		}
 		.nav-item-container {
 			cursor: pointer;
 			display: flex;
 			align-items: center;
-			justify-content: space-between;
+			font-size: 1.2rem;
 		}
+		.nav-item-sub-container {
+			display: none;
+			margin-bottom: 1em;
+		}
+		.nav-item-sub-container-display {
+			display: block;
+			margin-bottom: 1em;
+		}
+		.sub-container-text {
+			color: #fff;
+			font-size: 1.1rem;
+			font-family: "Poppins-Medium";
+			margin: 0.5rem auto 0 auto;
+			padding: 0.2em 0 0.2em 2em;
+		}
+		/* .sub-container-current {
+			background: #c4132c;
+		} */
 	}
 </style>
