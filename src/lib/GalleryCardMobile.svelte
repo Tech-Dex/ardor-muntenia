@@ -1,47 +1,40 @@
 <script>
-	import { Fullpage, FullpageSection, FullpageSlide } from "svelte-fullpage";
-	import { onMount } from "svelte";
+	import { FullpageSection, FullpageSlide } from "svelte-fullpage";
 	import arrowRight from "@iconify/icons-mdi/arrow-right";
 	import Icon from "@iconify/svelte";
 
-	export let backgroundImage, backgroundImageDark, data;
-	onMount(() => {
-		let image = new Image();
-		image.src = backgroundImageDark;
-	});
+	export let backgroundImage, data;
 </script>
 
-<div class="card" style="--image: url({backgroundImage}); --imageDark: url({backgroundImageDark})">
+<div class="card" style="--image: url({backgroundImage});">
 	<div class="details">
-		<Fullpage>
-			<FullpageSection title={data.title}>
-				{#each data.content as { icon, header, summary, page }, i}
-					<FullpageSlide title="slides">
-						<div class="container text-center">
-							<div class="heading">
-								{#if i === 0}
-									<h1>{data.title}</h1>
-									<h2>{data.description}</h2>
-								{/if}
-							</div>
-							<div class="box">
-								<Icon {icon} width="84" />
-								<h3>{header}</h3>
-								<p>{summary}</p>
-								<a class="icon-arrow-page" href={page}>
-									<div class="more-details">
-										<p>
-											Afla mai multe
-											<Icon icon={arrowRight} width="auto" />
-										</p>
-									</div>
-								</a>
-							</div>
+		<FullpageSection title={data.title}>
+			{#each data.content as { icon, header, summary, page }, i}
+				<FullpageSlide title="slides">
+					<div class="container text-center">
+						<div class="heading">
+							{#if i === 0}
+								<h1>{data.title}</h1>
+								<h2>{data.description}</h2>
+							{/if}
 						</div>
-					</FullpageSlide>
-				{/each}
-			</FullpageSection>
-		</Fullpage>
+						<div class="box">
+							<Icon {icon} width="84" />
+							<h3>{header}</h3>
+							<p>{summary}</p>
+							<a class="icon-arrow-page" href={page}>
+								<div class="more-details">
+									<p>
+										Afla mai multe
+										<Icon icon={arrowRight} width="auto" />
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</FullpageSlide>
+			{/each}
+		</FullpageSection>
 	</div>
 </div>
 
@@ -50,7 +43,7 @@
 		background-repeat: no-repeat;
 		background-image: var(--image);
 		background-size: cover;
-		background-position: center;
+		background-position: 0 20%;
 		color: white;
 		width: 100%;
 		height: 100%;
@@ -61,22 +54,6 @@
 	.details {
 		width: 100%;
 		height: 100%;
-		transition: 0s;
-		opacity: 0;
-	}
-
-	.card:hover {
-		flex-grow: 5;
-		background-image: var(--imageDark);
-		background-position: 0 20%;
-		transition: all 1s ease-in;
-		transition-delay: 0.3s;
-	}
-
-	.card:hover .details {
-		opacity: 1;
-		transition: all 0.2s ease-in;
-		transition-delay: 1.3s;
 	}
 
 	.container {

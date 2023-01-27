@@ -1,5 +1,9 @@
 <script>
 	import GalleryCard from "$lib/GalleryCard.svelte";
+	import accountSchool from "@iconify/icons-mdi/account-school";
+	import schoolIcon from "@iconify/icons-mdi/school";
+	import GalleryCardMobile from "$lib/GalleryCardMobile.svelte";
+	import { Fullpage } from "svelte-fullpage";
 
 	let dataInveti = {
 		title: "Inveti",
@@ -7,11 +11,13 @@
 			"La școală, la facultate, sau cu prietenii, dezbaterile te ajută să ieși în evidență",
 		content: [
 			{
+				icon: accountSchool,
 				header: "Sunt Elev",
 				summary: "Află cum poți să devii mai persuasiv cu profesorii tăi",
 				page: "inveti/elev",
 			},
 			{
+				icon: schoolIcon,
 				header: "Sunt Student",
 				summary: "Află cum poți deveni cel mai bun debater din facultatea ta",
 			},
@@ -89,10 +95,34 @@
 	/>
 </div>
 
+<div class="gallery-mobile">
+	<Fullpage>
+		<GalleryCardMobile data={dataInveti} backgroundImage="/images/home-section-1-dark.png" />
+		<GalleryCardMobile data={dataPredai} backgroundImage="/images/home-section-2-dark.png" />
+		<GalleryCardMobile data={dataMuncesti} backgroundImage="/images/home-section-3-dark.png" />
+	</Fullpage>
+</div>
+
 <style>
 	.gallery {
 		display: flex;
 		width: 100%;
 		height: 100%;
+	}
+
+	.gallery-mobile {
+		display: none;
+	}
+
+	@media only screen and (max-width: 1023px) {
+		.gallery {
+			display: none;
+		}
+
+		.gallery-mobile {
+			display: flex;
+			width: 100%;
+			height: 100%;
+		}
 	}
 </style>

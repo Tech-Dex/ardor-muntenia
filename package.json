@@ -25,6 +25,8 @@
 		"@iconify/icons-fe": "^1.2.5",
 		"@iconify/icons-mdi": "^1.2.39",
 		"@iconify/svelte": "^3.0.1",
+		"@sveltejs/adapter-node": "^1.1.4",
+		"@sveltejs/adapter-static": "^1.0.5",
 		"svelte-fullpage": "^1.0.7"
 	}
 }
