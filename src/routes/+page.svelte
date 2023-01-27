@@ -75,6 +75,12 @@
 			},
 		],
 	};
+
+	let dataWelcomeMobile = {
+		title: "Bine ai venit",
+		description: "Hai la dezbateri!",
+		content: [    ],
+	};
 </script>
 
 <div class="gallery">
@@ -97,6 +103,7 @@
 
 <div class="gallery-mobile">
 	<Fullpage>
+		<GalleryCardMobile data={dataWelcomeMobile} backgroundImage="/images/home-section-1.png" />
 		<GalleryCardMobile data={dataInveti} backgroundImage="/images/home-section-1-dark.png" />
 		<GalleryCardMobile data={dataPredai} backgroundImage="/images/home-section-2-dark.png" />
 		<GalleryCardMobile data={dataMuncesti} backgroundImage="/images/home-section-3-dark.png" />
