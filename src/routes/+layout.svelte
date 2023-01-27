@@ -360,6 +360,7 @@
 
 	nav ul li {
 		margin-right: 2rem;
+		display: flex;
 	}
 
 	nav ul li a {
@@ -370,6 +371,8 @@
 		font-size: 1rem;
 		padding: 0.5rem 1rem 0.5rem 1rem;
 		border: none;
+		display: flex;
+		align-items: center;
 	}
 
 	nav ul li a:hover {
@@ -396,7 +399,7 @@
 
 	.dropdown {
 		position: relative;
-		display: inline-block;
+		display: flex;
 	}
 
 	.dropdown-content {
@@ -540,6 +543,12 @@
 	}
 
 	@media screen and (max-width: 1023px) {
+		footer .footer-details {
+			display: none;
+		}
+		footer .footer-socials a {
+			margin: 0 1rem;
+		}
 		nav {
 			display: none;
 		}
