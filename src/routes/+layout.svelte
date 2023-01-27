@@ -538,6 +538,15 @@
 		display: none;
 	}
 
+	@media screen and (min-width: 1024px) and (max-width: 1360px) {
+		nav ul li a {
+			font-size: 0.8rem;
+		}
+		.dropdown-content {
+			top: 3rem;
+		}
+	}
+
 	@media screen and (max-width: 1023px) {
 		footer .footer-details {
 			display: none;
