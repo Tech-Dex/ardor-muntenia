@@ -3,7 +3,7 @@
 	import accountSchool from "@iconify/icons-mdi/account-school";
 	import schoolIcon from "@iconify/icons-mdi/school";
 	import GalleryCardMobile from "$lib/GalleryCardMobile.svelte";
-	import { Fullpage } from "svelte-fullpage";
+	import { Fullpage, FullpageSection } from "svelte-fullpage";
 
 	let dataInveti = {
 		title: "Inveti",
@@ -76,7 +76,7 @@
 		],
 	};
 
-	let dataWelcomeMobile = {
+	let dataLanding = {
 		title: "Bine ai venit",
 		description: "Hai la dezbateri!",
 		content: [],
@@ -84,26 +84,33 @@
 </script>
 
 <div class="gallery">
-	<GalleryCard
-		data={dataInveti}
-		backgroundImage="/images/home-section-1.png"
-		backgroundImageDark="/images/home-section-1-dark.png"
-	/>
-	<GalleryCard
-		data={dataPredai}
-		backgroundImage="/images/home-section-2.png"
-		backgroundImageDark="/images/home-section-2-dark.png"
-	/>
-	<GalleryCard
-		data={dataMuncesti}
-		backgroundImage="/images/home-section-3.png"
-		backgroundImageDark="/images/home-section-3-dark.png"
-	/>
+	<Fullpage>
+		<FullpageSection title={dataLanding.title}>
+			<div class="welcome-landing"></div>
+		</FullpageSection>
+		<FullpageSection>
+			<GalleryCard
+				data={dataInveti}
+				backgroundImage="/images/home-section-1.png"
+				backgroundImageDark="/images/home-section-1-dark.png"
+			/>
+			<GalleryCard
+				data={dataPredai}
+				backgroundImage="/images/home-section-2.png"
+				backgroundImageDark="/images/home-section-2-dark.png"
+			/>
+			<GalleryCard
+				data={dataMuncesti}
+				backgroundImage="/images/home-section-3.png"
+				backgroundImageDark="/images/home-section-3-dark.png"
+			/>
+				</FullpageSection>
+	</Fullpage>
 </div>
 
 <div class="gallery-mobile">
 	<Fullpage>
-		<GalleryCardMobile data={dataWelcomeMobile} backgroundImage="/images/home-section-1.png" />
+		<GalleryCardMobile data={dataLanding} backgroundImage="/images/home-section-1.png" />
 		<GalleryCardMobile data={dataInveti} backgroundImage="/images/home-section-1-dark.png" />
 		<GalleryCardMobile data={dataPredai} backgroundImage="/images/home-section-2-dark.png" />
 		<GalleryCardMobile data={dataMuncesti} backgroundImage="/images/home-section-3-dark.png" />
@@ -114,6 +121,14 @@
 	.gallery {
 		display: flex;
 		width: 100%;
+		height: 100%;
+	}
+
+	.welcome-landing {
+		background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/2068.jpg");
+		background-size: cover;
+		background-position: center;
+			width: 100%;
 		height: 100%;
 	}
 
