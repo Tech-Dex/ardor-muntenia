@@ -134,9 +134,8 @@
 				<a
 					class:active={path === "/resurse-debate"}
 					class:sub-active={[
-						"/cum-fac-dezbateri/clubul",
-						"/cum-fac-dezbateri/optional-dor",
-						"/cum-fac-dezbateri/profesionisti",
+						"/resurse-debate/elevi",
+						"/resurse-debate/profesori",
 					].includes(path)}
 					href="/resurse-debate"
 					>Resurse Debate
