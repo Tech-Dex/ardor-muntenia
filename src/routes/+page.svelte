@@ -86,7 +86,7 @@
 <div class="gallery">
 	<Fullpage>
 		<FullpageSection title={dataLanding.title}>
-			<div class="welcome-landing"></div>
+			<div class="welcome-landing" />
 		</FullpageSection>
 		<FullpageSection>
 			<GalleryCard
@@ -104,7 +104,7 @@
 				backgroundImage="/images/home-section-3.png"
 				backgroundImageDark="/images/home-section-3-dark.png"
 			/>
-				</FullpageSection>
+		</FullpageSection>
 	</Fullpage>
 </div>
 
@@ -128,7 +128,7 @@
 		background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/2068.jpg");
 		background-size: cover;
 		background-position: center;
-			width: 100%;
+		width: 100%;
 		height: 100%;
 	}
 
