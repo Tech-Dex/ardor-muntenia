@@ -79,7 +79,7 @@
 	let dataWelcomeMobile = {
 		title: "Bine ai venit",
 		description: "Hai la dezbateri!",
-		content: [    ],
+		content: [],
 	};
 </script>
 
