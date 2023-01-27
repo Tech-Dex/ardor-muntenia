@@ -7,6 +7,7 @@
 	import youtubeIcon from "@iconify/icons-fe/youtube";
 	import linkedinIcon from "@iconify/icons-mdi/linkedin";
 	import slashForward from "@iconify/icons-mdi/slash-forward";
+	import chevronDown from "@iconify/icons-mdi/chevron-down";
 
 	let path;
 
@@ -33,40 +34,127 @@
 			<li class="dropdown">
 				<a
 					class:active={path === "/cine-suntem"}
-					class:sub-active={path === "/despre-noi"}
-					href="/cine-suntem">Cine suntem?</a
+					class:sub-active={[
+						"/cine-suntem/viziune",
+						"/cine-suntem/proiecte",
+						"/cine-suntem/echipa",
+						"/cine-suntem/sustinatori",
+						"/cine-suntem/sustine-ne",
+					].includes(path)}
+					href="/cine-suntem"
+					>Cine suntem?
+					<Icon icon={chevronDown} width="auto" />
+				</a>
+				<div class="dropdown-content">
+					<a class:active-child={path === "/cine-suntem/viziune"} href="/cine-suntem/viziune"
+						>Viziune</a
+					>
+					<a class:active-child={path === "/cine-suntem/proiecte"} href="/cine-suntem/proiecte"
+						>Proiecte</a
+					>
+					<a class:active-child={path === "/cine-suntem/echipa"} href="/cine-suntem/echipa"
+						>Echipa</a
+					>
+					<a
+						class:active-child={path === "/cine-suntem/sustinatori"}
+						href="/cine-suntem/sustinatori">Sustinatori</a
+					>
+					<a class:active-child={path === "/cine-suntem/sustine-ne"} href="/cine-suntem/sustine-ne"
+						>Sustine-ne</a
+					>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a
+					class:active={path === "/dezbateri"}
+					class:sub-active={[
+						"/dezbateri/ce-sunt",
+						"/dezbateri/beneficii",
+						"/dezbateri/competitii",
+						"/dezbateri/oportunitati",
+						"/dezbateri/cursuri",
+						"/dezbateri/calendar",
+						"/dezbateri/arhiva",
+					].includes(path)}
+					href="/dezbateri"
+				>
+					Dezbateri
+					<Icon icon={chevronDown} width="auto" />
+				</a>
+
+				<div class="dropdown-content">
+					<a class:active-child={path === "/dezbateri/ce-sunt"} href="/dezbateri/ce-sunt"
+						>Ce sunt?</a
+					>
+					<a class:active-child={path === "/dezbateri/beneficii"} href="/dezbateri/beneficii"
+						>Beneficii</a
+					>
+					<a class:active-child={path === "/dezbateri/competitii"} href="/dezbateri/competitii"
+						>Competitii</a
+					>
+					<a class:active-child={path === "/dezbateri/oportunitati"} href="/dezbateri/oportunitati"
+						>Oportunitati</a
+					>
+					<a class:active-child={path === "/dezbateri/cursuri"} href="/dezbateri/cursuri">Cursuri</a
+					>
+					<a class:active-child={path === "/dezbateri/calendar"} href="/dezbateri/calendar"
+						>Calendar</a
+					>
+					<a class:active-child={path === "/dezbateri/arhiva"} href="/dezbateri/arhiva">Arhiva</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a
+					class:active={path === "/cum-fac-dezbateri"}
+					class:sub-active={[
+						"/cum-fac-dezbateri/clubul",
+						"/cum-fac-dezbateri/optional-dor",
+						"/cum-fac-dezbateri/profesionisti",
+					].includes(path)}
+					href="/cum-fac-dezbateri"
+					>Cum fac Dezbateri?
+					<Icon icon={chevronDown} width="auto" />
+				</a>
+				<div class="dropdown-content">
+					<a
+						class:active-child={path === "/cum-fac-dezbateri/clubul"}
+						href="/cum-fac-dezbateri/clubul">Clubul</a
+					>
+					<a
+						class:active-child={path === "/cum-fac-dezbateri/optional-dor"}
+						href="/cum-fac-dezbateri/optional-dor">Optionalul Dor</a
+					>
+					<a
+						class:active-child={path === "/cum-fac-dezbateri/profesionisti"}
+						href="/cum-fac-dezbateri/profesionisti">Profesionisti</a
+					>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a
+					class:active={path === "/resurse-debate"}
+					class:sub-active={[
+						"/cum-fac-dezbateri/clubul",
+						"/cum-fac-dezbateri/optional-dor",
+						"/cum-fac-dezbateri/profesionisti",
+					].includes(path)}
+					href="/resurse-debate"
+					>Resurse Debate
+					<Icon icon={chevronDown} width="auto" /></a
 				>
 				<div class="dropdown-content">
-					<a class:active-child={path === "/despre-noi"} href="/despre-noi">Despre noi</a>
+					<a class:active-child={path === "/resurse-debate/elevi"} href="/resurse-debate/elevi"
+						>Elevi</a
+					>
+					<a
+						class:active-child={path === "/resurse-debate/profesori"}
+						href="/resurse-debate/profesori">Profesori</a
+					>
 				</div>
 			</li>
-			<li class="dropdown">
-				<a class:active={path === "/dezbateri"} href="/dezbateri">Dezbateri</a>
-				<div class="dropdown-content">
-					<a href="/dezbateri">Despre noi</a>
-					<a href="/dezbateri">Echipa</a>
-					<a href="/dezbateri">Parteneri</a>
-				</div>
+			<li>
+				<a class:active={path === "/contact"} href="/contact">Contact </a>
 			</li>
-			<li class="dropdown">
-				<a class:active={path === "/cum-fac-dezbateri"} href="/cum-fac-dezbateri"
-					>Cum fac Dezbateri?</a
-				>
-				<div class="dropdown-content">
-					<a href="/cum-fac-dezbateri">Despre noi</a>
-					<a href="/cum-fac-dezbateri">Echipa</a>
-					<a href="/cum-fac-dezbateri">Parteneri</a>
-				</div>
-			</li>
-			<li class="dropdown">
-				<a class:active={path === "/resurse-debate"} href="/resurse-debate">Resurse Debate</a>
-				<div class="dropdown-content">
-					<a href="/resurse-debate">Despre noi</a>
-					<a href="/resurse-debate">Echipa</a>
-					<a href="/resurse-debate">Parteneri</a>
-				</div>
-			</li>
-			<li><a class:active={path === "/contact"} href="/contact">Contact</a></li>
 		</ul>
 	</nav>
 </header>
