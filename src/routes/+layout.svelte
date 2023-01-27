@@ -143,11 +143,7 @@
 			<li class="dropdown">
 				<a
 					class:active={path === "/resurse-debate"}
-					class:sub-active={[
-						"/cum-fac-dezbateri/clubul",
-						"/cum-fac-dezbateri/optional-dor",
-						"/cum-fac-dezbateri/profesionisti",
-					].includes(path)}
+					class:sub-active={["/resurse-debate/elevi", "/resurse-debate/profesori"].includes(path)}
 					href="/resurse-debate"
 					>Resurse Debate
 					<Icon icon={chevronDown} width="auto" /></a
