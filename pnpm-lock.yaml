@@ -11,6 +11,7 @@ specifiers:
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
+  husky: ^8.0.3
   prettier: ^2.8.0
   prettier-plugin-svelte: ^2.8.1
   svelte: ^3.54.0
@@ -23,6 +24,7 @@ dependencies:
   '@iconify/svelte': 3.0.1_svelte@3.55.1
   '@sveltejs/adapter-node': 1.1.4_@sveltejs+kit@1.2.2
   '@sveltejs/adapter-static': 1.0.5_@sveltejs+kit@1.2.2
+  husky: 8.0.3
   svelte-fullpage: 1.0.7_svelte@3.55.1
 
 devDependencies:
@@ -875,6 +877,12 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
+
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: false
 
   /ignore/5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
