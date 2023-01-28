@@ -370,6 +370,7 @@
 		display: grid;
 		grid-template-rows: 1fr 1fr;
 		grid-template-areas: "footer-social" "footer-details";
+		min-height: 6.2rem;
 	}
 
 	:global(body) {
@@ -396,6 +397,10 @@
 	nav ul li {
 		margin-right: 2rem;
 		display: flex;
+	}
+
+	nav ul li:last-child {
+		margin-right: 0rem;
 	}
 
 	nav ul li a {
@@ -514,7 +519,7 @@
 		grid-area: footer-links-left;
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: flex-end;
 		align-items: center;
 	}
 
@@ -530,7 +535,7 @@
 		grid-area: footer-links-right;
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: flex-start;
 		align-items: center;
 	}
 
@@ -598,6 +603,13 @@
 		}
 		footer .footer-socials a {
 			margin: 0 1rem;
+		}
+		footer .footer-socials {
+			margin-top: 2rem;
+		}
+		footer .footer-socials :global(svg) {
+			width: 1.8rem;
+			height: 1.8rem;
 		}
 		nav {
 			display: none;
