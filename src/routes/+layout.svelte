@@ -370,7 +370,7 @@
 		display: grid;
 		grid-template-rows: 1fr 1fr;
 		grid-template-areas: "footer-social" "footer-details";
-		min-height: 6.2rem;
+		min-height: 5.6rem;
 	}
 
 	:global(body) {
@@ -594,6 +594,9 @@
 	@media screen and (min-width: 1024px) and (max-width: 1264px) {
 		.dropdown-content {
 			top: 3.5rem;
+		}
+		footer {
+			min-height: 6.1rem;
 		}
 	}
 
