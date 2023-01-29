@@ -36,7 +36,7 @@
 </svelte:head>
 <header>
 	<div class="logo">
-		<a href="/"><img src="images/logo.png" alt="logo" /></a>
+		<a href="/"><img src="/images/logo.png" alt="logo" /></a>
 	</div>
 	<nav>
 		<ul>
@@ -78,7 +78,7 @@
 				<a
 					class:active={path === "/dezbateri"}
 					class:sub-active={[
-						"/dezbateri/ce-sunt",
+						"/dezbateri/ce-sunt-dezbaterile",
 						"/dezbateri/beneficii",
 						"/dezbateri/competitii",
 						"/dezbateri/oportunitati",
@@ -93,8 +93,9 @@
 				</a>
 
 				<div class="dropdown-content">
-					<a class:active-child={path === "/dezbateri/ce-sunt"} href="/dezbateri/ce-sunt"
-						>Ce sunt?</a
+					<a
+						class:active-child={path === "/dezbateri/ce-sunt-dezbaterile"}
+						href="/dezbateri/ce-sunt-dezbaterile">Ce sunt dezbaterile?</a
 					>
 					<a class:active-child={path === "/dezbateri/beneficii"} href="/dezbateri/beneficii"
 						>Beneficii</a
