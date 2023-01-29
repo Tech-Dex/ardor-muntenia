@@ -211,8 +211,8 @@
 				<div
 					class={subListOpened === 2 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
-					<h4 class:active={path === "/dezbateri/ce-sunt"}>
-						<a href="/dezbateri/ce-sunt">Ce sunt?</a>
+					<h4 class:active={path === "/dezbateri/ce-sunt-dezbaterile"}>
+						<a href="/dezbateri/ce-sunt-dezbaterile">Ce sunt dezbaterile?</a>
 					</h4>
 					<h4 class:active={path === "/dezbateri/beneficii"}>
 						<a href="/dezbateri/beneficii">Beneficii</a>
