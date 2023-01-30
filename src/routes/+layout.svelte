@@ -7,11 +7,21 @@
 	import youtubeIcon from "@iconify/icons-fe/youtube";
 	import linkedinIcon from "@iconify/icons-mdi/linkedin";
 	import slashForward from "@iconify/icons-mdi/slash-forward";
+	import hamburgerMenu from "@iconify/icons-mdi/hamburger-menu";
+	import closeIcon from "@iconify/icons-mdi/close";
 	import chevronDown from "@iconify/icons-mdi/chevron-down";
 
 	let path;
+	let enableMobileMenu;
+
+	let subListOpened;
 
 	$: path = $page.url.pathname;
+
+	function openSubList(number) {
+		if (subListOpened === number) subListOpened = null;
+		else subListOpened = number;
+	}
 </script>
 
 <svelte:head>
@@ -154,6 +164,124 @@
 			</li>
 		</ul>
 	</nav>
+	<div class={enableMobileMenu ? "navbar-mobile open-nav" : "navbar-mobile"}>
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<div class="close" on:click={() => (enableMobileMenu = false)}>
+			<Icon icon={closeIcon} width="auto" style="color:white" />
+		</div>
+
+		<ul>
+			<li>
+				<a class:active={path === "/"} href="/"><h4>Home</h4></a>
+			</li>
+			<li>
+				<a class:active={path === "/cine-suntem"} href="/" on:click={() => openSubList(1)}
+					><h4>Cine suntem?</h4>
+					<div class="chevron-down">
+						<Icon icon={chevronDown} width="auto" style="color:white" />
+					</div>
+				</a>
+				<div
+					class={subListOpened === 1 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
+				>
+					<h4 class:active={path === "/cine-suntem/viziune"}>
+						<a href="/cine-suntem/viziune">Viziune</a>
+					</h4>
+					<h4 class:active={path === "/cine-suntem/proiecte"}>
+						<a href="/cine-suntem/proiecte">Proiecte</a>
+					</h4>
+					<h4 class:active={path === "/cine-suntem/echipa"}>
+						<a href="/cine-suntem/echipa">Echipa</a>
+					</h4>
+					<h4 class:active={path === "/cine-suntem/sustinatori"}>
+						<a href="/cine-suntem/sustinatori">Sustinatori</a>
+					</h4>
+					<h4 class:active={path === "/cine-suntem/sustine-ne"}>
+						<a href="/cine-suntem/sustine-ne">Sustine-ne</a>
+					</h4>
+				</div>
+			</li>
+			<li>
+				<a class:active={path === "/dezbateri"} href="/" on:click={() => openSubList(2)}
+					><h4>Dezbateri</h4>
+					<div class="chevron-down">
+						<Icon icon={chevronDown} width="auto" style="color:white" />
+					</div></a
+				>
+				<div
+					class={subListOpened === 2 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
+				>
+					<h4 class:active={path === "/dezbateri/ce-sunt-dezbaterile"}>
+						<a href="/dezbateri/ce-sunt-dezbaterile">Ce sunt dezbaterile?</a>
+					</h4>
+					<h4 class:active={path === "/dezbateri/beneficii"}>
+						<a href="/dezbateri/beneficii">Beneficii</a>
+					</h4>
+					<h4 class:active={path === "/dezbateri/competitii"}>
+						<a href="/dezbateri/competitii">Competitii</a>
+					</h4>
+					<h4 class:active={path === "/dezbateri/oportunitati"}>
+						<a href="/dezbateri/oportunitati">Oportunitati</a>
+					</h4>
+					<h4 class:active={path === "/dezbateri/cursuri"}>
+						<a href="/dezbateri/cursuri">Cursuri</a>
+					</h4>
+					<h4 class:active={path === "/dezbateri/calendar"}>
+						<a href="/dezbateri/calendar">Calendar</a>
+					</h4>
+					<h4 class:active={path === "/dezbateri/arhiva"}>
+						<a href="/dezbateri/arhiva">Arhiva</a>
+					</h4>
+				</div>
+			</li>
+			<li>
+				<a class:active={path === "/cum-fac-dezbateri"} href="/" on:click={() => openSubList(3)}
+					><h4>Cum fac Dezbateri?</h4>
+					<div class="chevron-down">
+						<Icon icon={chevronDown} width="auto" style="color:white" />
+					</div></a
+				>
+				<div
+					class={subListOpened === 3 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
+				>
+					<h4 class:active={path === "/cum-fac-dezbateri/clubul"}>
+						<a href="/cum-fac-dezbateri/clubul">Clubul</a>
+					</h4>
+					<h4 class:active={path === "/cum-fac-dezbateri/optional-dor"}>
+						<a href="/cum-fac-dezbateri/optional-dor">Optionalul Dor</a>
+					</h4>
+					<h4 class:active={path === "/cum-fac-dezbateri/profesionisti"}>
+						<a href="/cum-fac-dezbateri/profesionisti">Profesionisti</a>
+					</h4>
+				</div>
+			</li>
+			<li>
+				<a class:active={path === "/resurse-debate"} href="/" on:click={() => openSubList(4)}
+					><h4>Resurse Debate</h4>
+					<div class="chevron-down">
+						<Icon icon={chevronDown} width="auto" style="color:white" />
+					</div></a
+				>
+				<div
+					class={subListOpened === 4 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
+				>
+					<h4 class:active={path === "/resurse-debate/elevi"}>
+						<a href="/resurse-debate/elevi">Elevi</a>
+					</h4>
+					<h4 class:active={path === "/resurse-debate/profesori"}>
+						<a href="/resurse-debate/profesori">Profesori</a>
+					</h4>
+				</div>
+			</li>
+			<li>
+				<a class:active={path === "/contact"} href="/contact"><h4>Contact</h4></a>
+			</li>
+		</ul>
+	</div>
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
+	<div class="menu" on:click={() => (enableMobileMenu = !enableMobileMenu)}>
+		<Icon icon={hamburgerMenu} width="auto" />
+	</div>
 </header>
 
 <div class="slot-content">
@@ -243,6 +371,7 @@
 		display: grid;
 		grid-template-rows: 1fr 1fr;
 		grid-template-areas: "footer-social" "footer-details";
+		min-height: 5.6rem;
 	}
 
 	:global(body) {
@@ -268,6 +397,11 @@
 
 	nav ul li {
 		margin-right: 2rem;
+		display: flex;
+	}
+
+	nav ul li:last-child {
+		margin-right: 0rem;
 	}
 
 	nav ul li a {
@@ -278,6 +412,8 @@
 		font-size: 1rem;
 		padding: 0.5rem 1rem 0.5rem 1rem;
 		border: none;
+		display: flex;
+		align-items: center;
 	}
 
 	nav ul li a:hover {
@@ -304,7 +440,7 @@
 
 	.dropdown {
 		position: relative;
-		display: inline-block;
+		display: flex;
 	}
 
 	.dropdown-content {
@@ -312,7 +448,7 @@
 		position: absolute;
 		background-color: var(--color-quaternary);
 		z-index: 1;
-		top: 2rem;
+		top: 2.5rem;
 		box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
 		border-radius: 5px;
 		min-width: 5rem;
@@ -384,7 +520,7 @@
 		grid-area: footer-links-left;
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: flex-end;
 		align-items: center;
 	}
 
@@ -400,7 +536,7 @@
 		grid-area: footer-links-right;
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: flex-start;
 		align-items: center;
 	}
 
@@ -434,5 +570,127 @@
 		font-size: 1rem;
 		font-weight: 500;
 		margin: 0.5rem 2rem;
+	}
+
+	.navbar-mobile {
+		display: none;
+	}
+
+	.menu {
+		display: none;
+	}
+	.navbar-mobile ul {
+		display: none;
+	}
+
+	@media screen and (min-width: 1024px) and (max-width: 1360px) {
+		nav ul li a {
+			font-size: 0.9rem;
+		}
+		.dropdown-content {
+			top: 2.5rem;
+		}
+	}
+
+	@media screen and (min-width: 1024px) and (max-width: 1264px) {
+		.dropdown-content {
+			top: 3.5rem;
+		}
+		footer {
+			min-height: 6.1rem;
+		}
+	}
+
+	@media screen and (max-width: 1023px) {
+		footer .footer-details {
+			display: none;
+		}
+		footer .footer-socials a {
+			margin: 0 1rem;
+		}
+		footer .footer-socials {
+			margin-top: 2rem;
+		}
+		footer .footer-socials :global(svg) {
+			width: 1.8rem;
+			height: 1.8rem;
+		}
+		nav {
+			display: none;
+		}
+		.menu {
+			color: var(--color-primary);
+			cursor: pointer;
+			display: block;
+			margin-right: 2rem;
+		}
+		.navbar-mobile {
+			display: block;
+			overflow: scroll;
+			position: fixed;
+			right: 0;
+			top: 0;
+			z-index: 999;
+			height: 100vh;
+			width: 50%;
+			background: var(--color-primary);
+			transform: translateX(100%);
+			transition: transform 0.5s ease-in-out;
+		}
+		.close {
+			float: right;
+			margin: 2rem;
+			width: 2.5rem;
+
+			cursor: pointer;
+		}
+		.open-nav {
+			transform: translateX(0%);
+		}
+		.navbar-mobile ul {
+			display: block;
+			list-style-type: none;
+			padding: 0;
+			margin-top: 8em;
+		}
+		.navbar-mobile ul li h4 {
+			margin: 0;
+		}
+		.chevron-down {
+			padding-left: 0.5rem;
+			padding-top: 0.3rem;
+		}
+		.navbar-mobile ul li a {
+			color: rgb(255, 255, 255);
+			font-family: "Poppins-Bold", sans-serif;
+			padding: 0.75em 2em;
+			display: flex;
+			text-decoration: none;
+			align-items: center;
+			font-size: 1rem;
+			cursor: pointer;
+		}
+		.navbar-mobile ul li a.active {
+			font-size: 1rem;
+			background: #c4132c;
+		}
+		.nav-item-sub-container {
+			display: none;
+			margin-bottom: 1em;
+		}
+		.nav-item-sub-container-display {
+			display: block;
+			margin-bottom: 1em;
+		}
+		.nav-item-sub-container-display h4 {
+			color: #fff;
+			font-size: 1rem;
+			font-family: "Poppins-Medium";
+			margin: 0.5rem auto 0 auto;
+			padding: 0.2em 0 0.2em 1em;
+		}
+		.nav-item-sub-container-display h4.active {
+			background: #c4132c;
+		}
 	}
 </style>
