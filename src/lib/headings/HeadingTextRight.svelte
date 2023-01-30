@@ -40,12 +40,14 @@
 	.container div {
 		height: 60%;
 		width: 60%;
-		margin-top: 10%;
+		margin-top: 5%;
 		margin-left: 10%;
 		justify-content: center;
 		align-items: center;
 		background-color: rgba(0, 0, 0, 0.5);
 		color: var(--color-quaternary);
+		padding: 1em;
+		border-radius: 1em;
 	}
 
 	.container div:nth-child(1) {
@@ -63,7 +65,7 @@
 		font-size: 3rem;
 		color: var(--color-primary);
 		text-shadow: 0 0 10px var(--color-secondary);
-		text-align: center;
+		margin-left: 5%;
 	}
 
 	h2 {
@@ -88,5 +90,81 @@
 	a:hover {
 		background-color: var(--color-primary);
 		color: var(--color-quaternary);
+	}
+	@media screen and (min-width: 1024px) and (max-width: 1475px) {
+		.container div {
+			height: 80%;
+		}
+	}
+
+	@media screen and (min-width: 680px) and (max-width: 1023px) {
+		.container {
+			flex-direction: column;
+		}
+		.container div {
+			width: 80%;
+			height: 80%;
+			border-radius: 2em;
+			display: flex;
+			flex-direction: column;
+			align-self: center;
+			margin-left: 0;
+			margin-top: 3%;
+		}
+		.container div:nth-child(2) {
+			margin-right: 0;
+			margin-top: 5%;
+			margin-bottom: 5%;
+		}
+
+		h1 {
+			font-size: 2rem;
+			text-align: center;
+		}
+		h2 {
+			font-size: 1rem;
+			text-align: center;
+			margin-right: 5%;
+		}
+		a {
+			align-self: center;
+			margin-left: 0;
+			font-size: 1rem;
+		}
+	}
+
+	@media screen and (max-width: 679px) {
+		.container {
+			flex-direction: column;
+		}
+		.container div {
+			width: 80%;
+			height: 80%;
+			border-radius: 2em;
+			display: flex;
+			flex-direction: column;
+			align-self: center;
+			margin-left: 0;
+			padding: 1em;
+		}
+		.container div:nth-child(2) {
+			margin-right: 0;
+			margin-top: 0;
+			margin-bottom: 5%;
+		}
+		a {
+			align-self: center;
+			margin-left: 0;
+			font-size: 1rem;
+		}
+		h1 {
+			font-size: 1.5rem;
+			text-align: center;
+		}
+		h2 {
+			font-size: 0.8rem;
+			text-align: center;
+			margin-right: 5%;
+		}
 	}
 </style>

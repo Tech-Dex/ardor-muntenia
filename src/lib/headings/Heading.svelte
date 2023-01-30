@@ -35,6 +35,7 @@
 		font-size: 3rem;
 		color: var(--color-primary);
 		text-shadow: 0 0 10px var(--color-secondary);
+		text-align: center;
 	}
 
 	h2 {
