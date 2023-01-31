@@ -39,8 +39,8 @@
 	}
 
 	.container div {
-		height: 60%;
-		width: 60%;
+		height: 65%;
+		width: 65%;
 		margin-top: 5%;
 		margin-left: 10%;
 		justify-content: center;
@@ -54,6 +54,7 @@
 	.container div:last-child {
 		margin-right: 10%;
 		background-color: transparent;
+		align-self: center;
 	}
 
 	.container div video {
@@ -92,9 +93,25 @@
 		color: var(--color-quaternary);
 	}
 
-	@media screen and (min-width: 1024px) and (max-width: 1475px) {
+	@media screen and (min-width: 1450px) and (max-width: 1700px) {
 		.container div {
-			height: 80%;
+			height: 75%;
+		}
+	}
+
+	@media screen and (min-width: 1024px) and (max-width: 1450px) {
+		.container div {
+			height: 75%;
+		}
+		.container div:last-child {
+			align-self: center;
+			margin-top: 20%;
+		}
+		h1 {
+			font-size: 2.4rem;
+		}
+		h2 {
+			font-size: 1.3rem;
 		}
 	}
 

@@ -115,13 +115,13 @@
 	}
 
 	.heading h1 {
-		font-size: 3rem;
+		font-size: 2rem;
 		margin: 0;
 		padding: 0;
 	}
 
 	.heading h2 {
-		font-size: 1.5rem;
+		font-size: 1rem;
 		margin: 0;
 		padding: 0;
 	}
@@ -139,18 +139,41 @@
 	}
 
 	.box h3 {
-		font-size: 2rem;
-		margin: 0 0 2rem 0;
+		font-size: 1.4rem;
+		margin: 0 0 1rem 0;
 		padding: 0;
 	}
 
 	.box p {
 		width: 80%;
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
 		padding: 0;
 		display: flex;
+		font-size: 0.8rem;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+	@media screen and (min-width: 680px) {
+		.box h3 {
+			font-size: 2rem;
+			margin: 0 0 2rem 0;
+		}
+		.heading h1 {
+			font-size: 3.2rem;
+			margin: 0;
+			padding: 0;
+		}
+
+		.heading h2 {
+			font-size: 1.8rem;
+			margin: 1rem 0 1rem 0;
+			padding: 0;
+		}
+		.box p {
+			margin: 0 0 2rem 0;
+			display: flex;
+			font-size: 1.2rem;
+		}
 	}
 </style>
