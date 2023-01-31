@@ -58,12 +58,12 @@
 		.container div {
 			align-self: flex-end;
 			width: 75%;
-			height: 24em;
+			height: 20em;
 			margin-left: 0;
 			margin-bottom: 5%;
 		}
 		.container p {
-			font-size: 1.2rem;
+			font-size: 1.1rem;
 			line-height: 1.6rem;
 		}
 		.container h1 {
@@ -77,7 +77,7 @@
 		.container div {
 			align-self: flex-end;
 			width: 75%;
-			height: 24em;
+			height: 20em;
 			margin-left: 0;
 			margin-bottom: 10%;
 		}
@@ -86,7 +86,7 @@
 			line-height: 1.3rem;
 		}
 		.container h1 {
-			font-size: 1.8rem;
+			font-size: 1.4rem;
 		}
 	}
 </style>
