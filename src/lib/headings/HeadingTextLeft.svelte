@@ -74,8 +74,9 @@
 
 	a {
 		display: inline-block;
-		padding: 0.5rem 1rem;
-		border-radius: 2rem;
+		padding: 1rem 2rem;
+		border-radius: 0.5rem;
+		margin-top: 1rem;
 		color: var(--color-primary);
 		text-decoration: none;
 		font-size: 1.5rem;
