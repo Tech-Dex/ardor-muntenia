@@ -49,7 +49,7 @@
 		color: var(--color-quaternary);
 	}
 
-	.container div:nth-child(2) {
+	.container div:last-child {
 		margin-right: 10%;
 		background-color: transparent;
 	}

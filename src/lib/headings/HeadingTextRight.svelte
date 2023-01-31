@@ -48,10 +48,10 @@
 		color: var(--color-quaternary);
 	}
 
-	.container div:nth-child(1) {
+	.container div:first-child {
 		background-color: transparent;
 	}
-	.container div:nth-child(2) {
+	.container div:last-child {
 		margin-right: 10%;
 	}
 
