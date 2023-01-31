@@ -4,7 +4,7 @@
 	import HeadingTextLeft from "$lib/headings/HeadingTextLeft.svelte";
 	import HeadingTextRight from "$lib/headings/HeadingTextRight.svelte";
 
-	let headingImageUrl = "/images/939-1920x1080.webp";
+	let headingImageUrl = "/images/495-1920x1080.webp";
 	let headingText = "Dezbaterile Academice";
 	let subHeadingText = "Dezvoltare ";
 	let subHeadingTextAlternative =
