@@ -1,7 +1,7 @@
 <script>
 	export let mapSrc,
 		title = "Google Map",
-		backgroundColor;
+		backgroundColor = "#f7a41e";
 </script>
 
 <div class="container" style="--backgroundColor: {backgroundColor};">

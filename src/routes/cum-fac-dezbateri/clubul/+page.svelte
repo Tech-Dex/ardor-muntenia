@@ -16,7 +16,7 @@
 	let iframeSrcGoogleMap =
 		"https://www.google.com/maps/d/u/0/embed?mid=1HcJp1Uk-EMvLC_d89fTBsutX9kzQWZuR";
 	let iframeTitleGoogleMap = "Harta clubului";
-	let mapBackgroundColor = "#474a5c";
+	let mapBackgroundColor = "#1fa2a3";
 </script>
 
 <Fullpage>
