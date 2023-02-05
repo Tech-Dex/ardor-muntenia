@@ -42,8 +42,9 @@
 	.card {
 		background-repeat: no-repeat;
 		background-image: var(--image);
+		box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.9);
 		background-size: cover;
-		background-position: 0 20%;
+		background-position: 50% 20%;
 		color: white;
 		width: 100%;
 		height: 100%;
