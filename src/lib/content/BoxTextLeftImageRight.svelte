@@ -108,4 +108,60 @@
 		height: 100%;
 		object-fit: contain;
 	}
+	@media screen and (min-width: 680px) and (max-width: 1023px) {
+		.container {
+			flex-direction: column;
+		}
+		.container > div:first-child {
+			padding: 0;
+			margin-bottom: 0;
+		}
+
+		.container > div:first-child > .box-subheading {
+			padding-bottom: 1rem;
+			margin-bottom: 0;
+		}
+		.container > div:first-child .box-subheading > h2 {
+			text-align: center;
+		}
+		.container > div:last-child {
+			padding: 0;
+		}
+		.container > div:last-child > img {
+			object-fit: cover;
+		}
+	}
+	@media screen and (max-width: 680px) {
+		.container {
+			flex-direction: column;
+		}
+		.container > div:first-child {
+			padding: 0;
+			margin-bottom: 0;
+		}
+		.container > div:first-child > h1 {
+			margin: 1rem 0 0 0;
+			font-size: 1.2rem;
+			height: 20%;
+		}
+
+		.container > div:first-child > .box-subheading {
+			padding-bottom: 1rem;
+			margin-bottom: 0;
+		}
+		.container > div:first-child .box-subheading > h2 {
+			text-align: center;
+			font-size: 0.8rem;
+		}
+		.container > div:first-child > .box-subheading > a {
+			font-size: 1rem;
+			padding: 0.2rem 1rem;
+		}
+		.container > div:last-child {
+			padding: 0;
+		}
+		.container > div:last-child > img {
+			object-fit: cover;
+		}
+	}
 </style>

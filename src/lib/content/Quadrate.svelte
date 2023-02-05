@@ -19,7 +19,7 @@
 		<div class="top-right">
 			{#if topRightIcon}
 				<div class="iconify">
-					<Icon icon={topRightIcon} width="96" color="var(--color-primary)" />
+					<Icon icon={topRightIcon} width="80" color="var(--color-primary)" />
 				</div>
 			{/if}
 			<h1>{topRightHeading}</h1>
@@ -30,7 +30,7 @@
 		<div class="bottom-left">
 			{#if bottomLeftIcon}
 				<div class="iconify">
-					<Icon icon={bottomLeftIcon} width="96" color="var(--color-primary)" />
+					<Icon icon={bottomLeftIcon} width="80" color="var(--color-primary)" />
 				</div>
 			{/if}
 			<h1>{bottomLeftHeading}</h1>
@@ -42,11 +42,10 @@
 
 <style>
 	.container {
-		width: 50%;
+		width: 60%;
 		height: 80%;
 		position: relative;
 		overflow: hidden;
-		background-color: red;
 	}
 
 	.top {
@@ -55,7 +54,6 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		background-color: blue;
 	}
 
 	.bottom {
@@ -64,7 +62,6 @@
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		background-color: green;
 	}
 
 	.top-left {
@@ -82,6 +79,7 @@
 		width: 50%;
 		height: 100%;
 		position: absolute;
+		padding: 0 1rem;
 		top: 0;
 		right: 0;
 		background-color: var(--color-senary);
@@ -91,11 +89,11 @@
 		justify-content: center;
 		align-items: center;
 		display: flex;
-		height: 30%;
+		height: 25%;
 	}
 
 	.top-right h1 {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		font-weight: 700;
 		color: var(--color-secondary);
 		margin: 0;
@@ -103,7 +101,6 @@
 		justify-content: center;
 		align-items: center;
 		display: flex;
-		height: 30%;
 	}
 
 	.top-right p {
@@ -122,6 +119,7 @@
 		width: 50%;
 		height: 100%;
 		position: absolute;
+		padding: 0 1rem;
 		bottom: 0;
 		left: 0;
 		background-color: var(--color-senary);
@@ -131,11 +129,11 @@
 		justify-content: center;
 		align-items: center;
 		display: flex;
-		height: 30%;
+		height: 25%;
 	}
 
 	.bottom-left h1 {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		font-weight: 700;
 		color: var(--color-secondary);
 		margin: 0;
@@ -143,7 +141,6 @@
 		justify-content: center;
 		align-items: center;
 		display: flex;
-		height: 30%;
 	}
 
 	.bottom-left p {
@@ -167,5 +164,42 @@
 		background-image: var(--bottomRightBackgroundImage);
 		background-size: cover;
 		background-position: center;
+	}
+	@media screen and (min-width: 1440px) {
+		.bottom-left .iconify {
+			height: 30%;
+		}
+		.top-right .iconify {
+			height: 30%;
+		}
+	}
+	@media screen and (min-width: 680px) and (max-width: 1023px) {
+		.container {
+			width: 90%;
+		}
+	}
+	@media screen and (max-width: 680px) {
+		.container {
+			width: 100%;
+		}
+		.bottom-left .iconify {
+			display: none;
+		}
+		.bottom-left h1 {
+			font-size: 1.2rem;
+		}
+		.bottom-left p {
+			font-size: 0.8rem;
+			width: 90%;
+		}
+		.top-right .iconify {
+			display: none;
+		}
+		.top-right h1 {
+			font-size: 1rem;
+		}
+		.top-right p {
+			font-size: 0.8rem;
+		}
 	}
 </style>

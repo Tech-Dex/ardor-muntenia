@@ -36,6 +36,8 @@
 			{bottomLeftHeading}
 			{bottomLeftText}
 		/>
+	</FullpageSection>
+	<FullpageSection title="Clubul">
 		<BoxTextTwoImages {imageOneUrl} {imageTwoUrl} {titleOne} {titleTwo} {descOne} {descTwo} />
 	</FullpageSection>
 </Fullpage>
