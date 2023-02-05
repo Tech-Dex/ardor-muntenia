@@ -50,6 +50,7 @@
 						"/cine-suntem/echipa",
 						"/cine-suntem/sustinatori",
 						"/cine-suntem/sustine-ne",
+						"/cine-suntem/testimoniale",
 					].includes(path)}
 					href="/cine-suntem"
 					>Cine suntem?
@@ -71,6 +72,10 @@
 					>
 					<a class:active-child={path === "/cine-suntem/sustine-ne"} href="/cine-suntem/sustine-ne"
 						>Sustine-ne</a
+					>
+					<a
+						class:active-child={path === "/cine-suntem/testimoniale"}
+						href="/cine-suntem/testimoniale">Testimoniale</a
 					>
 				</div>
 			</li>
@@ -198,6 +203,9 @@
 					</h4>
 					<h4 class:active={path === "/cine-suntem/sustine-ne"}>
 						<a href="/cine-suntem/sustine-ne">Sustine-ne</a>
+					</h4>
+					<h4 class:active={path === "/cine-suntem/testimoniale"}>
+						<a href="/cine-suntem/testimoniale">Testimoniale</a>
 					</h4>
 				</div>
 			</li>
