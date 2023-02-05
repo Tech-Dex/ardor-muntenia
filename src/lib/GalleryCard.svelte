@@ -1,14 +1,9 @@
 <script>
 	import { Fullpage, FullpageSection, FullpageSlide } from "svelte-fullpage";
-	import { onMount } from "svelte";
 	import arrowRight from "@iconify/icons-mdi/arrow-right";
 	import Icon from "@iconify/svelte";
 
-	export let backgroundImage, backgroundImageDark, data;
-	onMount(() => {
-		let image = new Image();
-		image.src = backgroundImageDark;
-	});
+	export let backgroundImage, data;
 </script>
 
 <div class="card" style="--image: url({backgroundImage});">
