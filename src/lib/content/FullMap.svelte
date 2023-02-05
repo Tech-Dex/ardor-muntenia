@@ -1,9 +1,17 @@
 <script>
-	export let mapSrc, title, backgroundColor;
+	export let mapSrc,
+		title = "Google Map",
+		backgroundColor;
 </script>
 
-<div class="container" style="--backgroundColor: url({backgroundColor});">
-	<iframe src={mapSrc} loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" />
+<div class="container" style="--backgroundColor: {backgroundColor};">
+	<iframe
+		src={mapSrc}
+		{title}
+		loading="lazy"
+		allowfullscreen
+		referrerpolicy="no-referrer-when-downgrade"
+	/>
 </div>
 
 <style>
@@ -14,7 +22,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: var(--color-quinary);
+		background-color: var(--backgroundColor);
 	}
 
 	.container iframe {
