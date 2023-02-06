@@ -89,31 +89,19 @@
 			<div class="welcome-landing" />
 		</FullpageSection>
 		<FullpageSection>
-			<GalleryCard
-				data={dataInveti}
-				backgroundImage="/images/home-section-1.png"
-				backgroundImageDark="/images/home-section-1-dark.png"
-			/>
-			<GalleryCard
-				data={dataPredai}
-				backgroundImage="/images/home-section-2.png"
-				backgroundImageDark="/images/home-section-2-dark.png"
-			/>
-			<GalleryCard
-				data={dataMuncesti}
-				backgroundImage="/images/home-section-3.png"
-				backgroundImageDark="/images/home-section-3-dark.png"
-			/>
+			<GalleryCard data={dataInveti} backgroundImage="/images/home-section-1.png" />
+			<GalleryCard data={dataPredai} backgroundImage="/images/home-section-2.png" />
+			<GalleryCard data={dataMuncesti} backgroundImage="/images/home-section-3.png" />
 		</FullpageSection>
 	</Fullpage>
 </div>
 
 <div class="gallery-mobile">
 	<Fullpage>
-		<GalleryCardMobile data={dataLanding} backgroundImage="/images/home-section-1.png" />
-		<GalleryCardMobile data={dataInveti} backgroundImage="/images/home-section-1-dark.png" />
-		<GalleryCardMobile data={dataPredai} backgroundImage="/images/home-section-2-dark.png" />
-		<GalleryCardMobile data={dataMuncesti} backgroundImage="/images/home-section-3-dark.png" />
+		<GalleryCardMobile data={dataLanding} backgroundImage="/images/596-1920x1080.webp" />
+		<GalleryCardMobile data={dataInveti} backgroundImage="/images/home-section-1.png" />
+		<GalleryCardMobile data={dataPredai} backgroundImage="/images/home-section-2.png" />
+		<GalleryCardMobile data={dataMuncesti} backgroundImage="/images/home-section-3.png" />
 	</Fullpage>
 </div>
 

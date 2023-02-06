@@ -1,17 +1,12 @@
 <script>
 	import { Fullpage, FullpageSection, FullpageSlide } from "svelte-fullpage";
-	import { onMount } from "svelte";
 	import arrowRight from "@iconify/icons-mdi/arrow-right";
 	import Icon from "@iconify/svelte";
 
-	export let backgroundImage, backgroundImageDark, data;
-	onMount(() => {
-		let image = new Image();
-		image.src = backgroundImageDark;
-	});
+	export let backgroundImage, data;
 </script>
 
-<div class="card" style="--image: url({backgroundImage}); --imageDark: url({backgroundImageDark})">
+<div class="card" style="--image: url({backgroundImage});">
 	<div class="details">
 		<Fullpage>
 			<FullpageSection title={data.title}>
@@ -55,7 +50,7 @@
 		width: 100%;
 		height: 100%;
 		flex: 1;
-		transition: all 1s ease-out;
+		transition: all 1s ease-out, box-shadow 0.1s;
 	}
 
 	.details {
@@ -67,9 +62,10 @@
 
 	.card:hover {
 		flex-grow: 5;
-		background-image: var(--imageDark);
+		background-image: var(--image);
+		box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.9);
 		background-position: 0 20%;
-		transition: all 1s ease-in;
+		transition: all 1s ease-in, box-shadow 0.8s;
 		transition-delay: 0.3s;
 	}
 
