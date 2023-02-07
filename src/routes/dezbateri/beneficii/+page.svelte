@@ -1,7 +1,7 @@
 <script>
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
-	import TestimonialRightImageSection from "../../../lib/content/TestimonialRightImageSection.svelte";
-	import TestimonialSection from "../../../lib/content/TestimonialSection.svelte";
+	import TestimonialRightImageSection from "$lib/content/TestimonialRightImageSection.svelte";
+	import TestimonialSection from "$lib/content/TestimonialSection.svelte";
 
 	let testimonialHeader = "PEOPLE TALK";
 	let testimonialSubheader =
