@@ -26,7 +26,7 @@
 	.container {
 		width: 100%;
 		height: 100%;
-		background: var(--color-background);
+		background: var(--color-novenary);
 		display: flex;
 		flex-direction: column;
 		align-items: center;

@@ -31,7 +31,7 @@
 	.image-container {
 		width: 100%;
 		height: 40%;
-		background: var(--color-background);
+		background: var(--color-novenary);
 		color: #e7aa6b;
 	}
 	.image-container p {
