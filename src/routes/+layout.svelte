@@ -634,7 +634,7 @@
 		}
 		.navbar-mobile {
 			display: block;
-			overflow: scroll;
+
 			position: fixed;
 			right: 0;
 			top: 0;
