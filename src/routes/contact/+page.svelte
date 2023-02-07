@@ -163,4 +163,54 @@
 		height: 100%;
 		border: 0;
 	}
+	@media screen and (max-width: 1023px) {
+		.heading h1 {
+			font-size: 2rem;
+			margin: 0;
+		}
+		.heading p {
+			font-size: 1.4rem;
+			margin: 0.2rem 0 0 0.2rem;
+		}
+		.details .address h3 {
+			font-size: 1.4rem;
+			margin: 0;
+		}
+		.details .email h3 {
+			font-size: 1.4rem;
+			margin: 0;
+		}
+		.details .email p {
+			margin: 1rem;
+		}
+		.details .address p {
+			margin: 1rem;
+		}
+	}
+	@media screen and (max-width: 680px) {
+		.heading h1 {
+			font-size: 1rem;
+			margin: 0;
+		}
+		.heading p {
+			font-size: 0.8rem;
+			margin: 0.2rem 0 0 0.2rem;
+		}
+		.details .address h3 {
+			font-size: 1rem;
+			margin: 0.2rem 0;
+		}
+		.details .email h3 {
+			font-size: 1rem;
+			margin: 0.2rem 0;
+		}
+		.details .email p {
+			margin: 0.2rem;
+			font-size: 0.8rem;
+		}
+		.details .address p {
+			margin: 0.2rem;
+			font-size: 0.8rem;
+		}
+	}
 </style>

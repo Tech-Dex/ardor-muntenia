@@ -50,6 +50,7 @@
 						"/cine-suntem/echipa",
 						"/cine-suntem/sustinatori",
 						"/cine-suntem/sustine-ne",
+						"/cine-suntem/testimoniale",
 					].includes(path)}
 					href="/cine-suntem"
 					>Cine suntem?
@@ -71,6 +72,10 @@
 					>
 					<a class:active-child={path === "/cine-suntem/sustine-ne"} href="/cine-suntem/sustine-ne"
 						>Sustine-ne</a
+					>
+					<a
+						class:active-child={path === "/cine-suntem/testimoniale"}
+						href="/cine-suntem/testimoniale">Testimoniale</a
 					>
 				</div>
 			</li>
@@ -175,7 +180,7 @@
 				<a class:active={path === "/"} href="/"><h4>Home</h4></a>
 			</li>
 			<li>
-				<a class:active={path === "/cine-suntem"} href="/" on:click={() => openSubList(1)}
+				<a href={path} on:click={() => openSubList(1)}
 					><h4>Cine suntem?</h4>
 					<div class="chevron-down">
 						<Icon icon={chevronDown} width="auto" style="color:white" />
@@ -184,6 +189,9 @@
 				<div
 					class={subListOpened === 1 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
+					<h4 class:active={path === "/cine-suntem"}>
+						<a href="/cine-suntem">Cine suntem?</a>
+					</h4>
 					<h4 class:active={path === "/cine-suntem/viziune"}>
 						<a href="/cine-suntem/viziune">Viziune</a>
 					</h4>
@@ -199,10 +207,13 @@
 					<h4 class:active={path === "/cine-suntem/sustine-ne"}>
 						<a href="/cine-suntem/sustine-ne">Sustine-ne</a>
 					</h4>
+					<h4 class:active={path === "/cine-suntem/testimoniale"}>
+						<a href="/cine-suntem/testimoniale">Testimoniale</a>
+					</h4>
 				</div>
 			</li>
 			<li>
-				<a class:active={path === "/dezbateri"} href="/" on:click={() => openSubList(2)}
+				<a href={path} on:click={() => openSubList(2)}
 					><h4>Dezbateri</h4>
 					<div class="chevron-down">
 						<Icon icon={chevronDown} width="auto" style="color:white" />
@@ -211,6 +222,9 @@
 				<div
 					class={subListOpened === 2 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
+					<h4 class:active={path === "/dezbateri"}>
+						<a href="/dezbateri">Dezbateri</a>
+					</h4>
 					<h4 class:active={path === "/dezbateri/ce-sunt-dezbaterile"}>
 						<a href="/dezbateri/ce-sunt-dezbaterile">Ce sunt dezbaterile?</a>
 					</h4>
@@ -235,7 +249,7 @@
 				</div>
 			</li>
 			<li>
-				<a class:active={path === "/cum-fac-dezbateri"} href="/" on:click={() => openSubList(3)}
+				<a href={path} on:click={() => openSubList(3)}
 					><h4>Cum fac Dezbateri?</h4>
 					<div class="chevron-down">
 						<Icon icon={chevronDown} width="auto" style="color:white" />
@@ -244,6 +258,9 @@
 				<div
 					class={subListOpened === 3 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
+					<h4 class:active={path === "/cum-fac-dezbateri"}>
+						<a href="/cum-fac-dezbateri">Cum fac Dezbateri?</a>
+					</h4>
 					<h4 class:active={path === "/cum-fac-dezbateri/clubul"}>
 						<a href="/cum-fac-dezbateri/clubul">Clubul</a>
 					</h4>
@@ -256,7 +273,7 @@
 				</div>
 			</li>
 			<li>
-				<a class:active={path === "/resurse-debate"} href="/" on:click={() => openSubList(4)}
+				<a href={path} on:click={() => openSubList(4)}
 					><h4>Resurse Debate</h4>
 					<div class="chevron-down">
 						<Icon icon={chevronDown} width="auto" style="color:white" />
@@ -265,6 +282,9 @@
 				<div
 					class={subListOpened === 4 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
+					<h4 class:active={path === "/resurse-debate"}>
+						<a href="/resurse-debate">Resurse Debate</a>
+					</h4>
 					<h4 class:active={path === "/resurse-debate/elevi"}>
 						<a href="/resurse-debate/elevi">Elevi</a>
 					</h4>
@@ -626,7 +646,7 @@
 		}
 		.navbar-mobile {
 			display: block;
-			overflow: scroll;
+
 			position: fixed;
 			right: 0;
 			top: 0;
