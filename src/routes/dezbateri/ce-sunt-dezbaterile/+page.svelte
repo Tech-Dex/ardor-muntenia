@@ -1,8 +1,8 @@
 <script>
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
-	import Heading from "$lib/headings/Heading.svelte";
-	import HeadingTextLeft from "$lib/headings/HeadingTextLeft.svelte";
-	import HeadingTextRight from "$lib/headings/HeadingTextRight.svelte";
+	import Heading from "$lib/components/heading/Heading.svelte";
+	import HeadingTextLeft from "$lib/components/heading/HeadingTextLeft.svelte";
+	import HeadingTextRight from "$lib/components/heading/HeadingTextRight.svelte";
 
 	let headingImageUrl = "/images/495-1920x1080.webp";
 	let headingText = "Dezbaterile Academice";

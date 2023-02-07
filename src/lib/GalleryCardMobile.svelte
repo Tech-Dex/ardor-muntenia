@@ -1,15 +1,21 @@
 <script>
 	import { FullpageSection, FullpageSlide } from "svelte-fullpage";
+	import accountSchool from "@iconify/icons-mdi/account-school.js";
+	import schoolIcon from "@iconify/icons-mdi/school.js";
 	import arrowRight from "@iconify/icons-mdi/arrow-right";
 	import Icon from "@iconify/svelte";
 
+	let icons = {
+		accountSchool: accountSchool,
+		schoolIcon: schoolIcon,
+	};
 	export let backgroundImage, data;
 </script>
 
 <div class="card" style="--image: url({backgroundImage});">
 	<div class="details">
 		<FullpageSection title={data.title}>
-			{#each data.content as { icon, header, summary, page }, i}
+			{#each data.content as { icon, heading, paragraph, link }, i}
 				<FullpageSlide title="slides">
 					<div class="container text-center">
 						<div class="heading">
@@ -19,13 +25,13 @@
 							{/if}
 						</div>
 						<div class="box">
-							<Icon {icon} width="84" />
-							<h3>{header}</h3>
-							<p>{summary}</p>
-							<a class="icon-arrow-page" href={page}>
+							<Icon icon={icons[icon]} width="84" />
+							<h3>{heading}</h3>
+							<p>{paragraph}</p>
+							<a class="icon-arrow-page" href={link.url}>
 								<div class="more-details">
 									<p>
-										Afla mai multe
+										{link.text}
 										<Icon icon={arrowRight} width="auto" />
 									</p>
 								</div>

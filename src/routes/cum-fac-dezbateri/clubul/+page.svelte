@@ -1,10 +1,10 @@
 <script>
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
-	import BoxTextTwoImages from "$lib/content/BoxTextTwoImages.svelte";
-	import Quadrate from "$lib/content/Quadrate.svelte";
+	import BoxTextTwoImages from "$lib/components/content/BoxTextTwoImages.svelte";
+	import Quadrate from "$lib/components/content/Quadrate.svelte";
 	import castleIcon from "@iconify/icons-mdi/castle";
 	import accountStudent from "@iconify/icons-mdi/account-student";
-	import FullMap from "$lib/content/FullMap.svelte";
+	import FullMap from "$lib/components/content/FullMap.svelte";
 
 	let topLeftBackgroundImage = "/images/495-1920x1080.webp";
 	let bottomRightBackgroundImage = "/images/939-1920x1080.webp";

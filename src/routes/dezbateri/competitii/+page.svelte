@@ -1,7 +1,7 @@
 <script>
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
-	import TextLeftImageRight from "$lib/content/TextLeftImageRight.svelte";
-	import TextRightImageLeft from "$lib/content/TextRightImageLeft.svelte";
+	import TextLeftImageRight from "$lib/components/content/TextLeftImageRight.svelte";
+	import TextRightImageLeft from "$lib/components/content/TextRightImageLeft.svelte";
 
 	let backgroundColor = "#ffffff";
 	let backgroundColorAlternative = "#474a5c";

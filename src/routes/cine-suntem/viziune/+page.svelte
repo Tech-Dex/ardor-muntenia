@@ -1,8 +1,8 @@
 <script>
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
-	import HeadingWithBackground from "$lib/headings/HeadingWithBackground.svelte";
-	import TextQuote from "$lib/content/TextQuote.svelte";
-	import BoxTextImageCenter from "$lib/content/BoxTextImageCenter.svelte";
+	import HeadingWithBackground from "$lib/components/heading/HeadingWithBackground.svelte";
+	import TextQuote from "$lib/components/content/TextQuote.svelte";
+	import BoxTextImageCenter from "$lib/components/content/BoxTextImageCenter.svelte";
 
 	let headingImageUrl = "/images/939-1920x1080.webp";
 	let headingText = "ARDOR Muntenia";

@@ -1,0 +1,126 @@
+[
+	{
+		"data": {
+			"title": "Bine ai venit",
+			"image": "/images/596-1920x1080.webp",
+			"content": []
+		}
+	},
+	{
+		"data": {
+			"title": "Inveti",
+			"description": "La școală, la facultate, sau cu prietenii, dezbaterile te ajută să ieși în evidență",
+			"image": "/images/home-section-1.png",
+			"content": [
+				{
+					"icon": "accountSchool",
+					"heading": "Sunt Elev",
+					"paragraph": "Află cum poți să devii mai persuasiv cu profesorii tăi",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/elev"
+					}
+				},
+				{
+					"icon": "schoolIcon",
+					"heading": "Sunt Student",
+					"paragraph": "Află cum poți deveni cel mai bun debater din facultatea ta",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/student"
+					}
+				}
+			]
+		}
+	},
+	{
+		"data": {
+			"title": "Predai",
+			"description": "Cei mai buni profesori folosesc educația deliberativă la clasă. Intră aici să afli cum poți fi printre ei",
+			"image": "/images/home-section-2.png",
+			"content": [
+				{
+					"icon": "accountSchool",
+					"heading": "Opțional",
+					"paragraph": "Răspunde la nevoia a programei școlare de a fi reîmprospătată. Astfel, profesorii au un rol cheie în a învăța să predea această materie",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/optional"
+					}
+				},
+				{
+					"icon": "accountSchool",
+					"heading": "Olimpiadă",
+					"paragraph": "În cadrul olimpiadei naționale de dezbateri, profesorii au un rol fundamental în educarea elevilor prin calitatea de arbitru",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/olimpiada"
+					}
+				},
+				{
+					"icon": "accountSchool",
+					"heading": "Club",
+					"paragraph": "Profesorii se ocupă cu deschiderea cluburilor în școlile în care predau, cu ajutorul ARDOR Muntenia, care se ocupă de toate formele birocratice",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/club"
+					}
+				},
+				{
+					"icon": "accountSchool",
+					"heading": "Cursuri acrditate",
+					"paragraph": "ARDOR, asociația noastră umbrelă, a dezvoltat un curs acreditat de formare profesională adrsat cadrelor didactice",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/cursuri"
+					}
+				},
+				{
+					"icon": "accountSchool",
+					"heading": "Tabăra de Leadership",
+					"paragraph": "Un eveniment ARDOR, care reunește în fiecare an, în Bucureșt, profesorii din întreaga țară",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/tabara"
+					}
+				}
+			]
+		}
+	},
+	{
+		"data": {
+			"title": "Muncesti",
+			"description": "Învață dezbateri de la cei mai buni și transformă-ți viața profesională",
+			"image": "/images/home-section-3.png",
+			"content": [
+				{
+					"icon": "accountSchool",
+					"heading": "DialogON",
+					"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam lacinia, nunc nisl aliquam lorem.",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/dialogon"
+					}
+				},
+				{
+					"icon": "schoolIcon",
+					"heading": "British Council Debate",
+					"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam lacinia, nunc nisl aliquam lorem.",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/british-council"
+					}
+				},
+				{
+					"icon": "schoolIcon",
+					"heading": "Coaching",
+					"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam lacinia, nunc nisl aliquam lorem.",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/coaching"
+					}
+				}
+			]
+		}
+	}
+]

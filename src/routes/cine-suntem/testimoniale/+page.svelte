@@ -1,6 +1,6 @@
 <script>
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
-	import TestimonialsContainerSection from "$lib/content/TestimonialsContainerSection.svelte";
+	import TestimonialsContainerSection from "$lib/components/content/TestimonialsContainerSection.svelte";
 
 	let data = [
 		{
