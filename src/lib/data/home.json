@@ -14,20 +14,47 @@
 			"content": [
 				{
 					"icon": "accountSchool",
-					"heading": "Sunt Elev",
-					"paragraph": "Află cum poți să devii mai persuasiv cu profesorii tăi",
+					"heading": "Clubul școlar",
+					"paragraph": "Clubul școlar este locul în care elevii aprofundează arta dezbaterilor, alături de profesori sau foști debateri dedicați",
 					"link": {
 						"text": "Află mai multe",
-						"url": "/elev"
+						"url": "/elev/clubul"
 					}
 				},
 				{
 					"icon": "schoolIcon",
-					"heading": "Sunt Student",
-					"paragraph": "Află cum poți deveni cel mai bun debater din facultatea ta",
+					"heading": "Olimpiada",
+					"paragraph": "Tinerii Dezbat este olimpiada națională de dezbateri, organizată de Ministerul Educației Naționale",
 					"link": {
 						"text": "Află mai multe",
-						"url": "/student"
+						"url": "/elev/olimpiada"
+					}
+				},
+				{
+					"icon": "schoolIcon",
+					"heading": "Cursurile profesioniste",
+					"paragraph": "Tabere de dezbateri, cursuri de argumentare, cluburi profesioniste și alte modalități de perfecționare",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/elev/cursuri"
+					}
+				},
+				{
+					"icon": "accountSchool",
+					"heading": "Clubul de Argumentare al Facultății de Drept București",
+					"paragraph": "Dacă ești student la drept, te așteptăm să dezbați cu noi în cadrul facultății tale",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/student/club-debate-universitatea-bucuresti"
+					}
+				},
+				{
+					"icon": "schoolIcon",
+					"heading": "Cursuri",
+					"paragraph": "Noi oferim cursuri pentru viitorii profesioniști de dezvoltare personala și profesională",
+					"link": {
+						"text": "Află mai multe",
+						"url": "/dezbateri/cursuri"
 					}
 				}
 			]
@@ -45,7 +72,7 @@
 					"paragraph": "Răspunde la nevoia a programei școlare de a fi reîmprospătată. Astfel, profesorii au un rol cheie în a învăța să predea această materie",
 					"link": {
 						"text": "Află mai multe",
-						"url": "/optional"
+						"url": "/predai/optional"
 					}
 				},
 				{
@@ -54,7 +81,7 @@
 					"paragraph": "În cadrul olimpiadei naționale de dezbateri, profesorii au un rol fundamental în educarea elevilor prin calitatea de arbitru",
 					"link": {
 						"text": "Află mai multe",
-						"url": "/olimpiada"
+						"url": "/predai/olimpiada"
 					}
 				},
 				{
@@ -63,7 +90,7 @@
 					"paragraph": "Profesorii se ocupă cu deschiderea cluburilor în școlile în care predau, cu ajutorul ARDOR Muntenia, care se ocupă de toate formele birocratice",
 					"link": {
 						"text": "Află mai multe",
-						"url": "/club"
+						"url": "/predai/club"
 					}
 				},
 				{
@@ -72,7 +99,7 @@
 					"paragraph": "ARDOR, asociația noastră umbrelă, a dezvoltat un curs acreditat de formare profesională adrsat cadrelor didactice",
 					"link": {
 						"text": "Află mai multe",
-						"url": "/cursuri"
+						"url": "/predai/cursuri"
 					}
 				},
 				{
@@ -81,7 +108,7 @@
 					"paragraph": "Un eveniment ARDOR, care reunește în fiecare an, în Bucureșt, profesorii din întreaga țară",
 					"link": {
 						"text": "Află mai multe",
-						"url": "/tabara"
+						"url": "/predai/tabara"
 					}
 				}
 			]
@@ -99,7 +126,7 @@
 					"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam lacinia, nunc nisl aliquam lorem.",
 					"link": {
 						"text": "Află mai multe",
-						"url": "/dialogon"
+						"url": "https://dialogon.ro"
 					}
 				},
 				{
@@ -108,7 +135,7 @@
 					"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam lacinia, nunc nisl aliquam lorem.",
 					"link": {
 						"text": "Află mai multe",
-						"url": "/british-council"
+						"url": "https://www.britishcouncil.ro/en/english/adults/debate"
 					}
 				},
 				{
@@ -117,7 +144,7 @@
 					"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam lacinia, nunc nisl aliquam lorem.",
 					"link": {
 						"text": "Află mai multe",
-						"url": "/coaching"
+						"url": "/cum-fac-dezbateri/profesionisti"
 					}
 				}
 			]
