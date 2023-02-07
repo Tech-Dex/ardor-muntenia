@@ -32,24 +32,6 @@
 				},
 				{
 					"icon": "schoolIcon",
-					"heading": "Cursurile profesioniste",
-					"paragraph": "Tabere de dezbateri, cursuri de argumentare, cluburi profesioniste și alte modalități de perfecționare",
-					"link": {
-						"text": "Află mai multe",
-						"url": "/elev/cursuri"
-					}
-				},
-				{
-					"icon": "accountSchool",
-					"heading": "Clubul de Argumentare al Facultății de Drept București",
-					"paragraph": "Dacă ești student la drept, te așteptăm să dezbați cu noi în cadrul facultății tale",
-					"link": {
-						"text": "Află mai multe",
-						"url": "/student/club-debate-universitatea-bucuresti"
-					}
-				},
-				{
-					"icon": "schoolIcon",
 					"heading": "Cursuri",
 					"paragraph": "Noi oferim cursuri pentru viitorii profesioniști de dezvoltare personala și profesională",
 					"link": {
