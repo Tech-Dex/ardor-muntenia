@@ -36,7 +36,7 @@
 </svelte:head>
 <header>
 	<div class="logo">
-		<a href="/"><img src="/images/logo.png" alt="logo" /></a>
+		<a href="/"><img src="/images/logo.webp" alt="logo" /></a>
 	</div>
 	<nav>
 		<ul>

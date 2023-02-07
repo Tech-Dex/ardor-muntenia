@@ -10,7 +10,7 @@
 		"data": {
 			"title": "Inveti",
 			"description": "La școală, la facultate, sau cu prietenii, dezbaterile te ajută să ieși în evidență",
-			"image": "/images/home-section-1.png",
+			"image": "/images/home-inveti.webp",
 			"content": [
 				{
 					"icon": "accountSchool",
@@ -37,7 +37,7 @@
 		"data": {
 			"title": "Predai",
 			"description": "Cei mai buni profesori folosesc educația deliberativă la clasă. Intră aici să afli cum poți fi printre ei",
-			"image": "/images/home-section-2.png",
+			"image": "/images/home-predai.webp",
 			"content": [
 				{
 					"icon": "accountSchool",
@@ -91,7 +91,7 @@
 		"data": {
 			"title": "Muncesti",
 			"description": "Învață dezbateri de la cei mai buni și transformă-ți viața profesională",
-			"image": "/images/home-section-3.png",
+			"image": "/images/home-muncesti.webp",
 			"content": [
 				{
 					"icon": "accountSchool",
