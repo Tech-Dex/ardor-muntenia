@@ -2,11 +2,17 @@
 	import GalleryCard from "$lib/GalleryCard.svelte";
 	import GalleryCardMobile from "$lib/GalleryCardMobile.svelte";
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
-	import data from "$lib/data/home.json";
 	import { onMount } from "svelte";
 
+	export let data;
+
+	let galleryCards = data.data;
+
 	onMount(() => {
-		document.documentElement.style.setProperty("--landing-image", `url(${data[0].data.image})`);
+		document.documentElement.style.setProperty(
+			"--landing-image",
+			`url(${galleryCards[0].data.image})`,
+		);
 	});
 </script>
 
@@ -16,7 +22,7 @@
 			<div class="welcome-landing" />
 		</FullpageSection>
 		<FullpageSection>
-			{#each data as card, i}
+			{#each galleryCards as card, i}
 				{#if i !== 0}
 					<GalleryCard data={card.data} backgroundImage={card.data.image} />
 				{/if}
@@ -27,7 +33,7 @@
 
 <div class="gallery-mobile">
 	<Fullpage>
-		{#each data as card}
+		{#each galleryCards as card}
 			<GalleryCardMobile data={card.data} backgroundImage={card.data.image} />
 		{/each}
 	</Fullpage>

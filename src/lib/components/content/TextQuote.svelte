@@ -1,8 +1,8 @@
 <script>
-	export let bgColor, textColor, quote;
+	export let backgroundColor, textColor, quote;
 </script>
 
-<div class="container" style="--bgColor: {bgColor}; --textColor: {textColor};">
+<div class="container" style="--backgroundColor: {backgroundColor}; --textColor: {textColor};">
 	<h1>
 		{quote}
 	</h1>
@@ -13,7 +13,7 @@
 	.container {
 		width: 100%;
 		height: 30%;
-		background-color: var(--bgColor);
+		background-color: var(--backgroundColor);
 		display: flex;
 		flex-direction: column;
 	}

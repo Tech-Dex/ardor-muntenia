@@ -1,11 +1,11 @@
 <script>
-	export let headingImageUrl, headingText, subHeadingText;
+	export let image, title, description;
 </script>
 
-<div class="container" style="--headingImageUrl: url({headingImageUrl})">
+<div class="container" style="--image: url({image})">
 	<div>
-		<h1>{headingText}</h1>
-		<p>{subHeadingText}</p>
+		<h1>{title}</h1>
+		<p>{description}</p>
 	</div>
 </div>
 
@@ -13,18 +13,17 @@
 	.container {
 		width: 100%;
 		height: 100%;
-		background-image: var(--headingImageUrl);
+		background-image: var(--image);
 		background-size: cover;
 		background-position: center;
 		display: flex;
 	}
 	.container div {
-		background-color: rgb(34, 34, 34);
+		background-color: var(--color-novenary);
 		width: 40rem;
 		height: 30rem;
 		align-self: flex-end;
 		margin-left: 10%;
-		color: #fff;
 		text-align: center;
 		padding: 2em;
 		border-radius: 1em;
@@ -33,10 +32,12 @@
 		font-size: 3.2rem;
 		letter-spacing: 0.2em;
 		margin: 0;
+		color: var(--color-quaternary);
 	}
 	.container p {
 		font-size: 1.4rem;
 		line-height: 2.2rem;
+		color: var(--color-quinary);
 	}
 	@media screen and (min-width: 1024px) and (max-width: 1475px) {
 		.container div {

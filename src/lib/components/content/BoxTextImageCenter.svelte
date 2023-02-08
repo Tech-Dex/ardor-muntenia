@@ -1,20 +1,20 @@
 <script>
-	export let subHeadingText, headingText, headingImageUrl;
+	export let title, description, image, backgroundColor;
 </script>
 
-<div class="container">
+<div class="container" style="--backgroundColor: {backgroundColor};">
 	<div class="content">
-		<h1>{headingText}</h1>
-		<h3>{subHeadingText}</h3>
+		<h1>{title}</h1>
+		<h3>{description}</h3>
 	</div>
-	<img src={headingImageUrl} alt="Beautiful people" />
+	<img src={image} alt="Beautiful people" />
 </div>
 
 <style>
 	.container {
 		width: 100%;
 		height: 70%;
-		background-color: #e7aa6b;
+		background-color: var(--backgroundColor);
 		display: flex;
 		flex-direction: column;
 		align-items: center;

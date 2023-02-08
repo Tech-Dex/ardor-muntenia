@@ -4,25 +4,45 @@
 	import TextQuote from "$lib/components/content/TextQuote.svelte";
 	import BoxTextImageCenter from "$lib/components/content/BoxTextImageCenter.svelte";
 
-	let headingImageUrl = "/images/939-1920x1080.webp";
-	let headingText = "ARDOR Muntenia";
-	let subHeadingText =
-		"În cadrul societății, ARDOR Muntenia își asumă misiunea de a contribui activ la educarea tinerilor pentru o cultură a dialogului și a dezbaterii în România. Printre valorile la care asociația aderă, se numără profesionalismul, toleranța și echitatea, acestea regăsindu-se atât în relația cu beneficiarii direcți ai dezbaterilor cât și cu celelalte asociații regionale ARDOR din țară.Asociatia Regionala de Dezbateri, Oratorie si Dezbateri – Muntenia (ARDOR Muntenia) este entitatea care gestioneaza activitatea de dezbateri in spatiul geografic al regiunii istorice Muntenia.";
+	export let data;
 
-	let quote =
-		"Dezbaterile sunt cea mai mare oportunitate de dezvoltare personală în viața unei persoane care își dorește să fie mai creativă, mai ageră, mai calculată.";
-	let bgColor = "#292d33";
-	let textColor = "#fff";
+	let viziuneHeading = data.data.heading;
+	let viziuneContent = data.data.content;
+	let viziuneContentLength = viziuneContent.length;
+	let viziuneQuote = data.data.quote;
 </script>
 
 <Fullpage>
 	<FullpageSection title="Viziune">
-		<HeadingWithBackground {headingImageUrl} {headingText} {subHeadingText} />
+		<HeadingWithBackground
+			image={viziuneHeading.image}
+			title={viziuneHeading.title}
+			description={viziuneHeading.description}
+		/>
 	</FullpageSection>
+	{#each viziuneContent as content, i}
+		{#if i !== viziuneContentLength - 1}
+			{#if i % 2 === 0}
+				<!--BoxTextLeftImageRight-->
+			{:else}
+				<!--BoxTextRightImageLeft-->
+			{/if}
+		{/if}
+	{/each}
+
 	<FullpageSection>
 		<div class="column">
-			<BoxTextImageCenter {headingImageUrl} {headingText} {subHeadingText} />
-			<TextQuote {bgColor} {textColor} {quote} />
+			<BoxTextImageCenter
+				image={viziuneContent[viziuneContentLength - 1].image}
+				title={viziuneContent[viziuneContentLength - 1].title}
+				description={viziuneContent[viziuneContentLength - 1].description}
+				backgroundColor={viziuneContent[viziuneContentLength - 1].backgroundColor}
+			/>
+			<TextQuote
+				quote={viziuneQuote.text}
+				textColor={viziuneQuote.textColor}
+				backgroundColor={viziuneQuote.backgroundColor}
+			/>
 		</div>
 	</FullpageSection>
 </Fullpage>

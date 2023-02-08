@@ -1,0 +1,20 @@
+{
+	"heading": {
+		"image": "/images/viziune-heading.webp",
+		"title": "ARDOR Muntenia",
+		"description": "În cadrul societății, ARDOR Muntenia își asumă misiunea de a contribui activ la educarea tinerilor pentru o cultură a dialogului și a dezbaterii în România. Printre valorile la care asociația aderă, se numără profesionalismul, toleranța și echitatea, acestea regăsindu-se atât în relația cu beneficiarii direcți ai dezbaterilor cât și cu celelalte asociații regionale ARDOR din țară.Asociatia Regionala de Dezbateri, Oratorie si Dezbateri – Muntenia (ARDOR Muntenia) este entitatea care gestioneaza activitatea de dezbateri in spatiul geografic al regiunii istorice Muntenia."
+	},
+	"content": [
+		{
+			"image": "/images/viziune-scopul-nostru.webp",
+			"title": "Scopul nostru",
+			"description": "În România există în continuare o problemă legată discuțiile în contradictoriu, oamenii neavând inrădăcinată o cultură a dialogului. De aceea, scopul nostru este să invătam ținerii să fie deschiși în a ascultă mai multe perspective asupra aceluiași subiect.",
+			"backgroundColor": "#f7a41e"
+		}
+	],
+	"quote": {
+		"text": "Dezbaterile sunt cea mai mare oportunitate de dezvoltare personală în viața unei persoane care își dorește să fie mai creativă, mai ageră, mai calculată.",
+		"textColor": "#ffffff",
+		"backgroundColor": "#292c32"
+	}
+}
