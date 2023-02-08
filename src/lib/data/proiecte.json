@@ -1,0 +1,137 @@
+[
+	{
+		"title": "Muntenia Monthly Open",
+		"description": "Competiția Muntenia Monthly Open a apărut ca un răspuns la o nevoie reală a comunității de dezbateri din sudul României.\n\n\nAdesea au loc competiții de dezbateri, dar, cu cât comunitatea de dezbateri crește, cu atât procentul de oameni care pot participa la aceste evenimente devine mai mic.\n\nFie din pricina criteriilor de selecție a organizatorilor, fie din obstacole financiare, nu toți doritorii ajung la turneele de dezbateri. Participarea în mod activ la competiții este esențială în procesul de formare pe care asociațiile de dezbateri îl propun.\nAstfel, competiția își dorește să fie accesibilă financiar și locativ, să acopere o plajă largă de teme și să fie recurentă – astfel putem oferi unui număr cât mai mare de elevi posibilitatea de a participa.",
+		"image": {
+			"link": "/images/proiect-mmo.webp",
+			"alt": "Muntenia Monthly Open"
+		},
+		"backgroundColor": "#ffffff",
+		"textColor": "#ffffff",
+		"boxColor": "#1fa2a3",
+		"callToAction": {
+			"text": "",
+			"link": ""
+		}
+	},
+	{
+		"title": "Cantemir Debate Extravaganza",
+		"description": "Cantemir Debate Extravaganza este o competitie organizata de asociatia de dezbateri cantemir, avand debutul in anul 2015.",
+		"image": {
+			"link": "/images/proiect-cdx.webp",
+			"alt": "Cantemir Debate Extravaganza"
+		},
+		"backgroundColor": "#f7a41e",
+		"textColor": "#ffffff",
+		"boxColor": "#1c1d24",
+		"callToAction": {
+			"text": "Cantemir Debate Extravaganza",
+			"link": "https://cantemirdebate.club"
+		}
+	},
+	{
+		"title": "Pache Open",
+		"description": "Pache Open este o competitie de dezbateri academice pentru elevi organizata de clubul de dezbateri Pache, incepand cu anul 2015.",
+		"image": {
+			"link": "/images/proiect-pache-open.webp",
+			"alt": "Pache Open"
+		},
+		"backgroundColor": "#ffffff",
+		"textColor": "#ffffff",
+		"boxColor": "#1fa2a3",
+		"callToAction": {
+			"text": "Clubul de Dezbateri Pache",
+			"link": "https://pachedebate.ro"
+		}
+	},
+	{
+		"title": "CeDeBePe",
+		"description": "CeDeBePe este o competitie de dezbateri destinata studentilor organizata de Asociatia de Dezbateri Cantemir, incepand cu anul 2017.",
+		"image": {
+			"link": "/images/proiect-cedebepe.webp",
+			"alt": "CeDeBePe"
+		},
+		"backgroundColor": "#f7a41e",
+		"textColor": "#ffffff",
+		"boxColor": "#1c1d24",
+		"callToAction": {
+			"text": "CeDeBePe",
+			"link": "https://cantemirdebate.club/CeDeBePe"
+		}
+	},
+	{
+		"title": "Central Open",
+		"description": "Central Open este o competitie de debate destinata elevilor, organizata de clubul de dezbateri al CNB “George Cosbuc” (Central), incepand cu anul 2011.",
+		"image": {
+			"link": "/images/proiect-central-open.webp",
+			"alt": "Central Open"
+		},
+		"backgroundColor": "#ffffff",
+		"textColor": "#ffffff",
+		"boxColor": "#1fa2a3",
+		"callToAction": {
+			"text": "Central open",
+			"link": "https://centraldebateclub.wordpress.com"
+		}
+	},
+	{
+		"title": "NEXTGEN",
+		"description": "Nextgen este o competitie destinata elevilor incepatori in debate, organizata de asociatia de dezbateri pache incepand cu anul 2016.",
+		"image": {
+			"link": "/images/proiect-nextgen.webp",
+			"alt": "NEXTGEN"
+		},
+		"backgroundColor": "#f7a41e",
+		"textColor": "#ffffff",
+		"boxColor": "#1c1d24",
+		"callToAction": {
+			"text": "NEXTGEN",
+			"link": "https://cantemirdebate.club/Next-Gen"
+		}
+	},
+	{
+		"title": "Muntenia Sparring Day",
+		"description": "Muntenia Sparring Day este o competitie regionala de dezbateri destinata studentilor.",
+		"image": {
+			"link": "/images/proiect-msd.webp",
+			"alt": "Muntenia Sparring Day"
+		},
+		"backgroundColor": "#ffffff",
+		"textColor": "#ffffff",
+		"boxColor": "#1fa2a3",
+		"callToAction": {
+			"text": "",
+			"link": ""
+		}
+	},
+	{
+		"title": "DEZBATE!ARGUMENTEAZA! AFIRMA-TE!",
+		"description": "Tabara de trei zile are ca obiectiv atragerea de noi membri in miscarea de dezbateri din judetul Teleorman.Se adreseaza elevilor de liceu din clasele IX-XI din judetul Teleorman.",
+		"image": {
+			"link": "/images/proiect-dezbate.webp",
+			"alt": "DEZBATE!ARGUMENTEAZA! AFIRMA-TE!"
+		},
+		"backgroundColor": "#f7a41e",
+		"textColor": "#ffffff",
+		"boxColor": "#1c1d24",
+		"callToAction": {
+			"text": "",
+			"link": ""
+		}
+	},
+	{
+		"title": "Pache Speaking",
+		"description": "Pache Speaking, competiția națională de public speaking organizată de Clubul de Dezbateri Pache, dedicata elevilor de liceu.",
+		"image": {
+			"link": "/images/proiect-pache-open.webp",
+			"alt": "Pache Speaking"
+		},
+		"backgroundColor": "#ffffff",
+		"textColor": "#ffffff",
+		"boxColor": "#1fa2a3",
+		"callToAction": {
+			"text": "",
+			"link": ""
+		}
+	}
+]

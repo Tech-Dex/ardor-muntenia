@@ -1,7 +1,8 @@
 <script>
 	export let backgroundColor,
-		headingText,
-		subHeadingText,
+		textColor,
+		title,
+		description,
 		callToActionText,
 		callToActionUrl,
 		boxColor,
@@ -9,11 +10,14 @@
 		imageAlt;
 </script>
 
-<div class="container" style="--backgroundColor: {backgroundColor}; --boxColor: {boxColor};">
+<div
+	class="container"
+	style="--backgroundColor: {backgroundColor}; --textColor: {textColor}; --boxColor: {boxColor};"
+>
 	<div>
-		<h1>{headingText}</h1>
+		<h1>{title}</h1>
 		<div class="box-subheading">
-			<h2>{subHeadingText}</h2>
+			<h2>{description}</h2>
 			{#if callToActionText && callToActionUrl}
 				<a href={callToActionUrl}>{callToActionText}</a>
 			{/if}
@@ -76,7 +80,7 @@
 		font-weight: 400;
 		text-align: justify;
 		padding: 0 2rem 0 2rem;
-		color: var(--color-quaternary);
+		color: var(--textColor);
 	}
 
 	.container > div:first-child > .box-subheading > a {
@@ -85,7 +89,7 @@
 		text-align: justify;
 		text-decoration: none;
 		color: var(--boxColor);
-		background-color: var(--color-quaternary);
+		background-color: var(--textColor);
 		padding: 1rem 2rem;
 		border-radius: 0.5rem;
 		margin-top: 1rem;
@@ -93,7 +97,7 @@
 
 	.container > div:first-child > .box-subheading > a:hover {
 		background-color: var(--color-primary);
-		color: var(--color-quaternary);
+		color: var(--textColor);
 	}
 
 	.container > div:last-child {
