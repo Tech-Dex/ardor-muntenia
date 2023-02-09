@@ -35,9 +35,11 @@
 	}
 	h3 {
 		font-size: 0.6rem;
+		font-weight: 300;
 	}
 	h1 {
 		font-size: 1.6rem;
+		font-weight: 700;
 		margin: 0;
 	}
 	@media screen and (min-width: 680px) and (max-width: 1023px) {
@@ -68,11 +70,13 @@
 			height: 20em;
 		}
 		h3 {
-			font-size: 1rem;
+			font-size: 1.2rem;
+
 			letter-spacing: 1px;
 		}
 		h1 {
 			font-size: 2.4rem;
+
 			margin: 0.5em 0 0 0;
 		}
 	}
