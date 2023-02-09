@@ -42,6 +42,8 @@
 		font-size: 1.5rem;
 		color: var(--color-primary);
 		text-shadow: 0 0 10px var(--color-secondary);
+		text-align: center;
+		padding: 0 4rem;
 	}
 
 	hr {

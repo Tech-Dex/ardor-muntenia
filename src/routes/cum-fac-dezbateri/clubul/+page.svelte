@@ -1,28 +1,18 @@
 <script>
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
-	import BoxTextTwoImages from "$lib/components/content/BoxTextTwoImages.svelte";
+	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
 	import Quadrate from "$lib/components/content/Quadrate.svelte";
+	import Heading from "$lib/components/heading/Heading.svelte";
 	import castleIcon from "@iconify/icons-mdi/castle";
 	import accountStudent from "@iconify/icons-mdi/account-student";
 	import FullMap from "$lib/components/content/FullMap.svelte";
 
-	let topLeftBackgroundImage = "/images/495-1920x1080.webp";
-	let bottomRightBackgroundImage = "/images/939-1920x1080.webp";
-	let topRightHeading = "Clubul";
-	let topRightText =
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nisl nisl aliquam nisl, nec lacinia nisl nisl sit amet lorem. Sed euismod, nisl vel tincidunt luctus, nisl nisl aliquam nisl, nec lacinia nisl nisl sit amet lorem.";
-	let bottomLeftHeading = "Clubul 2";
-	let bottomLeftText =
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nisl nisl aliquam nisl, nec lacinia nisl nisl sit amet lorem. Sed euismod, nisl vel tincidunt luctus, nisl nisl aliquam nisl, nec lacinia nisl nisl sit amet lorem.";
+	export let data;
 
-	let imageOneUrl = "/images/elevi.webp";
-	let imageTwoUrl = "/images/instructori.webp";
-	let titleOne = "Elevi";
-	let titleTwo = "Instructori";
-	let descOne =
-		"Probabil că dezbaterile sunt cea mai bună unealtă prin care poți să îți impresionezi profesorii, prietenii și potențialii angajatori. Noi îți oferim oportunitatea să te dezvolți pe plan personal și profesional într-un cadru academic, dar și să te distrezi în timp ce faci acest lucru.";
-	let descTwo =
-		"Oferim posibilitatea atât elevilor cât și profesorilor să învețe mai multe despre artă dezbaterii. În acest sens, noi oferim cursuri instructorilor de dezbateri în care aceștia învață cum să predea tinerilor debateri tehnică argumentării și oratoriei.";
+	let heading = data.data.heading;
+	let heading_2 = data.data.heading_2;
+	let content = data.data.content;
+
 	let iframeSrcGoogleMap =
 		"https://www.google.com/maps/d/u/0/embed?mid=1HcJp1Uk-EMvLC_d89fTBsutX9kzQWZuR";
 	let iframeTitleGoogleMap = "Harta clubului";
@@ -30,20 +20,35 @@
 </script>
 
 <Fullpage>
-	<FullpageSection title="Clubul">
-		<Quadrate
-			{topLeftBackgroundImage}
-			{bottomRightBackgroundImage}
-			topRightIcon={castleIcon}
-			{topRightHeading}
-			{topRightText}
-			bottomLeftIcon={accountStudent}
-			{bottomLeftHeading}
-			{bottomLeftText}
+	<FullpageSection title="Ce sunt dezbaterile?">
+		<Heading
+			headingImageUrl={heading.image}
+			headingText={heading.title}
+			subHeadingText={heading.description}
+			callToActionText="Contact"
+			callToActionUrl="/contact"
 		/>
 	</FullpageSection>
 	<FullpageSection title="Clubul">
-		<BoxTextTwoImages {imageOneUrl} {imageTwoUrl} {titleOne} {titleTwo} {descOne} {descTwo} />
+		<Quadrate
+			topLeftBackgroundImage={content[0].image}
+			bottomRightBackgroundImage={content[1].image}
+			topRightIcon={castleIcon}
+			topRightHeading={content[0].title}
+			topRightText={content[0].description}
+			bottomLeftIcon={accountStudent}
+			bottomLeftHeading={content[1].title}
+			bottomLeftText={content[1].description}
+		/>
+	</FullpageSection>
+	<FullpageSection title="Clubul">
+		<BoxTextLeftImageRight
+			boxColor={heading_2.boxColor}
+			textColor={heading_2.textColor}
+			title={heading_2.title}
+			description={heading_2.description}
+			imageUrl={heading_2.image}
+		/>
 	</FullpageSection>
 	<FullpageSection title="Harta">
 		<FullMap

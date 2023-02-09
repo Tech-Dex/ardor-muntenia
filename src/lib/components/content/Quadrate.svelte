@@ -72,7 +72,7 @@
 		left: 0;
 		background-image: var(--topLeftBackgroundImage);
 		background-size: cover;
-		background-position: center;
+		background-position: top;
 	}
 
 	.top-right {
@@ -108,7 +108,7 @@
 		font-weight: 400;
 		color: var(--color-secondary);
 		margin: 0;
-		padding: 0;
+		padding: 0 2rem;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -148,7 +148,7 @@
 		font-weight: 400;
 		color: var(--color-secondary);
 		margin: 0;
-		padding: 0;
+		padding: 0 2rem;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -163,7 +163,7 @@
 		right: 0;
 		background-image: var(--bottomRightBackgroundImage);
 		background-size: cover;
-		background-position: center;
+		background-position: top;
 	}
 	@media screen and (min-width: 1440px) {
 		.bottom-left .iconify {
@@ -191,6 +191,7 @@
 		.bottom-left p {
 			font-size: 0.8rem;
 			width: 90%;
+			padding: 0;
 		}
 		.top-right .iconify {
 			display: none;
@@ -200,6 +201,7 @@
 		}
 		.top-right p {
 			font-size: 0.8rem;
+			padding: 0;
 		}
 	}
 </style>
