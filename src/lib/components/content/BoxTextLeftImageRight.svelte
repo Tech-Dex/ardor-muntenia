@@ -25,7 +25,7 @@
 	</div>
 
 	<div>
-		<img src={imageUrl} alt={imageAlt} />
+		<img loading="lazy" src={imageUrl} alt={imageAlt} />
 	</div>
 </div>
 
@@ -76,8 +76,8 @@
 	}
 
 	.container > div:first-child .box-subheading > h2 {
-		font-size: 1.5rem;
-		font-weight: 400;
+		font-size: 1.2rem;
+		font-weight: 300;
 		text-align: justify;
 		padding: 0 2rem 0 2rem;
 		color: var(--textColor);
@@ -108,8 +108,8 @@
 	}
 
 	.container > div:last-child > img {
-		width: 100%;
-		height: 100%;
+		width: 80%;
+		height: 80%;
 		object-fit: contain;
 	}
 	@media screen and (min-width: 680px) and (max-width: 1023px) {

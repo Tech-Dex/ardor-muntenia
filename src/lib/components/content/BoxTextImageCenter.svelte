@@ -7,7 +7,7 @@
 		<h1>{title}</h1>
 		<h3>{description}</h3>
 	</div>
-	<img src={image} alt="Beautiful people" />
+	<img loading="lazy" src={image} alt="Beautiful people" />
 </div>
 
 <style>

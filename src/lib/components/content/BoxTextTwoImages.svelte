@@ -8,8 +8,8 @@
 			<h1>{titleOne}</h1>
 			<p>{descOne}</p>
 		</div>
-		<img src={imageOneUrl} alt={titleOne} />
-		<img src={imageTwoUrl} alt={titleTwo} />
+		<img loading="lazy" src={imageOneUrl} alt={titleOne} />
+		<img loading="lazy" src={imageTwoUrl} alt={titleTwo} />
 		<div>
 			<h1>{titleTwo}</h1>
 			<p>{descTwo}</p>
