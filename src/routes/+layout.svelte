@@ -378,6 +378,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		min-height: 3rem;
 	}
 
 	:global(.slot-content) {
