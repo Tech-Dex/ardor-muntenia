@@ -1,0 +1,27 @@
+{
+	"heading": {
+		"image": "/images/beneficii-heading.webp",
+		"title": "ARDOR Muntenia",
+		"description": "În cadrul societății, ARDOR Muntenia își asumă misiunea de a contribui activ la educarea tinerilor pentru o cultură a dialogului și a dezbaterii în România. Printre valorile la care asociația aderă, se numără profesionalismul, toleranța și echitatea, acestea regăsindu-se atât în relația cu beneficiarii direcți ai dezbaterilor cât și cu celelalte asociații regionale ARDOR din țară.Asociatia Regionala de Dezbateri, Oratorie si Dezbateri – Muntenia (ARDOR Muntenia) este entitatea care gestioneaza activitatea de dezbateri in spatiul geografic al regiunii istorice Muntenia.",
+		"callToAction": {
+			"text": "Join Us Now",
+			"link": "#"
+		}
+	},
+	"content": [
+		{
+			"image": "/images/viziune-scopul-nostru.webp",
+			"title": "Scopul nostru",
+			"description": "În România există în continuare o problemă legată discuțiile în contradictoriu, oamenii neavând inrădăcinată o cultură a dialogului. De aceea, scopul nostru este să invătam ținerii să fie deschiși în a ascultă mai multe perspective asupra aceluiași subiect.",
+			"backgroundColor": "#f7a41e"
+		}
+	],
+	"testimonial": {
+		"title": "PEOPLE TALK",
+		"description": "“Să mă apuc de dezbateri și să mă țin de ele sunt probabil cele mai bune decizii pe care aș fi putut să le iau în liceu. Pe lângă avantajele evidente(te învață să vorbești în public, să nu mai ai trac, să îți structurezi un discurs), cred că face trei lucruri esențiale.”",
+		"text": "1. Îți dă acces la o comunitate cu oameni incredibili, cu experiețe și cunoștinte vast diferite de ale tale, oameni mai mari ca tine, care au trecut prin mai multe și te pot învăța și oameni tineri, care te fac să treci prin experiențe prin care trecusei deja, dar din perspectiva lor/ a cuiva care îi sustine acum pe ei . Îți dă un sentiment de apartenență și stabilitate; rare sunt momentele când rămâi singur.\n\n2. Tocmai datorită acestei comunități, te face să vrei să dai înapoi, după. Să fii trainer, să organizezi competiții, să arbitrezi. Și când te prinde, e un sentiment incredibil de plăcut.\n\n3. Te forțează să înveți constant. Să fii creativ, să citești știri, ca sa fii mereu la curent, să te gândești la strategii, să îți updatezi sistemul de principii, să îți regândești comportamentele, să înveți să soluționezi conflicte din ce in ce mai bine. Nu te lasă să fii leneș și e un mediu în care adeseori nu vei fi cea mai pregatită/ informată/ deșteaptă persoana din cameră. Și asta e excelent, pentru că te împinge să vrei mai mult.",
+		"image": "/images/ana-coman-testimonial.webp",
+		"author": "Ana Coman",
+		"authorDescription": "Trainer"
+	}
+}

@@ -1,14 +1,14 @@
 <script>
-	export let headingImageUrl, headingText, subHeadingText, callToActionText, callToActionUrl;
+	export let image, title, description, callToActionText, callToActionLink;
 </script>
 
-<div class="container" style="--headingImageUrl: url({headingImageUrl})">
+<div class="container" style="--headingImageUrl: url({image})">
 	<div>
-		<h1>{headingText}</h1>
+		<h1>{title}</h1>
 		<hr />
-		<h2>{subHeadingText}</h2>
-		{#if callToActionText && callToActionUrl}
-			<a href={callToActionUrl}>{callToActionText}</a>
+		<h2>{description}</h2>
+		{#if callToActionText && callToActionLink}
+			<a href={callToActionLink}>{callToActionText}</a>
 		{/if}
 	</div>
 </div>
@@ -18,6 +18,7 @@
 		width: 100%;
 		height: 100%;
 		background-image: var(--headingImageUrl);
+		box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.8);
 		background-size: cover;
 		background-position: center;
 	}
@@ -29,6 +30,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		text-align: center;
 	}
 
 	h1 {

@@ -1,23 +1,23 @@
 <script>
-	export let testimonialHeader, testimonialSubheader, firstParagraph, secondParagraph, image, name;
+	export let title, description, text, image, author, authorDescription;
 </script>
 
 <div class="container">
-	<h1>{testimonialHeader}</h1>
+	<h1>{title}</h1>
 	<h3>
-		{testimonialSubheader}
+		{description}
 	</h3>
 	<div class="content">
 		<h1>“</h1>
 		<p>
-			{firstParagraph}
-		</p>
-		<p>
-			{secondParagraph}
+			{text}
 		</p>
 		<img src={image} alt="Elev" />
-		<div class="name">
-			<p>-- {name}</p>
+		<div class="author">
+			<p>-- {author}</p>
+		</div>
+		<div class="author-description">
+			<p>{authorDescription}</p>
 		</div>
 	</div>
 </div>
@@ -31,7 +31,7 @@
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
-		color: #fff;
+		color: var(--color-quaternary);
 	}
 	.container h1 {
 		font-size: 1.6rem;
@@ -45,7 +45,7 @@
 	.content {
 		width: 100%;
 		height: 68%;
-		background-color: #3b4048;
+		background-color: var(--color-tertiary);
 		margin: 1em 0 0 0;
 	}
 	.content h1 {
@@ -68,12 +68,20 @@
 		margin-top: 0.5em;
 		object-fit: cover;
 	}
-	.content .name p {
+	.content .author p {
 		font-weight: 700;
 		font-size: 0.8rem;
 		margin: 0;
 		padding: 0;
-		color: gray;
+		color: var(--color-quaternary);
+	}
+
+	.content .author-description p {
+		font-weight: 100;
+		font-size: 0.6rem;
+		margin: 0;
+		padding: 0;
+		color: var(--color-quinary);
 	}
 	@media screen and (min-width: 680px) and (max-width: 1023px) {
 		.container h1 {
@@ -99,8 +107,11 @@
 			border-radius: 4rem;
 			margin-top: 0.2rem;
 		}
-		.content .name p {
+		.content .author p {
 			font-size: 1.2rem;
+		}
+		.content .author-description p {
+			font-size: 0.8rem;
 		}
 	}
 	@media screen and (min-width: 1024px) {
@@ -127,8 +138,11 @@
 			height: 8rem;
 			border-radius: 4rem;
 		}
-		.content .name p {
+		.content .author p {
 			font-size: 1.6rem;
+		}
+		.content .author-description p {
+			font-size: 1rem;
 		}
 	}
 	@media screen and (min-width: 1440px) {
