@@ -22,22 +22,21 @@
 	}
 
 	.container img {
-		width: 15rem;
-		height: 30%;
+		width: 100%;
+		height: 100%;
 		object-fit: contain;
 	}
 
 	.content {
 		background-color: #3b4048;
-		width: 18rem;
-		height: 14rem;
+		width: 100%;
+		height: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		color: #fff;
 		padding: 1rem;
-		margin-top: 1rem;
 	}
 
 	h3 {
@@ -57,8 +56,8 @@
 		}
 
 		.container img {
-			width: 50%;
-			height: 15rem;
+			width: 100%;
+			height: 50%;
 		}
 
 		h3 {
@@ -76,7 +75,7 @@
 
 		.content {
 			width: 30rem;
-			height: 25rem;
+			height: 20rem;
 		}
 
 		.container img {
