@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Romanian American Foundation",
+		"description": "Misiunea Romanian-American Foundation este să promoveze şi să consolideze condiţiile necesare unei economii de piaţă sustenabile şi unei societăţi democratice, care să asigure accesul la oportunităţi pentru toate segmentele populaţiei din România.\n\nViziunea acestora este cea a unei societăți prospere, implicate și cu spirit antreprenorial, o societate compusă din cetățeni care se comportă cu responsabilitate.",
+		"image": {
+			"link": "/images/romanian-american-foundation.webp",
+			"alt": "Romanian American Foundation"
+		},
+		"backgroundColor": "#ffffff",
+		"textColor": "#ffffff",
+		"boxColor": "#1c1d24",
+		"callToAction": {
+			"text": "",
+			"link": ""
+		}
+	},
+	{
+		"title": "Konrad Adenauer Stiftung",
+		"description": "Konrad Adenauer Stiftung este o fundație politică care se ocupă cu campanii naționale și internaționale pentru pace, libertate și justiție prin educație politică. \n\nConsolidarea democrației, promovarea unificării europene, intensificarea relațiilor transatlantice și cooperarea pentru dezvoltare sunt preocupările speciale ale fundației. Ca agenție de consultanță și consultanță, dezvoltă bazele științifice și analize actuale pentru acțiuni politice.",
+		"image": {
+			"link": "/images/konrad-adenauer-stiftung.webp",
+			"alt": "Konrad Adenauer Stiftung"
+		},
+		"backgroundColor": "#ffffff",
+		"textColor": "#ffffff",
+		"boxColor": "#1c1d24",
+		"callToAction": {
+			"text": "",
+			"link": ""
+		}
+	}
+]

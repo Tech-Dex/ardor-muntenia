@@ -28,7 +28,7 @@
 	}
 
 	.content {
-		background-color: #3b4048;
+		background-color: var(--color-novenary);
 		width: 100%;
 		height: 100%;
 		display: flex;
