@@ -16,6 +16,28 @@
 			"backgroundColor": "#f7a41e"
 		}
 	],
+	"columns": [
+		{
+			"title": "Performanță școlară",
+			"description": "Elevii care practica dezater au rezultate semnificativ mai bune decat ceilalti.",
+			"icon": "messageProcessing"
+		},
+		{
+			"title": "Încredere în sine",
+			"description": "Ei pot să susțină un discurs liber în fața unei audiențe, depășindu-și emoțiile și tracul.",
+			"icon": "cardsHeart"
+		},
+		{
+			"title": "Abilități sociale",
+			"description": "Debaterii își fac mai ușor prieteni. Învață să comunice indiferent de context și să înțeleagă și opiniile celorlalți.",
+			"icon": "camera"
+		},
+		{
+			"title": "Angajare",
+			"description": "Aceștia reușesc să intre mai ușor la facultăți de top din străinătate și ajung să aiba locuri de muncă mai apreciate.",
+			"icon": "headphones"
+		}
+	],
 	"testimonial": {
 		"title": "PEOPLE TALK",
 		"description": "“Să mă apuc de dezbateri și să mă țin de ele sunt probabil cele mai bune decizii pe care aș fi putut să le iau în liceu. Pe lângă avantajele evidente(te învață să vorbești în public, să nu mai ai trac, să îți structurezi un discurs), cred că face trei lucruri esențiale.”",

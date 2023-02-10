@@ -615,7 +615,7 @@
 
 	@media screen and (min-width: 1024px) and (max-width: 1264px) {
 		.dropdown-content {
-			top: 3.5rem;
+			top: 3rem;
 		}
 		footer {
 			min-height: 6.1rem;
