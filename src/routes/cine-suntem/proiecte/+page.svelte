@@ -17,7 +17,7 @@
 					textColor={content.textColor}
 					title={content.title}
 					description={content.description}
-					imageUrl={content.image.link}
+					image={content.image.link}
 					imageAlt={content.image.alt}
 					boxColor={content.boxColor}
 					callToActionText={content.callToAction.text}
@@ -29,7 +29,7 @@
 					textColor={content.textColor}
 					title={content.title}
 					description={content.description}
-					imageUrl={content.image.link}
+					image={content.image.link}
 					imageAlt={content.image.alt}
 					boxColor={content.boxColor}
 					callToActionText={content.callToAction.text}
