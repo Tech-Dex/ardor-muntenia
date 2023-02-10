@@ -1,40 +1,48 @@
 <script>
 	import Icon from "@iconify/svelte";
-	export let topLeftBackgroundImage,
+	import castleIcon from "@iconify/icons-mdi/castle";
+	import accountStudent from "@iconify/icons-mdi/account-student";
+
+	let icons = {
+		castleIcon: castleIcon,
+		accountStudent: accountStudent,
+	};
+
+	export let topLeftImage,
 		topRightIcon,
-		topRightHeading,
-		topRightText,
+		topRightTitle,
+		topRightDescription,
 		bottomLeftIcon,
-		bottomLeftHeading,
-		bottomLeftText,
-		bottomRightBackgroundImage;
+		bottomLeftTitle,
+		bottomLeftDescription,
+		bottomRightImage;
 </script>
 
 <div
 	class="container"
-	style="--topLeftBackgroundImage: url({topLeftBackgroundImage}); --bottomRightBackgroundImage: url({bottomRightBackgroundImage})"
+	style="--topLeftBackgroundImage: url({topLeftImage}); --bottomRightBackgroundImage: url({bottomRightImage})"
 >
 	<div class="top">
 		<div class="top-left" />
 		<div class="top-right">
 			{#if topRightIcon}
 				<div class="iconify">
-					<Icon icon={topRightIcon} width="80" color="var(--color-primary)" />
+					<Icon icon={icons[topRightIcon]} width="80" color="var(--color-primary)" />
 				</div>
 			{/if}
-			<h1>{topRightHeading}</h1>
-			<p>{topRightText}</p>
+			<h1>{topRightTitle}</h1>
+			<p>{topRightDescription}</p>
 		</div>
 	</div>
 	<div class="bottom">
 		<div class="bottom-left">
 			{#if bottomLeftIcon}
 				<div class="iconify">
-					<Icon icon={bottomLeftIcon} width="80" color="var(--color-primary)" />
+					<Icon icon={icons[bottomLeftIcon]} width="80" color="var(--color-primary)" />
 				</div>
 			{/if}
-			<h1>{bottomLeftHeading}</h1>
-			<p>{bottomLeftText}</p>
+			<h1>{bottomLeftTitle}</h1>
+			<p>{bottomLeftDescription}</p>
 		</div>
 		<div class="bottom-right" />
 	</div>
@@ -42,7 +50,7 @@
 
 <style>
 	.container {
-		width: 60%;
+		width: 50%;
 		height: 80%;
 		position: relative;
 		overflow: hidden;
@@ -79,7 +87,6 @@
 		width: 50%;
 		height: 100%;
 		position: absolute;
-		padding: 0 1rem;
 		top: 0;
 		right: 0;
 		background-color: var(--color-senary);
@@ -119,7 +126,6 @@
 		width: 50%;
 		height: 100%;
 		position: absolute;
-		padding: 0 1rem;
 		bottom: 0;
 		left: 0;
 		background-color: var(--color-senary);
@@ -129,7 +135,7 @@
 		justify-content: center;
 		align-items: center;
 		display: flex;
-		height: 25%;
+		height: 30%;
 	}
 
 	.bottom-left h1 {
@@ -182,18 +188,12 @@
 		.container {
 			width: 100%;
 		}
-		.bottom-left .iconify {
-			display: none;
-		}
 		.bottom-left h1 {
 			font-size: 1.2rem;
 		}
 		.bottom-left p {
 			font-size: 0.8rem;
 			width: 90%;
-		}
-		.top-right .iconify {
-			display: none;
 		}
 		.top-right h1 {
 			font-size: 1rem;

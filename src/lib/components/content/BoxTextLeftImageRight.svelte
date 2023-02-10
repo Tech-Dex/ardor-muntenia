@@ -6,7 +6,7 @@
 		callToActionText,
 		callToActionUrl,
 		boxColor,
-		imageUrl,
+		image,
 		imageAlt;
 </script>
 
@@ -25,7 +25,7 @@
 	</div>
 
 	<div>
-		<img loading="lazy" src={imageUrl} alt={imageAlt} />
+		<img loading="lazy" src={image} alt={imageAlt} />
 	</div>
 </div>
 

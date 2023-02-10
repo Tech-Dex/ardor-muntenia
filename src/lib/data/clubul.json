@@ -1,0 +1,37 @@
+{
+	"heading": {
+		"image": "/images/clubul-heading.webp",
+		"title": "Clubul de debate",
+		"description": "Clubul de dezbateri este locul unde elevii deprind cunoștințele necesare practicării acestui sport. Aici, debaterii înțeleg și aprofundează conceptele legate de gândire critică și discurs public, dar își dezvoltă și abilitățile de lucru în echipă.",
+		"callToAction": {
+			"text": "Contact Us",
+			"link": "/contact"
+		}
+	},
+	"content": [
+		{
+			"image": {
+				"src": "/images/clubul-deschidere.webp",
+				"alt": "Cine poate deschide un club?"
+			},
+			"title": "Cine poate deschide un club?",
+			"description": "ARDOR Muntenia administrează peste 50 de cluburi și caută constant să ofere posibilitatea învățării dezbaterii, oratoriei și retoricii pentru cât mai mulți elevi din această regiune.",
+			"boxColor": ""
+		}
+	],
+	"quadrate": {
+		"topLeftImage": "/images/clubul-quadrate-instructori.webp",
+		"topRightIcon": "accountStudent",
+		"topRightTitle": "Instructori",
+		"topRightDescription": "Oferim posibilitatea atât elevilor cât și profesorilor să învețe mai multe despre artă dezbaterii. În acest sens, noi oferim cursuri instructorilor de dezbateri în care aceștia învață cum să predea tinerilor debateri tehnică argumentării și oratoriei.",
+		"bottomLeftIcon": "castleIcon",
+		"bottomLeftTitle": "Elevi",
+		"bottomLeftDescription": " Probabil că dezbaterile sunt cea mai bună unealtă prin care poți să îți impresionezi profesorii, prietenii și potențialii angajatori. Noi îți oferim oportunitatea să te dezvolți pe plan personal și profesional într-un cadru academic, dar și să te distrezi în timp ce faci acest lucru.",
+		"bottomRightImage": "/images/clubul-quadrate-elevi.webp"
+	},
+	"map": {
+		"link": "https://www.google.com/maps/d/u/0/embed?mid=1HcJp1Uk-EMvLC_d89fTBsutX9kzQWZuR",
+		"title": "Cluburi ARDOR Muntenia",
+		"backgroundColor": "#1fa2a3"
+	}
+}

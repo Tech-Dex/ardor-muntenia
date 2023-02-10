@@ -1,26 +1,21 @@
 <script>
-	export let headingImageUrl,
-		headingText,
-		subHeadingText,
-		callToActionText,
-		callToActionUrl,
-		videoUrl;
+	export let image, title, description, callToActionText, callToActionLink, video;
 </script>
 
-<div class="container" style="--headingImageUrl: url({headingImageUrl})">
+<div class="container" style="--headingImageUrl: url({image})">
 	<div>
-		<h1>{headingText}</h1>
-		<h2>{subHeadingText}</h2>
-		{#if callToActionText && callToActionUrl}
-			<a href={callToActionUrl}>{callToActionText}</a>
+		<h1>{title}</h1>
+		<h2>{description}</h2>
+		{#if callToActionText && callToActionLink}
+			<a href={callToActionLink}>{callToActionText}</a>
 		{/if}
 	</div>
 
 	<div>
-		{#if videoUrl}
+		{#if video}
 			<!-- svelte-ignore a11y-media-has-caption -->
 			<video preload controls>
-				<source src={videoUrl} type="video/mp4" />
+				<source src={video} type="video/mp4" />
 				Your browser does not support the video tag.
 			</video>
 		{/if}
@@ -32,6 +27,7 @@
 		width: 100%;
 		height: 100%;
 		background-image: var(--headingImageUrl);
+		box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.8);
 		background-size: cover;
 		background-position: center;
 		display: flex;
@@ -69,7 +65,7 @@
 	}
 
 	h2 {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		color: var(--color-primary);
 		text-shadow: 0 0 10px var(--color-secondary);
 		margin-left: 5%;
@@ -111,7 +107,7 @@
 			font-size: 2.4rem;
 		}
 		h2 {
-			font-size: 1.3rem;
+			font-size: 1rem;
 		}
 	}
 

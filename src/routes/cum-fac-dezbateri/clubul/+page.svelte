@@ -1,55 +1,62 @@
 <script>
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
-	import BoxTextTwoImages from "$lib/components/content/BoxTextTwoImages.svelte";
-	import Quadrate from "$lib/components/content/Quadrate.svelte";
-	import castleIcon from "@iconify/icons-mdi/castle";
-	import accountStudent from "@iconify/icons-mdi/account-student";
 	import FullMap from "$lib/components/content/FullMap.svelte";
+	import HeadingTextLeft from "$lib/components/heading/HeadingTextLeft.svelte";
+	import Quadrate from "$lib/components/content/Quadrate.svelte";
+	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
 
-	let topLeftBackgroundImage = "/images/495-1920x1080.webp";
-	let bottomRightBackgroundImage = "/images/939-1920x1080.webp";
-	let topRightHeading = "Clubul";
-	let topRightText =
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nisl nisl aliquam nisl, nec lacinia nisl nisl sit amet lorem. Sed euismod, nisl vel tincidunt luctus, nisl nisl aliquam nisl, nec lacinia nisl nisl sit amet lorem.";
-	let bottomLeftHeading = "Clubul 2";
-	let bottomLeftText =
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel tincidunt luctus, nisl nisl aliquam nisl, nec lacinia nisl nisl sit amet lorem. Sed euismod, nisl vel tincidunt luctus, nisl nisl aliquam nisl, nec lacinia nisl nisl sit amet lorem.";
+	export let data;
 
-	let imageOneUrl = "/images/elevi.webp";
-	let imageTwoUrl = "/images/instructori.webp";
-	let titleOne = "Elevi";
-	let titleTwo = "Instructori";
-	let descOne =
-		"Probabil că dezbaterile sunt cea mai bună unealtă prin care poți să îți impresionezi profesorii, prietenii și potențialii angajatori. Noi îți oferim oportunitatea să te dezvolți pe plan personal și profesional într-un cadru academic, dar și să te distrezi în timp ce faci acest lucru.";
-	let descTwo =
-		"Oferim posibilitatea atât elevilor cât și profesorilor să învețe mai multe despre artă dezbaterii. În acest sens, noi oferim cursuri instructorilor de dezbateri în care aceștia învață cum să predea tinerilor debateri tehnică argumentării și oratoriei.";
-	let iframeSrcGoogleMap =
-		"https://www.google.com/maps/d/u/0/embed?mid=1HcJp1Uk-EMvLC_d89fTBsutX9kzQWZuR";
-	let iframeTitleGoogleMap = "Harta clubului";
-	let mapBackgroundColor = "#1fa2a3";
+	let clubulHeading = data.data.heading;
+	let clubulContent = data.data.content;
+	let clubulQuadrate = data.data.quadrate;
+	let clubulMap = data.data.map;
 </script>
 
 <Fullpage>
 	<FullpageSection title="Clubul">
-		<Quadrate
-			{topLeftBackgroundImage}
-			{bottomRightBackgroundImage}
-			topRightIcon={castleIcon}
-			{topRightHeading}
-			{topRightText}
-			bottomLeftIcon={accountStudent}
-			{bottomLeftHeading}
-			{bottomLeftText}
+		<HeadingTextLeft
+			image={clubulHeading.image}
+			title={clubulHeading.title}
+			description={clubulHeading.description}
+			callToActionText={clubulHeading.callToAction.text}
+			callToActionLink={clubulHeading.callToAction.link}
 		/>
 	</FullpageSection>
-	<FullpageSection title="Clubul">
-		<BoxTextTwoImages {imageOneUrl} {imageTwoUrl} {titleOne} {titleTwo} {descOne} {descTwo} />
+	{#each clubulContent as content, i}
+		<FullpageSection title={content.title}>
+			{#if i % 2 === 0}
+				<BoxTextLeftImageRight
+					title={content.title}
+					description={content.description}
+					image={content.image.src}
+					imageAlt={content.image.alt}
+					boxColor={content.boxColor}
+				/>
+			{:else}
+				<!--BoxTextRightImageLeft-->
+			{/if}
+		</FullpageSection>
+	{/each}
+	<FullpageSection>
+		<Quadrate
+			title="Instructori si elevi"
+			topLeftImage={clubulQuadrate.topLeftImage}
+			topRightIcon={clubulQuadrate.topRightIcon}
+			topRightTitle={clubulQuadrate.topRightTitle}
+			topRightDescription={clubulQuadrate.topRightDescription}
+			bottomLeftIcon={clubulQuadrate.bottomLeftIcon}
+			bottomLeftTitle={clubulQuadrate.bottomLeftTitle}
+			bottomLeftDescription={clubulQuadrate.bottomLeftDescription}
+			bottomRightImage={clubulQuadrate.bottomRightImage}
+		/>
 	</FullpageSection>
-	<FullpageSection title="Harta">
+	/>
+	<FullpageSection title="Harta Cluburilor Ardor Muntenia">
 		<FullMap
-			mapSrc={iframeSrcGoogleMap}
-			title={iframeTitleGoogleMap}
-			backgroundColor={mapBackgroundColor}
+			mapSrc={clubulMap.link}
+			title={clubulMap.title}
+			backgroundColor={clubulMap.backgroundColor}
 		/>
 	</FullpageSection>
 </Fullpage>
