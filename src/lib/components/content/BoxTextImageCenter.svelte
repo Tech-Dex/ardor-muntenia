@@ -20,18 +20,18 @@
 		align-items: center;
 	}
 	.container img {
-		width: 15em;
+		width: 15rem;
 		height: 30%;
 		object-fit: contain;
 	}
 	.content {
 		background-color: #3b4048;
-		width: 18em;
-		height: 14em;
+		width: 18rem;
+		height: 14rem;
 		text-align: center;
 		color: #fff;
-		padding: 1em;
-		margin-top: 1em;
+		padding: 1rem;
+		margin-top: 1rem;
 	}
 	h3 {
 		font-size: 0.6rem;
@@ -48,7 +48,7 @@
 		}
 		.container img {
 			width: 50%;
-			height: 15em;
+			height: 15rem;
 		}
 		h3 {
 			font-size: 0.8rem;
@@ -62,12 +62,12 @@
 			align-items: center;
 		}
 		.content {
-			width: 30em;
-			height: 25em;
+			width: 30rem;
+			height: 25rem;
 		}
 		.container img {
-			width: 30em;
-			height: 20em;
+			width: 30rem;
+			height: 20rem;
 		}
 		h3 {
 			font-size: 1.2rem;
@@ -77,7 +77,7 @@
 		h1 {
 			font-size: 2.4rem;
 
-			margin: 0.5em 0 0 0;
+			margin: 0.5rem 0 0 0;
 		}
 	}
 </style>

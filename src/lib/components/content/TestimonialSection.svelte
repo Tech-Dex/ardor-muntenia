@@ -35,10 +35,10 @@
 	}
 	.container h1 {
 		font-size: 1.6rem;
-		margin: 0.5em 0 0 0;
+		margin: 0.5rem 0 0 0;
 	}
 	.container h3 {
-		margin: 0.5em 1em 0 1em;
+		margin: 0.5rem 1rem 0 1rem;
 		font-size: 0.8rem;
 		font-style: italic;
 	}

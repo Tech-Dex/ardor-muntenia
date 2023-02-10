@@ -59,7 +59,7 @@
 		.container div {
 			align-self: flex-end;
 			width: 75%;
-			height: 20em;
+			height: 20rem;
 			margin-left: 0;
 			margin-bottom: 5%;
 		}

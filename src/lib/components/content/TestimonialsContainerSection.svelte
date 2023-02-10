@@ -29,8 +29,8 @@
 		width: 85%;
 		height: 30%;
 		background-color: var(--color-secondary);
-		margin: 0.5em 0 0 0;
-		padding: 0 1em;
+		margin: 0.5rem 0 0 0;
+		padding: 0 1rem;
 		display: flex;
 		align-items: center;
 	}
@@ -64,7 +64,7 @@
 			flex-direction: column;
 			text-align: center;
 			height: 60%;
-			min-height: 32em;
+			min-height: 32rem;
 			width: 100%;
 			margin: 0 0.5rem;
 		}
