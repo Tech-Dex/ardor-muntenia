@@ -1,0 +1,26 @@
+{
+	"heading": {
+		"title": "Dezbatere, Oratorie și Retorică",
+		"description": "Introducerea acestei discipline în curriculumul la decizia școlii vizează dezvoltarea deprinderilor elevilor de gândire analitică şi de exprimare personală, cultivarea toleranţei fată de pluralismul opiniilor, precum şi dezvoltarea capacităţii de abordare transdisciplinară a problematicii supuse analizei şi dezbaterii.",
+		"image": "/images/optional-dor.webp"
+	},
+	"heading_2": {
+		"title": "Ce își propune opționalul?",
+		"description": "Totodată, disciplina opţională 'DEZBATERE, ORATORIE ŞI RETORICĂ' vine să promoveze valori şi atitudini precum gândire critică şi flexibilă, autonomie în gândire, atitudine pozitivă faţă de comunicare, toleranţă faţă de valorile, opiniile şi argumentele celorlalţi, participarea la viaţa socială fundamentată pe opinii şi acţiuni întemeiate",
+		"image": "/images/optional-dor-elevi.webp",
+		"boxColor": "#ea2340",
+		"textColor": "#ffffff"
+	},
+	"content": [
+		{
+			"title": "Profesori",
+			"description": " Pentru profesori se organizează cursuri prin care aceștia pot învață să predea cât mai bine informațiile pe care opționalul și le propune să le livreze.",
+			"image": "/images/profesori.webp"
+		},
+		{
+			"title": "Obiectivele cursului",
+			"description": "Adaptarea și asimilarea designului de training pentru programul de formare a profesorilor.\n Deprinderea unor tehnici și metode utile pentru managementul grupului de participanți.",
+			"image": "/images/obiectiv-curs.webp"
+		}
+	]
+}

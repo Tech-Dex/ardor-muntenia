@@ -93,7 +93,7 @@
 	}
 
 	.top-right h1 {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		font-weight: 700;
 		color: var(--color-secondary);
 		margin: 0;
@@ -133,7 +133,7 @@
 	}
 
 	.bottom-left h1 {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 		font-weight: 700;
 		color: var(--color-secondary);
 		margin: 0;

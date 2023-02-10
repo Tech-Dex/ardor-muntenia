@@ -1,6 +1,6 @@
 <script>
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
-	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
+	import BoxTextIconImageCenter from "$lib/components/content/BoxTextIconImageCenter.svelte";
 	import Quadrate from "$lib/components/content/Quadrate.svelte";
 	import Heading from "$lib/components/heading/Heading.svelte";
 	import castleIcon from "@iconify/icons-mdi/castle";
@@ -42,12 +42,12 @@
 		/>
 	</FullpageSection>
 	<FullpageSection title="Clubul">
-		<BoxTextLeftImageRight
-			boxColor={heading_2.boxColor}
-			textColor={heading_2.textColor}
+		<BoxTextIconImageCenter
+			icon={accountStudent}
+			backgroundColor={heading_2.boxColor}
 			title={heading_2.title}
 			description={heading_2.description}
-			imageUrl={heading_2.image}
+			image={heading_2.image}
 		/>
 	</FullpageSection>
 	<FullpageSection title="Harta">
