@@ -46,8 +46,8 @@
 		align-items: center;
 		background-color: rgba(0, 0, 0, 0.5);
 		color: var(--color-quaternary);
-		padding: 1em;
-		border-radius: 1em;
+		padding: 1rem;
+		border-radius: 1rem;
 	}
 
 	.container div:first-child {
@@ -118,7 +118,7 @@
 		.container div {
 			width: 80%;
 			height: 80%;
-			border-radius: 2em;
+			border-radius: 2rem;
 			display: flex;
 			flex-direction: column;
 			align-self: center;
@@ -154,12 +154,12 @@
 		.container div {
 			width: 80%;
 			height: 80%;
-			border-radius: 2em;
+			border-radius: 2rem;
 			display: flex;
 			flex-direction: column;
 			align-self: center;
 			margin-left: 0;
-			padding: 1em;
+			padding: 1rem;
 		}
 		.container div:nth-child(2) {
 			margin-right: 0;

@@ -29,11 +29,11 @@
 		grid-template-columns: 1fr 1fr;
 		justify-self: center;
 		text-align: center;
-		margin-top: 1em;
+		margin-top: 1rem;
 	}
 	.content div {
 		background-color: gainsboro;
-		padding: 1em 1em 0 1em;
+		padding: 1rem 1rem 0 1rem;
 	}
 	img {
 		width: 100%;
@@ -43,7 +43,7 @@
 	}
 	h1 {
 		font-size: 1rem;
-		margin: 0.2em 0 0 0;
+		margin: 0.2rem 0 0 0;
 		color: #283138;
 	}
 	p {
@@ -59,7 +59,7 @@
 			height: 70%;
 		}
 		.container {
-			padding-top: 2em;
+			padding-top: 2rem;
 		}
 		p {
 			font-size: 0.9rem;
@@ -71,11 +71,11 @@
 	}
 	@media screen and (min-width: 1024px) {
 		.content {
-			width: 40em;
+			width: 40rem;
 			height: 40%;
 		}
 		.container {
-			padding-top: 2em;
+			padding-top: 2rem;
 		}
 		p {
 			font-size: 1rem;

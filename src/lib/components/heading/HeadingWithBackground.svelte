@@ -25,12 +25,12 @@
 		align-self: flex-end;
 		margin-left: 10%;
 		text-align: center;
-		padding: 2em;
-		border-radius: 1em;
+		padding: 2rem;
+		border-radius: 1rem;
 	}
 	.container h1 {
 		font-size: 3.2rem;
-		letter-spacing: 0.2em;
+		letter-spacing: 0.2rem;
 		margin: 0;
 		color: var(--color-quaternary);
 	}

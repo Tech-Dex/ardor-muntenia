@@ -45,7 +45,7 @@
 		margin-top: 1rem;
 	}
 	.paragraph {
-		margin: 0 1em 0 1em;
+		margin: 0 1rem 0 1rem;
 		height: 60%;
 	}
 	.paragraph h1 {
