@@ -27,6 +27,7 @@
 <svelte:head>
 	<title>Ardor Muntenia</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Ardor Muntenia, Asociat ARDOR" />
 	<link rel="icon" type="image/png" href="/favicon.png" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
 	<link
@@ -36,7 +37,7 @@
 </svelte:head>
 <header>
 	<div class="logo">
-		<a href="/"><img src="/images/logo.webp" alt="logo" /></a>
+		<a href="/" title="Ardor Muntenia"><img src="/images/logo.webp" alt="logo" /></a>
 	</div>
 	<nav>
 		<ul>
@@ -152,8 +153,8 @@
 					class:sub-active={["/resurse-debate/elevi", "/resurse-debate/profesori"].includes(path)}
 					href="/resurse-debate"
 					>Resurse Debate
-					<Icon icon={chevronDown} width="auto" /></a
-				>
+					<Icon icon={chevronDown} width="auto" />
+				</a>
 				<div class="dropdown-content">
 					<a class:active-child={path === "/resurse-debate/elevi"} href="/resurse-debate/elevi"
 						>Elevi</a
@@ -217,8 +218,8 @@
 					><h4>Dezbateri</h4>
 					<div class="chevron-down">
 						<Icon icon={chevronDown} width="auto" style="color:white" />
-					</div></a
-				>
+					</div>
+				</a>
 				<div
 					class={subListOpened === 2 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
@@ -253,8 +254,8 @@
 					><h4>Cum fac Dezbateri?</h4>
 					<div class="chevron-down">
 						<Icon icon={chevronDown} width="auto" style="color:white" />
-					</div></a
-				>
+					</div>
+				</a>
 				<div
 					class={subListOpened === 3 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
@@ -277,8 +278,8 @@
 					><h4>Resurse Debate</h4>
 					<div class="chevron-down">
 						<Icon icon={chevronDown} width="auto" style="color:white" />
-					</div></a
-				>
+					</div>
+				</a>
 				<div
 					class={subListOpened === 4 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
@@ -405,6 +406,11 @@
 
 	.logo a {
 		cursor: pointer;
+	}
+
+	.logo a img {
+		width: 100%;
+		height: 100%;
 	}
 
 	nav {
@@ -600,6 +606,7 @@
 	.menu {
 		display: none;
 	}
+
 	.navbar-mobile ul {
 		display: none;
 	}
@@ -608,6 +615,7 @@
 		nav ul li a {
 			font-size: 0.9rem;
 		}
+
 		.dropdown-content {
 			top: 2.5rem;
 		}
@@ -617,6 +625,7 @@
 		.dropdown-content {
 			top: 3rem;
 		}
+
 		footer {
 			min-height: 6.1rem;
 		}
@@ -626,25 +635,31 @@
 		footer .footer-details {
 			display: none;
 		}
+
 		footer .footer-socials a {
 			margin: 0 1rem;
 		}
+
 		footer .footer-socials {
 			margin-top: 2rem;
 		}
+
 		footer .footer-socials :global(svg) {
 			width: 1.8rem;
 			height: 1.8rem;
 		}
+
 		nav {
 			display: none;
 		}
+
 		.menu {
 			color: var(--color-primary);
 			cursor: pointer;
 			display: block;
 			margin-right: 2rem;
 		}
+
 		.navbar-mobile {
 			display: block;
 
@@ -658,6 +673,7 @@
 			transform: translateX(100%);
 			transition: transform 0.5s ease-in-out;
 		}
+
 		.close {
 			float: right;
 			margin: 2rem;
@@ -665,22 +681,27 @@
 
 			cursor: pointer;
 		}
+
 		.open-nav {
 			transform: translateX(0%);
 		}
+
 		.navbar-mobile ul {
 			display: block;
 			list-style-type: none;
 			padding: 0;
 			margin-top: 8em;
 		}
+
 		.navbar-mobile ul li h4 {
 			margin: 0;
 		}
+
 		.chevron-down {
 			padding-left: 0.5rem;
 			padding-top: 0.3rem;
 		}
+
 		.navbar-mobile ul li a {
 			color: rgb(255, 255, 255);
 			font-family: "Poppins-Bold", sans-serif;
@@ -691,18 +712,22 @@
 			font-size: 1rem;
 			cursor: pointer;
 		}
+
 		.navbar-mobile ul li a.active {
 			font-size: 1rem;
 			background: #c4132c;
 		}
+
 		.nav-item-sub-container {
 			display: none;
 			margin-bottom: 1em;
 		}
+
 		.nav-item-sub-container-display {
 			display: block;
 			margin-bottom: 1em;
 		}
+
 		.nav-item-sub-container-display h4 {
 			color: #fff;
 			font-size: 1rem;
@@ -710,6 +735,7 @@
 			margin: 0.5rem auto 0 auto;
 			padding: 0.2em 0 0.2em 1em;
 		}
+
 		.nav-item-sub-container-display h4.active {
 			background: #c4132c;
 		}
