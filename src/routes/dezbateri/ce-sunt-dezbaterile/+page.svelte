@@ -17,20 +17,20 @@
 <Fullpage>
 	<FullpageSection title="Ce sunt dezbaterile?">
 		<Heading
-			{headingImageUrl}
-			{headingText}
-			{subHeadingText}
+			image={headingImageUrl}
+			title={headingText}
+			description={subHeadingText}
 			{callToActionText}
-			{callToActionUrl}
+			callToActionLink={callToActionUrl}
 		/>
 	</FullpageSection>
 	<FullpageSection title="Lorem Ipsum">
 		<HeadingTextLeft
-			{headingImageUrl}
-			{headingText}
-			subHeadingText={subHeadingTextAlternative}
+			image={headingImageUrl}
+			title={headingText}
+			description={subHeadingTextAlternative}
 			{callToActionText}
-			{callToActionUrl}
+			callToActionLink={callToActionUrl}
 			{videoUrl}
 		/>
 	</FullpageSection>

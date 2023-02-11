@@ -2,12 +2,14 @@
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
 	import TestimonialSection from "$lib/components/content/TestimonialSection.svelte";
 	import Heading from "$lib/components/heading/Heading.svelte";
+	import BoxColumnsVideo from "$lib/components/content/BoxColumnsVideo.svelte";
 	export let data;
 
 	let beneficiiHeading = data.data.heading;
 	// let beneficiiContent = data.data.content;
 	// let beneficiiContentLength = beneficiiContent.length;
 	let beneficiiTestimonial = data.data.testimonial;
+	let beneficiiColumns = data.data.columns;
 </script>
 
 <Fullpage>
@@ -21,7 +23,7 @@
 		/>
 	</FullpageSection>
 	<FullpageSection title="Lista beneficii debate">
-		<!--		Create a new component with 4 columns and video -->
+		<BoxColumnsVideo {beneficiiColumns} />
 	</FullpageSection>
 	<FullpageSection title="{beneficiiTestimonial.author} - Testimonial">
 		<TestimonialSection

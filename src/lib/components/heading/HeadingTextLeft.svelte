@@ -27,7 +27,7 @@
 		width: 100%;
 		height: 100%;
 		background-image: var(--headingImageUrl);
-		box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.8);
+		box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.85);
 		background-size: cover;
 		background-position: center;
 		display: flex;
