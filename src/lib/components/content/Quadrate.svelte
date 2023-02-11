@@ -2,10 +2,14 @@
 	import Icon from "@iconify/svelte";
 	import castleIcon from "@iconify/icons-mdi/castle";
 	import accountStudent from "@iconify/icons-mdi/account-student";
+	import cardsHeart from "@iconify/icons-mdi/cards-heart";
+	import teachIcon from "@iconify/icons-mdi/teach";
 
 	let icons = {
 		castleIcon: castleIcon,
 		accountStudent: accountStudent,
+		cardsHeart: cardsHeart,
+		teachIcon: teachIcon,
 	};
 
 	export let topLeftImage,

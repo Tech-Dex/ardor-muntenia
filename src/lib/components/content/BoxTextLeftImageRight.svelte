@@ -1,4 +1,7 @@
 <script>
+	import Icon from "@iconify/svelte";
+	import headQuestionOutline from "@iconify/icons-mdi/head-question-outline";
+
 	export let backgroundColor,
 		textColor,
 		title,
@@ -7,7 +10,12 @@
 		callToActionUrl,
 		boxColor,
 		image,
-		imageAlt;
+		imageAlt,
+		icon;
+
+	let icons = {
+		headQuestionOutline: headQuestionOutline,
+	};
 </script>
 
 <div
@@ -15,6 +23,9 @@
 	style="--backgroundColor: {backgroundColor}; --textColor: {textColor}; --boxColor: {boxColor};"
 >
 	<div>
+		{#if icon}
+			<Icon icon={icons[icon]} width="84" color="var(--color-primary)" />
+		{/if}
 		<h1>{title}</h1>
 		<div class="box-subheading">
 			<h2>{description}</h2>

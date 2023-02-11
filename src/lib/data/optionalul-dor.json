@@ -1,0 +1,39 @@
+{
+	"heading": {
+		"image": "/images/optionalul-dor-heading.webp",
+		"title": "Dezbatere, Oratorie și Retorică",
+		"description": "Introducerea acestei discipline în curriculumul la decizia școlii vizează dezvoltarea deprinderilor elevilor de gândire analitică şi de exprimare personală, cultivarea toleranţei fată de pluralismul opiniilor, precum şi dezvoltarea capacităţii de abordare transdisciplinară a problematicii supuse analizei şi dezbaterii.",
+		"callToAction": {
+			"text": "Contact Us",
+			"link": "/contact"
+		}
+	},
+	"content": [
+		{},
+		{
+			"icon": "headQuestionOutline",
+			"image": {
+				"src": "/images/optionalul-dor-scop.webp",
+				"alt": "Ce își propune opționalul?"
+			},
+			"title": "Ce își propune opționalul?",
+			"description": "Totodată, disciplina opţională „DEZBATERE, ORATORIE ŞI RETORICĂ\"vine să promoveze valori şi atitudini precum gândire critică şi flexibilă, autonomie în gândire, atitudine pozitivă faţă de comunicare, toleranţă faţă de valorile, opiniile şi argumentele celorlalţi, participarea la viaţa socială fundamentată pe opinii şi acţiuni întemeiate",
+			"boxColor": ""
+		}
+	],
+	"quadrate": {
+		"topLeftImage": "/images/optionalul-dor-quadrate-profesori.webp",
+		"topRightIcon": "teachIcon",
+		"topRightTitle": "Profesori",
+		"topRightDescription": " Pentru profesori se organizează cursuri prin care aceștia pot învață să predea cât mai bine informațiile pe care opționalul și le propune să le livreze.",
+		"bottomLeftIcon": "cardsHeart",
+		"bottomLeftTitle": "Elevi",
+		"bottomLeftDescription": "Adaptarea și asimilarea designului de training pentru programul de formare a profesorilor\nDeprinderea unor tehnici și metode utile pentru managementul grupului de participanți\nExersarea abilităţilor de pregătire, livrare şi evaluare a sesiunilor de training",
+		"bottomRightImage": "/images/optionalul-dor-quadrate-obiective.webp"
+	},
+	"map": {
+		"link": "https://www.google.com/maps/d/u/0/embed?mid=1HcJp1Uk-EMvLC_d89fTBsutX9kzQWZuR",
+		"title": "Cluburi ARDOR Muntenia",
+		"backgroundColor": "#1fa2a3"
+	}
+}

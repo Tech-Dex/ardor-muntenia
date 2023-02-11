@@ -4,6 +4,7 @@
 	import HeadingTextLeft from "$lib/components/heading/HeadingTextLeft.svelte";
 	import Quadrate from "$lib/components/content/Quadrate.svelte";
 	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
+	import BoxTextRightImageLeft from "$lib/components/content/BoxTextRightImageLeft.svelte";
 
 	export let data;
 
@@ -24,19 +25,29 @@
 		/>
 	</FullpageSection>
 	{#each clubulContent as content, i}
-		<FullpageSection title={content.title}>
-			{#if i % 2 === 0}
-				<BoxTextLeftImageRight
-					title={content.title}
-					description={content.description}
-					image={content.image.src}
-					imageAlt={content.image.alt}
-					boxColor={content.boxColor}
-				/>
-			{:else}
-				<!--BoxTextRightImageLeft-->
-			{/if}
-		</FullpageSection>
+		{#if !(Object.keys(content).length === 0)}
+			<FullpageSection title={content.title}>
+				{#if i % 2 === 0}
+					<BoxTextLeftImageRight
+						icon={content.icon}
+						title={content.title}
+						description={content.description}
+						image={content.image.src}
+						imageAlt={content.image.alt}
+						boxColor={content.boxColor}
+					/>
+				{:else}
+					<BoxTextRightImageLeft
+						icon={content.icon}
+						title={content.title}
+						description={content.description}
+						image={content.image.src}
+						imageAlt={content.image.alt}
+						boxColor={content.boxColor}
+					/>
+				{/if}
+			</FullpageSection>
+		{/if}
 	{/each}
 	<FullpageSection>
 		<Quadrate

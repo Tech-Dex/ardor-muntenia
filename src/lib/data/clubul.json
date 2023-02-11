@@ -10,6 +10,7 @@
 	},
 	"content": [
 		{
+			"icon": "headQuestionOutline",
 			"image": {
 				"src": "/images/clubul-deschidere.webp",
 				"alt": "Cine poate deschide un club?"
