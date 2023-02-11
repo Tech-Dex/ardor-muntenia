@@ -53,7 +53,6 @@
 						"/cine-suntem/sustine-ne",
 						"/cine-suntem/testimoniale",
 					].includes(path)}
-					href="/cine-suntem"
 					>Cine suntem?
 					<Icon icon={chevronDown} width="auto" />
 				</a>
@@ -92,7 +91,6 @@
 						"/dezbateri/calendar",
 						"/dezbateri/arhiva",
 					].includes(path)}
-					href="/dezbateri"
 				>
 					Dezbateri
 					<Icon icon={chevronDown} width="auto" />
@@ -128,7 +126,6 @@
 						"/cum-fac-dezbateri/optional-dor",
 						"/cum-fac-dezbateri/profesionisti",
 					].includes(path)}
-					href="/cum-fac-dezbateri"
 					>Cum fac Dezbateri?
 					<Icon icon={chevronDown} width="auto" />
 				</a>
@@ -151,7 +148,6 @@
 				<a
 					class:active={path === "/resurse-debate"}
 					class:sub-active={["/resurse-debate/elevi", "/resurse-debate/profesori"].includes(path)}
-					href="/resurse-debate"
 					>Resurse Debate
 					<Icon icon={chevronDown} width="auto" />
 				</a>
