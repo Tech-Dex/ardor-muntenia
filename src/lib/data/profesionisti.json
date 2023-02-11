@@ -1,0 +1,33 @@
+{
+	"heading": {
+		"image": "/images/profesionisti-heading.webp",
+		"title": "Cursurile noastre",
+		"description": "Noi oferim cursuri de dezvoltare personală adulților care vor să învețe mai mult despre artă oratoriei, dezbaterii și leadership-ului.",
+		"callToAction": {
+			"text": "Contact Us",
+			"link": "https://dialogon.ro/profesionisti"
+		}
+	},
+	"content": [
+		{
+			"icon": "headQuestionOutline",
+			"image": {
+				"src": "/images/profesionisti-scop.webp",
+				"alt": "Ce își propun cursurile noastre?"
+			},
+			"title": "Ce își propun cursurile noastre?",
+			"description": "Chiar și pentru oamenii care au o carieră de succes există loc de dezvoltare pe plan personal și profesional. De aceea ne-am propus să ajutăm profesioniștii să iasă din zonă lor de confort și să acumuleze informații noi care îi vor ajuta la locul lor de muncă de zi cu zi.",
+			"boxColor": ""
+		}
+	],
+	"quadrate": {
+		"topLeftImage": "/images/profesionisti-quadrate-dialogon.webp",
+		"topRightIcon": "accountStudent",
+		"topRightTitle": "DialogON",
+		"topRightDescription": "Atelierele de argumentare aplicată de acest tip oferă profesioniștilor din orice domeniu oportunitatea să participe pe cont propriu și să deprindă abilități de argumentare, vorbit în public și gândire critică. Ideale pentru persoane care își doresc o experiență individuală, indiferent de mediul în care activează (corporate, administrație publică, freelancing), aceste ateliere se concentrează pe formarea și antrenarea unor abilități utile atât pe plan profesional cât și persona",
+		"bottomLeftIcon": "graphLine",
+		"bottomLeftTitle": "DialogON",
+		"bottomLeftDescription": " Evenimentul pune accentul pe dezvoltarea gândirii critice și a unui un dialog argumentat și civilizat pentru a face diferența între o ceartă și o dezbatere, între o negociere încheiată cu succes și o echipă destrămată. 4 soluții de ateliere de argumentare aplicată care sunt croite pentru ca orice echipă să își echipeze membrii cu gândire critică, receptivitate și reactivitate pentru un mediu de lucru neconflictual.",
+		"bottomRightImage": "/images/profesionisti-quadrate-cariera.webp"
+	}
+}

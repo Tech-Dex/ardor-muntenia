@@ -4,12 +4,14 @@
 	import accountStudent from "@iconify/icons-mdi/account-student";
 	import cardsHeart from "@iconify/icons-mdi/cards-heart";
 	import teachIcon from "@iconify/icons-mdi/teach";
+	import graphLine from "@iconify/icons-mdi/graph-line";
 
 	let icons = {
 		castleIcon: castleIcon,
 		accountStudent: accountStudent,
 		cardsHeart: cardsHeart,
 		teachIcon: teachIcon,
+		graphLine: graphLine,
 	};
 
 	export let topLeftImage,

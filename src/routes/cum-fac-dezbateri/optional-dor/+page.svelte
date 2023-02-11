@@ -8,23 +8,23 @@
 
 	export let data;
 
-	let clubulHeading = data.data.heading;
-	let clubulContent = data.data.content;
-	let clubulQuadrate = data.data.quadrate;
-	let clubulMap = data.data.map;
+	let optionalDorHeading = data.data.heading;
+	let optionalDorContent = data.data.content;
+	let optionalDorQuadrate = data.data.quadrate;
+	let optionalDorMap = data.data.map;
 </script>
 
 <Fullpage>
 	<FullpageSection title="Optionalul Dezbatere, Oratorie și Retorică">
 		<HeadingTextRight
-			image={clubulHeading.image}
-			title={clubulHeading.title}
-			description={clubulHeading.description}
-			callToActionText={clubulHeading.callToAction.text}
-			callToActionLink={clubulHeading.callToAction.link}
+			image={optionalDorHeading.image}
+			title={optionalDorHeading.title}
+			description={optionalDorHeading.description}
+			callToActionText={optionalDorHeading.callToAction.text}
+			callToActionLink={optionalDorHeading.callToAction.link}
 		/>
 	</FullpageSection>
-	{#each clubulContent as content, i}
+	{#each optionalDorContent as content, i}
 		{#if !(Object.keys(content).length === 0)}
 			<FullpageSection title={content.title}>
 				{#if i % 2 === 0}
@@ -52,21 +52,21 @@
 	<FullpageSection>
 		<Quadrate
 			title="Profesori si elevi"
-			topLeftImage={clubulQuadrate.topLeftImage}
-			topRightIcon={clubulQuadrate.topRightIcon}
-			topRightTitle={clubulQuadrate.topRightTitle}
-			topRightDescription={clubulQuadrate.topRightDescription}
-			bottomLeftIcon={clubulQuadrate.bottomLeftIcon}
-			bottomLeftTitle={clubulQuadrate.bottomLeftTitle}
-			bottomLeftDescription={clubulQuadrate.bottomLeftDescription}
-			bottomRightImage={clubulQuadrate.bottomRightImage}
+			topLeftImage={optionalDorQuadrate.topLeftImage}
+			topRightIcon={optionalDorQuadrate.topRightIcon}
+			topRightTitle={optionalDorQuadrate.topRightTitle}
+			topRightDescription={optionalDorQuadrate.topRightDescription}
+			bottomLeftIcon={optionalDorQuadrate.bottomLeftIcon}
+			bottomLeftTitle={optionalDorQuadrate.bottomLeftTitle}
+			bottomLeftDescription={optionalDorQuadrate.bottomLeftDescription}
+			bottomRightImage={optionalDorQuadrate.bottomRightImage}
 		/>
 	</FullpageSection>
 	<FullpageSection title="Harta Cluburilor Ardor Muntenia">
 		<FullMap
-			mapSrc={clubulMap.link}
-			title={clubulMap.title}
-			backgroundColor={clubulMap.backgroundColor}
+			mapSrc={optionalDorMap.link}
+			title={optionalDorMap.title}
+			backgroundColor={optionalDorMap.backgroundColor}
 		/>
 	</FullpageSection>
 </Fullpage>
