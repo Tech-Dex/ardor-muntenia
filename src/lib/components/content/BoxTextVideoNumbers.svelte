@@ -46,7 +46,6 @@
 </div>
 
 <style>
-	@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
 	.container {
 		width: 100%;
 		height: 100%;
@@ -79,7 +78,6 @@
 		margin: 0;
 		font-size: 2rem;
 		color: var(--color-secondary);
-		font-family: "Vidaloka", serif;
 	}
 	.texts p {
 		margin: 0.2rem 0;
