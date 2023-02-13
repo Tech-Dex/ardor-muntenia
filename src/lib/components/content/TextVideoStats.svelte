@@ -1,5 +1,5 @@
 <script>
-	export let heading, columns;
+	export let title, numbers;
 
 	import Icon from "@iconify/svelte";
 	import handshake from "@iconify/icons-mdi/handshake-outline";
@@ -17,7 +17,7 @@
 
 <div class="container">
 	<h5>
-		{heading}
+		{title}
 	</h5>
 	<div class="video-background">
 		<embed
@@ -31,14 +31,14 @@
 		/>
 	</div>
 	<div class="columns">
-		{#each columns as content}
+		{#each numbers as number}
 			<div class="column">
 				<div class="iconify">
-					<Icon icon={icons[content.icon]} width="50" />
+					<Icon icon={icons[number.icon]} width="50" />
 				</div>
 				<div class="texts">
-					<h1>{content.count}</h1>
-					<p>{content.description}</p>
+					<h1>{number.count}</h1>
+					<p>{number.description}</p>
 				</div>
 			</div>
 		{/each}

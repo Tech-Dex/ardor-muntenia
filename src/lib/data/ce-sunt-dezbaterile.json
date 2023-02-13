@@ -1,25 +1,61 @@
 {
-	"heading": "Dezbaterile cultivă valorile democratice esențiale legate de discuții libere și deschise. Tinerii se antrenează să vorbească în public și să dezbată subiecte de interes pentru societatea noastră. Prin exercițiul dezbaterilor și al gândirii critice își dezvoltă argumentarea și interesul pentru probleme civice sau subiecte de interes major pentru societate, devenind liderii de opinie ai generației lor.",
-	"columns": [
-		{
-			"count": "21",
-			"description": "CLUBS",
-			"icon": "newspaper"
-		},
-		{
-			"count": "7723",
-			"description": "ACTIVE DEBATERS",
-			"icon": "account"
-		},
-		{
-			"count": "17",
-			"description": "ANUAL COMPETITIONS",
-			"icon": "trophy"
-		},
-		{
-			"count": "15",
-			"description": "YEARS OF EXPERIENCE",
-			"icon": "handshake"
+	"heading": {
+		"image": "/images/ce-sunt-dezbaterile-heading.webp",
+		"title": "DEZBATERILE ACADEMICE",
+		"description": "DEZVOLTARE",
+		"callToAction": {
+			"text": "",
+			"link": ""
 		}
-	]
+	},
+	"content": [
+		{
+			"title": "Ce Sunt Dezbaterile?",
+			"description": "Dezbaterile reprezintă o discuție argumentată care implică toleranță pentru puncte de vedere diferite și analiza riguroasă a propriilor opinii. Acestea sunt o metodă de construire și evaluare a argumentelor care permite debaterilor să înțeleagă mai bine care sunt opiniile și pozițiile proprii sau ale celor din jur.",
+			"image": {
+				"link": "/images/ce-sunt-dezbaterile.webp",
+				"alt": "Ce sunt dezbaterile?"
+			},
+			"backgroundColor": "#ffffff",
+			"textColor": "#ffffff",
+			"boxColor": "#1c1d24",
+			"callToAction": {
+				"text": "",
+				"link": ""
+			}
+		}
+	],
+	"stats": {
+		"title": "Dezbaterile cultivă valorile democratice esențiale legate de discuții libere și deschise. Tinerii se antrenează să vorbească în public și să dezbată subiecte de interes pentru societatea noastră. Prin exercițiul dezbaterilor și al gândirii critice își dezvoltă argumentarea și interesul pentru probleme civice sau subiecte de interes major pentru societate, devenind liderii de opinie ai generației lor.",
+		"numbers": [
+			{
+				"count": "21",
+				"description": "CLUBS",
+				"icon": "newspaper"
+			},
+			{
+				"count": "7723",
+				"description": "ACTIVE DEBATERS",
+				"icon": "account"
+			},
+			{
+				"count": "17",
+				"description": "ANUAL COMPETITIONS",
+				"icon": "trophy"
+			},
+			{
+				"count": "15",
+				"description": "YEARS OF EXPERIENCE",
+				"icon": "handshake"
+			}
+		]
+	},
+	"testimonial": {
+		"title": "PEOPLE TALK",
+		"description": "“Să mă apuc de dezbateri și să mă țin de ele sunt probabil cele mai bune decizii pe care aș fi putut să le iau în liceu. Pe lângă avantajele evidente(te învață să vorbești în public, să nu mai ai trac, să îți structurezi un discurs), cred că face trei lucruri esențiale.”",
+		"text": "Pentru mine, dezbaterile au fost cea mai mare oportunitate de dezvoltare personală peste care aș fi putut da în anii de liceu, iar ARDOR Muntenia mi-a oferit (mie, dar și atâtor alți liceeni) contextul pentru a valorifica oportunitatea asta la maxim.\n\n Făcând debate, am devenit mai critic și mai analitic, un mai bun comunicator și – zic eu – un om mai bun în ansamblu. E genul de experiență care te clădește ca cetățean și care îți oferă toate premisele necesare să poți aduce o contribuție reală societății în care trăiești.",
+		"image": "/images/grama-testimonial.webp",
+		"author": "GRAMA",
+		"authorDescription": "DEBATER DIN LOTUL NATIONAL"
+	}
 }

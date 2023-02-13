@@ -1,55 +1,66 @@
 <script>
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
 	import Heading from "$lib/components/heading/Heading.svelte";
-	import HeadingTextLeft from "$lib/components/heading/HeadingTextLeft.svelte";
-	import HeadingTextRight from "$lib/components/heading/HeadingTextRight.svelte";
-	import BoxTextVideoNumbers from "$lib/components/content/BoxTextVideoNumbers.svelte";
+	import BoxTextVideoNumbers from "$lib/components/content/TextVideoStats.svelte";
+	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
+	import BoxTextRightImageLeft from "$lib/components/content/BoxTextRightImageLeft.svelte";
+	import TestimonialRightImageSection from "$lib/components/content/TestimonialRightImageSection.svelte";
 	export let data;
 
-	let headingImageUrl = "/images/495-1920x1080.webp";
-	let headingText = "Dezbaterile Academice";
-	let subHeadingText = "Dezvoltare ";
-	let subHeadingTextAlternative =
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, nec luctus nunc nisl eget nisl. Donec auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, nec luctus nunc nisl eget nisl.";
-	let callToActionText = "Inscrie-te";
-	let callToActionUrl = "/inscriere";
-	let videoUrl = "https://www.w3schools.com/html/mov_bbb.mp4";
-
-	let heading = data.data.heading;
-	let columns = data.data.columns;
+	let ceSuntDezbaterileHeading = data.data.heading;
+	let ceSuntDezbaterileContent = data.data.content;
+	let ceSuntDezbaterileTestimonial = data.data.testimonial;
+	let stats = data.data.stats;
 </script>
 
 <Fullpage>
 	<FullpageSection title="Ce sunt dezbaterile?">
 		<Heading
-			image={headingImageUrl}
-			title={headingText}
-			description={subHeadingText}
-			{callToActionText}
-			callToActionLink={callToActionUrl}
+			image={ceSuntDezbaterileHeading.image}
+			title={ceSuntDezbaterileHeading.title}
+			description={ceSuntDezbaterileHeading.description}
+			callToActionText={ceSuntDezbaterileHeading.callToAction.text}
+			callToActionLink={ceSuntDezbaterileHeading.callToAction.link}
 		/>
 	</FullpageSection>
-	<FullpageSection title="Lorem Ipsum">
-		<HeadingTextLeft
-			image={headingImageUrl}
-			title={headingText}
-			description={subHeadingTextAlternative}
-			{callToActionText}
-			callToActionLink={callToActionUrl}
-			{videoUrl}
-		/>
+	{#each ceSuntDezbaterileContent as content, i}
+		<FullpageSection title={content.title}>
+			{#if i % 2 === 0}
+				<BoxTextLeftImageRight
+					backgroundColor={content.backgroundColor}
+					textColor={content.textColor}
+					title={content.title}
+					description={content.description}
+					image={content.image.link}
+					imageAlt={content.image.alt}
+					boxColor={content.boxColor}
+					callToActionText={content.callToAction.text}
+					callToActionUrl={content.callToAction.link}
+				/>
+			{:else}
+				<BoxTextRightImageLeft
+					backgroundColor={content.backgroundColor}
+					textColor={content.textColor}
+					title={content.title}
+					description={content.description}
+					image={content.image.link}
+					imageAlt={content.image.alt}
+					boxColor={content.boxColor}
+					callToActionText={content.callToAction.text}
+					callToActionUrl={content.callToAction.link}
+				/>
+			{/if}
+		</FullpageSection>
+	{/each}
+	<FullpageSection title="Statistci ARDOR Muntenia">
+		<BoxTextVideoNumbers title={stats.title} numbers={stats.numbers} />
 	</FullpageSection>
-	<FullpageSection title="Lorem Ipsum">
-		<HeadingTextRight
-			image={headingImageUrl}
-			title={headingText}
-			description={subHeadingTextAlternative}
-			{callToActionText}
-			callToActionLink={callToActionUrl}
-			{videoUrl}
+	<FullpageSection title="{ceSuntDezbaterileTestimonial.author} - Testimonial">
+		<TestimonialRightImageSection
+			text={ceSuntDezbaterileTestimonial.text}
+			image={ceSuntDezbaterileTestimonial.image}
+			author={ceSuntDezbaterileTestimonial.author}
+			authorDescription={ceSuntDezbaterileTestimonial.authorDescription}
 		/>
-	</FullpageSection>
-	<FullpageSection title="Lorem Ipsum">
-		<BoxTextVideoNumbers {heading} {columns} />
 	</FullpageSection>
 </Fullpage>

@@ -1,17 +1,17 @@
 <script>
-	export let paragraph, image, name, desc;
+	export let text, image, author, authorDescription;
 </script>
 
 <div class="container">
 	<div class="image-container">
-		<img src={image} alt={name} />
-		<p>{name}</p>
-		<p>{desc}</p>
+		<img src={image} alt={author} />
+		<p class="author">{author}</p>
+		<p class="author-description">{authorDescription}</p>
 	</div>
 	<div class="paragraph">
 		<h1>“</h1>
 		<p>
-			{paragraph}
+			{text}
 		</p>
 	</div>
 </div>
@@ -21,13 +21,30 @@
 		width: 100%;
 		height: 100%;
 		color: var(--color-secondary);
-		background-color: #e7aa6b;
+		background-color: var(--color-septenary);
 		display: flex;
 		align-items: center;
 		text-align: center;
 		justify-content: space-evenly;
 		flex-direction: column-reverse;
 	}
+
+	.container .image-container .author {
+		font-weight: 700;
+		font-size: 2rem;
+		margin: 0;
+		padding: 0;
+		color: var(--color-septenary);
+	}
+
+	.container .image-container .author-description {
+		font-weight: 200;
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+		color: var(--color-quinary);
+	}
+
 	.image-container {
 		width: 100%;
 		height: 40%;
@@ -43,10 +60,19 @@
 		height: 6rem;
 		border-radius: 3rem;
 		margin-top: 1rem;
+		object-fit: cover;
 	}
 	.paragraph {
 		margin: 0 1rem 0 1rem;
 		height: 60%;
+	}
+
+	.paragraph p {
+		font-size: 1.2rem;
+		letter-spacing: 1px;
+		margin: 0 1rem 0 1rem;
+		text-align: left;
+		white-space: pre-line;
 	}
 	.paragraph h1 {
 		font-size: 3rem;
