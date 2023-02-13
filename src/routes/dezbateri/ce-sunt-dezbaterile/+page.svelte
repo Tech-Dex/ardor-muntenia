@@ -3,6 +3,8 @@
 	import Heading from "$lib/components/heading/Heading.svelte";
 	import HeadingTextLeft from "$lib/components/heading/HeadingTextLeft.svelte";
 	import HeadingTextRight from "$lib/components/heading/HeadingTextRight.svelte";
+	import BoxTextVideoNumbers from "$lib/components/content/BoxTextVideoNumbers.svelte";
+	export let data;
 
 	let headingImageUrl = "/images/495-1920x1080.webp";
 	let headingText = "Dezbaterile Academice";
@@ -12,6 +14,9 @@
 	let callToActionText = "Inscrie-te";
 	let callToActionUrl = "/inscriere";
 	let videoUrl = "https://www.w3schools.com/html/mov_bbb.mp4";
+
+	let heading = data.data.heading;
+	let columns = data.data.columns;
 </script>
 
 <Fullpage>
@@ -36,12 +41,15 @@
 	</FullpageSection>
 	<FullpageSection title="Lorem Ipsum">
 		<HeadingTextRight
-			{headingImageUrl}
-			{headingText}
-			subHeadingText={subHeadingTextAlternative}
+			image={headingImageUrl}
+			title={headingText}
+			description={subHeadingTextAlternative}
 			{callToActionText}
-			{callToActionUrl}
+			callToActionLink={callToActionUrl}
 			{videoUrl}
 		/>
+	</FullpageSection>
+	<FullpageSection title="Lorem Ipsum">
+		<BoxTextVideoNumbers {heading} {columns} />
 	</FullpageSection>
 </Fullpage>
