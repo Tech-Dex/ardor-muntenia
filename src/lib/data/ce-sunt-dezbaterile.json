@@ -16,9 +16,7 @@
 				"link": "/images/ce-sunt-dezbaterile.webp",
 				"alt": "Ce sunt dezbaterile?"
 			},
-			"backgroundColor": "#ffffff",
-			"textColor": "#ffffff",
-			"boxColor": "#1c1d24",
+			"boxColor": "",
 			"callToAction": {
 				"text": "",
 				"link": ""
