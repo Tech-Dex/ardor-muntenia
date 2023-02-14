@@ -1,6 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@event-calendar/core': ^0.15.3
+  '@event-calendar/day-grid': ^0.15.3
+  '@event-calendar/list': ^0.15.3
+  '@event-calendar/time-grid': ^0.15.3
   '@iconify/icons-fe': ^1.2.5
   '@iconify/icons-mdi': ^1.2.39
   '@iconify/svelte': ^3.0.1
@@ -19,6 +23,10 @@ specifiers:
   vite: ^4.0.0
 
 dependencies:
+  '@event-calendar/core': 0.15.3
+  '@event-calendar/day-grid': 0.15.3
+  '@event-calendar/list': 0.15.3
+  '@event-calendar/time-grid': 0.15.3
   '@iconify/icons-fe': 1.2.5
   '@iconify/icons-mdi': 1.2.39
   '@iconify/svelte': 3.0.1_svelte@3.55.1
@@ -232,6 +240,40 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@event-calendar/common/0.15.3:
+    resolution: {integrity: sha512-TvDaSdDIXRVl5ltblhR3T8hOQbKL1nvpXZ+c2C2V1CVv00Kx0OEomf6CLXJmFoWBYUXCDvXlHzm0Jg997dPwTw==}
+    dependencies:
+      svelte: 3.55.1
+    dev: false
+
+  /@event-calendar/core/0.15.3:
+    resolution: {integrity: sha512-JcRUTOu+sbq4ElCRLNSCmF2E0xBufG1ptLRCWMlkpptGI7c22sxcjN9M2WyFrPkWGA2CAOBFG2LW1RjmxN6t/Q==}
+    dependencies:
+      '@event-calendar/common': 0.15.3
+      svelte: 3.55.1
+    dev: false
+
+  /@event-calendar/day-grid/0.15.3:
+    resolution: {integrity: sha512-LmsBTLceuvWztFE/AThMVzil4fmnvDF9COyqdDTL9tox+mwiK7T0OmcS2IQD7CkaFFOExvvOead9i8Z1/b8rTQ==}
+    dependencies:
+      '@event-calendar/common': 0.15.3
+      svelte: 3.55.1
+    dev: false
+
+  /@event-calendar/list/0.15.3:
+    resolution: {integrity: sha512-rd2Q2ylpJZKY//ynt51FEqeAbs1U4YFeDu8+NY7u2WnnrxGHKFTbZgBBYs0jBTsiQXAPnI+QpwxuymzBru6+gw==}
+    dependencies:
+      '@event-calendar/common': 0.15.3
+      svelte: 3.55.1
+    dev: false
+
+  /@event-calendar/time-grid/0.15.3:
+    resolution: {integrity: sha512-TIdprARdW0mjFBLXbQUW+7PUTfj2CieqBaT5VkL11isk5/oSozG6I4ee6M7ZCDpmHngfEPDFxLm2/wHx5MO+4A==}
+    dependencies:
+      '@event-calendar/common': 0.15.3
+      svelte: 3.55.1
+    dev: false
 
   /@humanwhocodes/config-array/0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}

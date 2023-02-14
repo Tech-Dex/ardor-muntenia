@@ -1,0 +1,47 @@
+{
+	"content": [
+		{
+			"image": {
+				"src": "/images/oportunitati-fnda.webp",
+				"alt": "Cine poate deschide un club?"
+			},
+			"title": "Forumul National de Dezbateri Acadamice",
+			"description": "Forumul National de Dezbateri Acadamice (FNDA) este un eveniment anual organizat de ARDOR, în care participă toți membrii ARDOR, indiferent de clubul de care fac parte. Evenimentul are loc în luna iunie, într-o locație diferită în fiecare an. În cadrul acestui eveniment, elevii participă la meciuri de dezbateri, la ateliere de pregătire și la o întâlnire cu experți în domeniu.",
+			"boxColor": "",
+			"callToAction": {
+				"text": "Afla mai multe",
+				"link": "https://google.com"
+			}
+		}
+	],
+	"quadrate": {
+		"topLeftIcon": "accountStudent",
+		"topLeftTitle": "Întalnirea Instructorilor",
+		"topLeftDescription": "Întalnirea Instructorilor este o întâlnire anuală în cadrul ARDOR Muntenia în care toți trainerii discută despre experiența lor, despre politicile Asociației și despre noi metode de predare a dezbaterilor.",
+		"topLeftCallToAction": {
+			"text": "Mai multe detalii",
+			"link": "https://google.com"
+		},
+		"topRightIcon": "accountStudent",
+		"topRightTitle": "Meciuri Demo",
+		"topRightDescription": "Demo-urile sunt meciurile de dezbateri organizate de cluburile dezbateri la începutul anului școlar pentru atragerea de noi membri în club. De asemenea, acestea au loc și in cadrul evenimentelor organizate de partenerii asociației.",
+		"topRightCallToAction": {
+			"text": "Mai multe detalii",
+			"link": "https://google.com"
+		},
+		"bottomLeftIcon": "accountStudent",
+		"bottomLeftTitle": "Tabara de leadership pentru profesori ARDOR",
+		"bottomLeftDescription": "Organizată anual de ARDOR, pentru a susține profesorii în procesul de acumulare a cunoștiințelor și abilităților necesare unui bun lider și instructor de debate. Mai multe detalii pe pagina ARDOR.",
+		"bottomLeftCallToAction": {
+			"text": "Mai multe detalii",
+			"link": "https://google.com"
+		},
+		"bottomRightIcon": "accountStudent",
+		"bottomRightTitle": "ARGO Academy",
+		"bottomRightDescription": "Tabară pentru elevi pasionați de dezbateri.",
+		"bottomRightCallToAction": {
+			"text": "Mai multe detalii",
+			"link": "https://google.com"
+		}
+	}
+}
