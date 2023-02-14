@@ -62,7 +62,6 @@
 			bottomRightImage={clubulQuadrate.bottomRightImage}
 		/>
 	</FullpageSection>
-	/>
 	<FullpageSection title="Harta Cluburilor Ardor Muntenia">
 		<FullMap
 			mapSrc={clubulMap.link}

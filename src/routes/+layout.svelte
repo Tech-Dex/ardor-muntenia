@@ -43,6 +43,7 @@
 		<ul>
 			<li><a class:active={path === "/"} href="/">Home</a></li>
 			<li class="dropdown">
+				<!-- svelte-ignore a11y-missing-attribute -->
 				<a
 					class:active={path === "/cine-suntem"}
 					class:sub-active={[
@@ -80,6 +81,7 @@
 				</div>
 			</li>
 			<li class="dropdown">
+				<!-- svelte-ignore a11y-missing-attribute -->
 				<a
 					class:active={path === "/dezbateri"}
 					class:sub-active={[
@@ -119,6 +121,7 @@
 				</div>
 			</li>
 			<li class="dropdown">
+				<!-- svelte-ignore a11y-missing-attribute -->
 				<a
 					class:active={path === "/cum-fac-dezbateri"}
 					class:sub-active={[
@@ -145,6 +148,7 @@
 				</div>
 			</li>
 			<li class="dropdown">
+				<!-- svelte-ignore a11y-missing-attribute -->
 				<a
 					class:active={path === "/resurse-debate"}
 					class:sub-active={["/resurse-debate/elevi", "/resurse-debate/profesori"].includes(path)}

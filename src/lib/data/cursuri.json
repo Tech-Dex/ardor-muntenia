@@ -1,0 +1,39 @@
+{
+	"heading": {
+		"image": "/images/cursuri-heading.webp",
+		"title": "CE ÎȚI OFERIM NOI?",
+		"description": "Alege pachetul perfect preferințelor tale și intră în lumea debaterilor români!",
+		"callToAction": {
+			"text": "Debate@British",
+			"link": "https://www.britishcouncil.ro"
+		}
+	},
+	"content": [
+		{
+			"image": {
+				"src": "/images/cursuri-elevi.webp",
+				"alt": "Cine poate deschide un club?"
+			},
+			"title": "Cursuri pentru elevi",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus ex magna, id pretium ante egestas quis. Aliquam pulvinar est urna, sit amet interdum mauris facilisis in. Donec sed convallis turpis. Nam luctus tristique justo ut sollicitudin. Vivamus in tincidunt tortor. Mauris maximus quis libero ac rhoncus. Vestibulum justo ligula, malesuada eu molestie eleifend, viverra at odio. Sed sed suscipit dolor. Donec ante velit, ultrices non tincidunt a, pretium sit amet quam. Phasellus purus dui, mattis id diam interdum, pharetra facilisis leo.",
+			"boxColor": "",
+			"callToAction": {
+				"text": "Află mai multe",
+				"link": "https://www.britishcouncil.ro/en/english/children/debate"
+			}
+		},
+		{
+			"image": {
+				"src": "/images/cursuri-adulti.webp",
+				"alt": "Cursuri pentru adulți"
+			},
+			"title": "Cursuri pentru elevi",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus ex magna, id pretium ante egestas quis. Aliquam pulvinar est urna, sit amet interdum mauris facilisis in. Donec sed convallis turpis. Nam luctus tristique justo ut sollicitudin. Vivamus in tincidunt tortor. Mauris maximus quis libero ac rhoncus. Vestibulum justo ligula, malesuada eu molestie eleifend, viverra at odio. Sed sed suscipit dolor. Donec ante velit, ultrices non tincidunt a, pretium sit amet quam. Phasellus purus dui, mattis id diam interdum, pharetra facilisis leo.",
+			"boxColor": "",
+			"callToAction": {
+				"text": "Află mai multe",
+				"link": "https://www.britishcouncil.ro/engleza/adulti/club-dezbateri"
+			}
+		}
+	]
+}

@@ -10,7 +10,7 @@
 	<div class="content">
 		<h1>“</h1>
 		<p>{text}</p>
-		<img src={image} alt="Elev" />
+		<img src={image} alt={author} />
 		<div class="author">
 			<p>-- {author}</p>
 		</div>

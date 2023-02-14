@@ -23,6 +23,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@event-calendar/core": "^0.15.3",
+		"@event-calendar/day-grid": "^0.15.3",
+		"@event-calendar/list": "^0.15.3",
+		"@event-calendar/time-grid": "^0.15.3",
 		"@iconify/icons-fe": "^1.2.5",
 		"@iconify/icons-mdi": "^1.2.39",
 		"@iconify/svelte": "^3.0.1",
