@@ -1,62 +1,88 @@
-[
-	{
-		"title": "Muntenia Monthly Open",
-		"description": "Competiția Muntenia Monthly Open a apărut ca un răspuns la o nevoie reală a comunității de dezbateri din sudul României.   MMO-urile sunt competiții de o zi la care au acces, în principal, elevi si arbitri din regiunea ARDOR Muntenia. Această este realizată cu costuri mici pentru a asigura participarea cât mai multor oameni.",
-		"image": {
-			"link": "/images/proiect-mmo.webp",
-			"alt": "Muntenia Monthly Open"
+{
+	"proiecteContent": [
+		{
+			"title": "Muntenia Monthly Open",
+			"description": "Competiția Muntenia Monthly Open a apărut ca un răspuns la o nevoie reală a comunității de dezbateri din sudul României.   MMO-urile sunt competiții de o zi la care au acces, în principal, elevi si arbitri din regiunea ARDOR Muntenia. Această este realizată cu costuri mici pentru a asigura participarea cât mai multor oameni.",
+			"image": {
+				"link": "/images/proiect-mmo.webp",
+				"alt": "Muntenia Monthly Open"
+			},
+			"backgroundColor": "#ffffff",
+			"textColor": "#ffffff",
+			"boxColor": "#1fa2a3",
+			"callToAction": {
+				"text": "Pagina de Facebook",
+				"link": "https://www.facebook.com/ARDORMuntenia/"
+			}
 		},
-		"backgroundColor": "#ffffff",
-		"textColor": "#ffffff",
-		"boxColor": "#1fa2a3",
-		"callToAction": {
-			"text": "Pagina de Facebook",
-			"link": "https://www.facebook.com/ARDORMuntenia/"
-		}
-	},
-	{
-		"title": "Funky Debates",
-		"description": "Competiția Funky Debates realizată în parteneriat cu Funky Citizens, Leaders of Justice, Lider Just și KAS are ca obiectiv oferirea unor training-uri care îi vor ajută pe elevi să se dezvolte și în alte domenii pe lângă cel al dezbaterilor academice. La aceste competiții se abordează subiecte precum implicarea civică, justiția etc.",
-		"image": {
-			"link": "/images/proiect-funky-debates.webp",
-			"alt": "Muntenia Monthly Open"
+		{
+			"title": "Funky Debates",
+			"description": "Competiția Funky Debates realizată în parteneriat cu Funky Citizens, Leaders of Justice, Lider Just și KAS are ca obiectiv oferirea unor training-uri care îi vor ajută pe elevi să se dezvolte și în alte domenii pe lângă cel al dezbaterilor academice. La aceste competiții se abordează subiecte precum implicarea civică, justiția etc.",
+			"image": {
+				"link": "/images/proiect-funky-debates.webp",
+				"alt": "Muntenia Monthly Open"
+			},
+			"backgroundColor": "#f7a41e",
+			"textColor": "#ffffff",
+			"boxColor": "#1c1d24",
+			"callToAction": {
+				"text": "Pagina de Facebook",
+				"link": "https://www.facebook.com/ARDORMuntenia/"
+			}
 		},
-		"backgroundColor": "#f7a41e",
-		"textColor": "#ffffff",
-		"boxColor": "#1c1d24",
-		"callToAction": {
-			"text": "Pagina de Facebook",
-			"link": "https://www.facebook.com/ARDORMuntenia/"
-		}
-	},
-	{
-		"title": "Cantemir Debate Extravaganza",
-		"description": "Cantemir Debate Extravaganza este o competitie organizata de asociatia de dezbateri cantemir, avand debutul in anul 2015.",
-		"image": {
-			"link": "/images/proiect-cdx.webp",
-			"alt": "Cantemir Debate Extravaganza"
+		{
+			"title": "Cantemir Debate Extravaganza",
+			"description": "Cantemir Debate Extravaganza este o competitie organizata de asociatia de dezbateri cantemir, avand debutul in anul 2015.",
+			"image": {
+				"link": "/images/proiect-cdx.webp",
+				"alt": "Cantemir Debate Extravaganza"
+			},
+			"backgroundColor": "#ffffff",
+			"textColor": "#ffffff",
+			"boxColor": "#1fa2a3",
+			"callToAction": {
+				"text": "Pagina de Facebook",
+				"link": "https://www.facebook.com/CantemirDebate/"
+			}
 		},
-		"backgroundColor": "#ffffff",
-		"textColor": "#ffffff",
-		"boxColor": "#1fa2a3",
-		"callToAction": {
-			"text": "Pagina de Facebook",
-			"link": "https://www.facebook.com/CantemirDebate/"
+		{
+			"title": "Central Open",
+			"description": "Pache Open este o competitie de dezbateri academice pentru elevi organizata de clubul de dezbateri Pache, incepand cu anul 2015.",
+			"image": {
+				"link": "/images/proiect-central-open-2019.webp",
+				"alt": "Pache Open"
+			},
+			"backgroundColor": "#f7a41e",
+			"textColor": "#ffffff",
+			"boxColor": "#1c1d24",
+			"callToAction": {
+				"text": "Pagina de Facebook",
+				"link": "https://www.facebook.com/centraldebateclub/"
+			}
 		}
-	},
-	{
-		"title": "Central Open",
-		"description": "Pache Open este o competitie de dezbateri academice pentru elevi organizata de clubul de dezbateri Pache, incepand cu anul 2015.",
-		"image": {
-			"link": "/images/proiect-central-open-2019.webp",
-			"alt": "Pache Open"
-		},
-		"backgroundColor": "#f7a41e",
-		"textColor": "#ffffff",
-		"boxColor": "#1c1d24",
-		"callToAction": {
-			"text": "Pagina de Facebook",
-			"link": "https://www.facebook.com/centraldebateclub/"
-		}
+	],
+	"retroContent": {
+		"heading": "In all debates, use soft words and hard arguments",
+		"backgroundImage": "/images/nature.webp",
+		"columns": [
+			{
+				"icon": "calendar",
+				"heading": "Calendar",
+				"description": "Data și locul desfășurării tuturor competițiilor, sesiunilor de training, taberelor și evenimentelor care urmează să fie organizate de ARDOR Muntenia sunt actualizate periodic pe site.",
+				"link": "/dezbateri/calendar"
+			},
+			{
+				"icon": "card",
+				"heading": "Cursuri",
+				"description": "Îți punem la dispoziție resursele necesare pentru a învăța să gândești critic, să susții discursuri publice și să îți argumnetezi opiniile în limba engleză",
+				"link": "/dezbateri/cursuri"
+			},
+			{
+				"icon": "notebook",
+				"heading": "Tabere",
+				"description": "Ai ocazia să participi la tabere de dezbatere și de leadership atât ca elev, cât și ca profesor. Cunoaște comunitatea de debateri și dezvoltă-ți abilitățile într-un mediu informal.",
+				"link": "/dezbateri/oportunitati"
+			}
+		]
 	}
-]
+}
