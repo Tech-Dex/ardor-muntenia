@@ -41,7 +41,7 @@
 		background-image: var(--image);
 		background-size: cover;
 		background-position: center;
-		box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.55);
+		box-shadow: inset 0 0 0 2000px rgb(0, 0, 0, 0.85);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
