@@ -6,7 +6,6 @@
 	import BoxTextRightImageLeft from "$lib/components/content/BoxTextRightImageLeft.svelte";
 	import TestimonialRightImageSection from "$lib/components/content/TestimonialRightImageSection.svelte";
 	export let data;
-
 	let ceSuntDezbaterileHeading = data.data.heading;
 	let ceSuntDezbaterileContent = data.data.content;
 	let ceSuntDezbaterileTestimonial = data.data.testimonial;

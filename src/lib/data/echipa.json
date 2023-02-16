@@ -1,0 +1,82 @@
+{
+	"heading": "Oamenii care fac lucrurile să se întâmple",
+	"members": [
+		{
+			"name": "Adrian Mălăieș Popescu",
+			"role": "DIRECTOR EXECUTIV",
+			"description": "Actualmente director executiv ARDOR Muntenia, Adrian se învârte în lumea dezbaterilor din 2007. Atunci a început un drum care l-a purtat de la Oradea la București și de la debater la organizator de competiții. Este mândru să poată lucra cu oameni atât de pasionați precum cei din echipa ARDOR Muntenia.",
+			"image": "/images/adrian-malaies.webp",
+			"facebook": "https://www.facebook.com/Monsieur.Mala",
+			"linkedin": "https://ro.linkedin.com/in/adrian-m%C4%83l%C4%83ie%C5%9F-popescu-54a84830"
+		},
+		{
+			"name": "Alina Bucșa",
+			"role": "DIRECTOR DE TRAINING",
+			"description": "Alina a pierdut de 5 ori mai multe Finale decât a câștigat, dar cel mai mult a câștigat când a avut ceva de învățat. Componenta educațională a dezbaterilor o pasionează cel mai mult. Așa a ajuns să fie trainer în regim voluntar și apoi comercial pentru sute de elevi, profesori și instructori, dar și Organizator, Director de Training pentru evenimente educaționale. În timpul liber, face teatru de improvizație și improvizație muzicală.",
+			"image": "/images/alina-bucsa.webp",
+			"facebook": "https://www.facebook.com/alinutaa",
+			"linkedin": "http://linkedin.com/in/alina-bucsa"
+		},
+		{
+			"name": "Alexandru Romînu",
+			"role": "IT OFFICER",
+			"description": "Preferă să i se spună „Dexter”. S-a apucat de debate în clasa a IX-a, în anul 2015 și face parte din echipa de voluntari AM din anul 2016. Este pasionat de informatică (software development, IoT și securitate cibernetică). Îi plac și filmele și încearcă să fie la curent și cu această industrie.",
+			"image": "/images/dex.webp",
+			"facebook": "https://www.facebook.com/alexandru.rominu"
+		},
+		{
+			"name": "Ioana Teodorescu",
+			"role": "OFITER DE PROIECT",
+			"description": "Ioana practică dezbateri din 2017. În ciuda faptului ca nu a participat la numeroase competiții, comunitatea a ajutat-o sa se dezvolte la nivel profesional. Deoarece dezbaterile i-au placut atat de mult a decis ca in martie, anul trecut, sa se alature echipe de voluntari AM urmandu-si si o alta pasiune, cea a graphic designului",
+			"image": "/images/ioana-teodorescu.webp",
+			"facebook": "https://www.facebook.com/ioana.teodorescu.52",
+			"instagram": "https://www.instagram.com/not.the.new.sh1t/?hl=en"
+		},
+		{
+			"name": "Bianca Murzea",
+			"role": "OFITER DE PROIECT",
+			"description": "Bianca și-a început călătoria în ARDOR Muntenia în clasa a X-a. După terminarea liceului,  a decis să ajute la rândul ei comunitatea de dezbateri. A devenit tainer pentru clubul unde se antrenase timp de trei  ani și, mai apoi, a început să dedice timp proiectelor ARDOR.  Crede că  dezbaterile au ajutat-o să își gestioneze mai bine emoțiile și timiditatea, să structureze orice tip de informație în mod logic și coerent, dar și să îi înțeleagă mai bine pe cei din jur. În calitate de studentă la Sociologie, a realizat că toate cunoștințele și încrederea în sine dezvoltate la clubul de debate te ajută în mediul academic și profesional.",
+			"image": "/images/bianca-murzea.webp",
+			"facebook": "https://www.facebook.com/bianka.nicoleta.9",
+			"instagram": "https://www.instagram.com/bianca.murzea/"
+		},
+		{
+			"name": "Ciprian Alexe",
+			"role": "OFITER DE PROIECT",
+			"description": "Ciprian a intrat in miscarea de dezbateri acum aproape 6 ani. Printre altele, s-a ocupat de organizarea si tabularea a mai multor editii de MMO.  Dupa ce in vara s-a axat pe activitati voluntare, cu precadere fotografie, si-a petrecut majoritatea timpului arbitrand toate competitiile nationale pe care le-a prins. Ciprian marturiseste ca i-ar face placere ca in viitor sa devina un tabmaster ravnit la competitii si poate sa acumuleze titluri si in circuitul de BP.",
+			"image": "/images/ciprian-alexe.webp",
+			"facebook": "https://www.facebook.com/alexe.ciprian.1",
+			"instagram": "https://www.instagram.com/indian.tech.support/"
+		},
+		{
+			"name": "Cosmina Jilăveanu",
+			"role": "OFITER DE PROIECT",
+			"description": "Cosmina practică debate din anul 2016, din clasa a IX-a. Cosmina este voluntar în echipa executivă ARDOR Muntenia din anul 2018 și se implică în organizarea competițiilor pentru elevi, în formatul World Schools. Spune că și-a dorit să ia parte la dezvoltarea comunității de dezbateri deoarece îi face plăcere să se afle în acest mediu și a avut multe de învățat ca debater.",
+			"image": "/images/cosmina-jilaveanu.webp",
+			"facebook": "https://www.facebook.com/cosmina.styles"
+		},
+		{
+			"name": "Sebastian Balanică",
+			"role": "OFITER DE PROIECT",
+			"description": "Sebastian a început debate-ul în clasa a IX-a și de atunci s-a ataşat foarte mult de ceea ce el consideră a fi ,,cel mai plăcut sport”. A acumulat experiență atât ca participant, voluntar sau arbitru. De asemenea, de doi ani este parte a echipei ARDOR, ajutând la dezvoltarea comunității, din poziția de projects officer.",
+			"image": "/images/sebastian-balanica.webp",
+			"facebook": "https://www.facebook.com/sebastian.balanica"
+		},
+		{
+			"name": "Lorena Mihai",
+			"role": "OFITER DE PROIECT",
+			"description": "Lorena a avut primul ei contact cu lumea debaterilor în clasa a IX-a, ajungând să fie membră a clubului Moisil Debate Club București. Aceasta a rămas uimită de strucutura organizatorică încât a ajuns 4 ani mai târziu voluntar la unele dintre cele mai importante competiții de debate, mai apoi, să se alăture echipei ARDOR MUNTENIA ca ofiter de proiect, ocupându-se de social media.",
+			"image": "/images/lorena-mihai.webp",
+			"facebook": "https://www.facebook.com/lorena.maria329",
+			"instagram": "https://www.instagram.com/lorymarymari/"
+		},
+		{
+			"name": "Radu Coman",
+			"role": "OFITER DE PROIECT",
+			"description": "Radu s-a alăturat echipei ARDOR Muntenia la începutul acestui an din simplu fapt că    i-a plăcut ideea de a fi un voluntar. Acesta afirmă că secretul unui voluntar bun este să fie susținut de o echipă minunată, și asta a găsit la echipa ARDOR Muntenia. În plus, Radu a fost fascinat de ce este în spatele cortinei, încât își dorește la rândul său să organizeze competiții și nu numai.",
+			"image": "/images/radu-coman.webp",
+			"facebook": "https://www.facebook.com/coman.radu.37?ref=br_rs",
+			"instagram": "https://www.instagram.com/comanradu2609/"
+		}
+	]
+}
