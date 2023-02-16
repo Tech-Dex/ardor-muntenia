@@ -1,10 +1,11 @@
 <script>
-	export let beneficiiColumns;
 	import Icon from "@iconify/svelte";
 	import messageProcessing from "@iconify/icons-mdi/message-processing";
 	import cardsHeart from "@iconify/icons-mdi/cards-heart";
 	import camera from "@iconify/icons-mdi/camera";
 	import headphones from "@iconify/icons-mdi/headphones";
+
+	export let beneficiiColumns, video;
 
 	let icons = {
 		messageProcessing: messageProcessing,
@@ -29,7 +30,7 @@
 	</div>
 	<div class="video-background">
 		<embed
-			src="https://www.youtube.com/embed/3z37Iy3JvB0?autohide=1&autoplay=1&mute=1"
+			src="{video}?autohide=1&autoplay=1&mute=1"
 			wmode="transparent"
 			type="video/mp4"
 			width="100%"

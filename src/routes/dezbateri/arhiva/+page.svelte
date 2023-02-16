@@ -2,10 +2,14 @@
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
 	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
 	import BoxTextRightImageLeft from "$lib/components/content/BoxTextRightImageLeft.svelte";
+	import RetroContainer from "$lib/components/content/RetroContainer.svelte";
 
 	export let data;
 
-	let proiecteContent = data.data;
+	let proiecteContent = data.data.content;
+	let retroBgImage = data.data.retroContent.backgroundImage;
+	let retroHeading = data.data.retroContent.heading;
+	let columns = data.data.retroContent.columns;
 </script>
 
 <Fullpage>
@@ -38,4 +42,7 @@
 			{/if}
 		</FullpageSection>
 	{/each}
+	<FullpageSection title="Arhiva Retro">
+		<RetroContainer backgroundImage={retroBgImage} {columns} heading={retroHeading} />
+	</FullpageSection>
 </Fullpage>

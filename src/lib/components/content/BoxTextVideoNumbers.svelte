@@ -1,11 +1,11 @@
 <script>
-	export let heading, columns;
-
 	import Icon from "@iconify/svelte";
 	import handshake from "@iconify/icons-mdi/handshake-outline";
 	import newspaper from "@iconify/icons-mdi/newspaper-variant-multiple";
 	import account from "@iconify/icons-mdi/account";
 	import trophy from "@iconify/icons-mdi/trophy-variant";
+
+	export let heading, columns, video;
 
 	let icons = {
 		newspaper: newspaper,
@@ -21,13 +21,13 @@
 	</h5>
 	<div class="video-background">
 		<embed
-			src="https://www.youtube.com/embed/3z37Iy3JvB0"
+			src={video}
 			wmode="transparent"
 			type="video/mp4"
 			width="100%"
 			height="100%"
 			allowfullscreen
-			title="Tabăra de leadership pentru profesori și instructori de dezbateri (ediția 2018)"
+			title={heading}
 		/>
 	</div>
 	<div class="columns">

@@ -35,5 +35,29 @@
 				"link": "https://www.britishcouncil.ro/engleza/adulti/club-dezbateri"
 			}
 		}
-	]
+	],
+	"retroContent": {
+		"heading": "I love argument, I love debate. I don't expect anyone just to sit there and agree with me, that's not their job.",
+		"backgroundImage": "/images/retrospectiva-ardor-muntenia.webp",
+		"columns": [
+			{
+				"icon": "calendar",
+				"heading": "Calendar",
+				"description": "Data și locul desfășurării tuturor competițiilor, sesiunilor de training, taberelor și evenimentelor care urmează să fie organizate de ARDOR Muntenia sunt actualizate periodic pe site.",
+				"link": "/dezbateri/calendar"
+			},
+			{
+				"icon": "card",
+				"heading": "Competitii",
+				"description": "Îți punem la dispoziție resursele necesare pentru a învăța să gândești critic, să susții discursuri publice și să îți argumnetezi opiniile în limba engleză",
+				"link": "/dezbateri/competitii"
+			},
+			{
+				"icon": "notebook",
+				"heading": "Tabere",
+				"description": "Ai ocazia să participi la tabere de dezbatere și de leadership atât ca elev, cât și ca profesor. Cunoaște comunitatea de debateri și dezvoltă-ți abilitățile într-un mediu informal.",
+				"link": "/dezbateri/oportunitati"
+			}
+		]
+	}
 }

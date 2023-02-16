@@ -10,6 +10,7 @@
 	// let beneficiiContentLength = beneficiiContent.length;
 	let beneficiiTestimonial = data.data.testimonial;
 	let beneficiiColumns = data.data.columns;
+	let video = data.data.video;
 </script>
 
 <Fullpage>
@@ -23,7 +24,7 @@
 		/>
 	</FullpageSection>
 	<FullpageSection title="Lista beneficii debate">
-		<BoxColumnsVideo {beneficiiColumns} />
+		<BoxColumnsVideo {beneficiiColumns} {video} />
 	</FullpageSection>
 	<FullpageSection title="{beneficiiTestimonial.author} - Testimonial">
 		<TestimonialSection

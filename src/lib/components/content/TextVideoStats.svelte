@@ -1,5 +1,5 @@
 <script>
-	export let title, numbers;
+	export let title, numbers, video;
 
 	import Icon from "@iconify/svelte";
 	import handshake from "@iconify/icons-mdi/handshake-outline";
@@ -21,13 +21,13 @@
 	</h5>
 	<div class="video-background">
 		<embed
-			src="https://www.youtube.com/embed/3z37Iy3JvB0"
+			src={video}
 			wmode="transparent"
 			type="video/mp4"
 			width="100%"
 			height="100%"
 			allowfullscreen
-			title="Tabăra de leadership pentru profesori și instructori de dezbateri (ediția 2018)"
+			{title}
 		/>
 	</div>
 	<div class="columns">

@@ -6,7 +6,7 @@
 	import TimeGridList from "@event-calendar/list";
 	let plugins = [TimeGrid, TimeGridDay, TimeGridList];
 	let options = {
-		view: "timeGridWeek",
+		view: "dayGridMonth",
 		height: "100%",
 		headerToolbar: {
 			start: "prev,next today",

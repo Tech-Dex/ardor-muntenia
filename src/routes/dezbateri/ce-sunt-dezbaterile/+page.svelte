@@ -1,7 +1,7 @@
 <script>
 	import { Fullpage, FullpageSection } from "svelte-fullpage";
 	import Heading from "$lib/components/heading/Heading.svelte";
-	import BoxTextVideoNumbers from "$lib/components/content/TextVideoStats.svelte";
+	import TextVideoStats from "$lib/components/content/TextVideoStats.svelte";
 	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
 	import BoxTextRightImageLeft from "$lib/components/content/BoxTextRightImageLeft.svelte";
 	import TestimonialRightImageSection from "$lib/components/content/TestimonialRightImageSection.svelte";
@@ -52,7 +52,7 @@
 		</FullpageSection>
 	{/each}
 	<FullpageSection title="Statistci ARDOR Muntenia">
-		<BoxTextVideoNumbers title={stats.title} numbers={stats.numbers} />
+		<TextVideoStats title={stats.title} numbers={stats.numbers} video={stats.video} />
 	</FullpageSection>
 	<FullpageSection title="{ceSuntDezbaterileTestimonial.author} - Testimonial">
 		<TestimonialRightImageSection

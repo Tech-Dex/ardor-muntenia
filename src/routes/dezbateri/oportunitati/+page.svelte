@@ -3,11 +3,16 @@
 	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
 	import BoxTextRightImageLeft from "$lib/components/content/BoxTextRightImageLeft.svelte";
 	import QuadrateText from "$lib/components/content/QuadrateText.svelte";
+	import RetroContainer from "$lib/components/content/RetroContainer.svelte";
 
 	export let data;
 
 	let oportunitatiContent = data.data.content;
 	let oportunitatiQuadrate = data.data.quadrate;
+
+	let retroBgImage = data.data.retroContent.backgroundImage;
+	let retroHeading = data.data.retroContent.heading;
+	let columns = data.data.retroContent.columns;
 </script>
 
 <Fullpage>
@@ -64,5 +69,8 @@
 			bottomRightCallToActionText={oportunitatiQuadrate.bottomRightCallToAction.text}
 			bottomRightCallToActionUrl={oportunitatiQuadrate.bottomRightCallToAction.link}
 		/>
+	</FullpageSection>
+	<FullpageSection title="Oportunitati Retro">
+		<RetroContainer backgroundImage={retroBgImage} {columns} heading={retroHeading} />
 	</FullpageSection>
 </Fullpage>
