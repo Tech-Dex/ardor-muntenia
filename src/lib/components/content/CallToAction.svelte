@@ -12,7 +12,7 @@
 	};
 </script>
 
-<div class="container">
+<div class="container" style="--primaryColor: {primaryColor};">
 	<div class="content">
 		<h1>{heading}</h1>
 		<h4>{subHeading}</h4>
@@ -64,7 +64,7 @@
 		height: 3rem;
 		padding: 0.2rem 0.6rem;
 		margin: 0 2rem;
-		background-color: var(--color-primary);
+		background-color: var(--primaryColor);
 		align-items: center;
 		border-radius: 5px;
 		color: #fff;
@@ -85,7 +85,7 @@
 	.icons-container {
 		width: 100%;
 		height: 50%;
-		background-color: var(--color-primary);
+		background-color: var(--primaryColor);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
