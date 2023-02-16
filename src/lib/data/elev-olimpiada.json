@@ -1,0 +1,47 @@
+{
+	"heading": {
+		"image": "/images/elev-olimpiada-heading.webp",
+		"title": "OLIMPIADA NAȚIONALĂ TINERII DEZBAT",
+		"description": ""
+	},
+	"content": [
+		{
+			"icon": "headQuestionOutline",
+			"image": {
+				"src": "/images/elev-olimpiada-ce-inseamna.webp",
+				"alt": "Ce inseamnă?"
+			},
+			"title": "Ce inseamnă?",
+			"description": "Tinerii dezbat este olimpiada naționala de dezbateri, organizată de Ministerul Educației Naționale, unde se promovează valorile culturale și etice fundamentale și contribuie la dezvoltare si exersarea gândirii critice, oratoriei, dar și cultivarea dialogului și comunicarii raționale, precum și implicarea civica. Competiția are loc în formatul World Schools, unde, două echipe a câte 3 membri argumentează două paradigme diferite (pro si contra) ale aceleiasi tematici (moțiuni).",
+			"boxColor": "",
+			"callToAction": {
+				"link": "https://www.edu.ro/sites/default/files/fisiere%20articole/Regulament%20specific_ONADGC%20%E2%80%9ETinerii%20dezbat%E2%80%9D_2019.pdf",
+				"text": "Regulament"
+			}
+		}
+	],
+	"retroContent": {
+		"heading": "In all debates, use soft words and hard arguments",
+		"backgroundImage": "/images/retrospectiva-ardor-muntenia.webp",
+		"columns": [
+			{
+				"icon": "calendar",
+				"heading": "Calendar",
+				"description": "Data și locul desfășurării tuturor competițiilor, sesiunilor de training, taberelor și evenimentelor care urmează să fie organizate de ARDOR Muntenia sunt actualizate periodic pe site.",
+				"link": "/dezbateri/calendar"
+			},
+			{
+				"icon": "card",
+				"heading": "Cursuri",
+				"description": "Îți punem la dispoziție resursele necesare pentru a învăța să gândești critic, să susții discursuri publice și să îți argumnetezi opiniile în limba engleză",
+				"link": "/dezbateri/cursuri"
+			},
+			{
+				"icon": "notebook",
+				"heading": "Tabere",
+				"description": "Ai ocazia să participi la tabere de dezbatere și de leadership atât ca elev, cât și ca profesor. Cunoaște comunitatea de debateri și dezvoltă-ți abilitățile într-un mediu informal.",
+				"link": "/dezbateri/oportunitati"
+			}
+		]
+	}
+}
