@@ -11,13 +11,19 @@
 		{/if}
 	</div>
 
-	<div>
+	<div class="video">
 		{#if video}
 			<!-- svelte-ignore a11y-media-has-caption -->
-			<video preload controls>
-				<source src={video} type="video/mp4" />
-				Your browser does not support the video tag.
-			</video>
+			<embed
+				src={video}
+				wmode="transparent"
+				type="video/mp4"
+				width="100%"
+				height="100%"
+				allow="autoplay; encrypted-media; picture-in-picture"
+				allowfullscreen
+				{title}
+			/>
 		{/if}
 	</div>
 </div>
@@ -53,8 +59,9 @@
 		align-self: center;
 	}
 
-	.container div video {
+	.video {
 		width: 100%;
+		height: 100%;
 	}
 
 	h1 {

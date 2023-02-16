@@ -1,0 +1,49 @@
+<script>
+	import { Fullpage, FullpageSection } from "svelte-fullpage";
+	import HeadingTextLeft from "$lib/components/heading/HeadingTextLeft.svelte";
+	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
+	import BoxTextRightImageLeft from "$lib/components/content/BoxTextRightImageLeft.svelte";
+
+	export let data;
+
+	let elevClubulHeading = data.data.heading;
+	let elevClubulContent = data.data.content;
+</script>
+
+<Fullpage>
+	<FullpageSection title="Clubul">
+		<HeadingTextLeft
+			image={elevClubulHeading.image}
+			title={elevClubulHeading.title}
+			description={elevClubulHeading.description}
+			callToActionText={elevClubulHeading.callToAction.text}
+			callToActionLink={elevClubulHeading.callToAction.link}
+			video={elevClubulHeading.video}
+		/>
+	</FullpageSection>
+	{#each elevClubulContent as content, i}
+		{#if !(Object.keys(content).length === 0)}
+			<FullpageSection title={content.title}>
+				{#if i % 2 === 0}
+					<BoxTextLeftImageRight
+						icon={content.icon}
+						title={content.title}
+						description={content.description}
+						image={content.image.src}
+						imageAlt={content.image.alt}
+						boxColor={content.boxColor}
+					/>
+				{:else}
+					<BoxTextRightImageLeft
+						icon={content.icon}
+						title={content.title}
+						description={content.description}
+						image={content.image.src}
+						imageAlt={content.image.alt}
+						boxColor={content.boxColor}
+					/>
+				{/if}
+			</FullpageSection>
+		{/if}
+	{/each}
+</Fullpage>

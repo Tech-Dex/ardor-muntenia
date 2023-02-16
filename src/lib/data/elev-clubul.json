@@ -1,0 +1,34 @@
+{
+	"heading": {
+		"image": "/images/elev-clubul-heading.webp",
+		"title": "Clubul de dezbateri",
+		"description": "La club, elevii învață cum să argumenteze, să gândească critic și să țină discursuri. Suplimentar, descoperă munca în echipă și adrenalina competițiilor ARDOR. Elevii care devin debateri au în general rezultate școlare mai bune și înregistrează performanțe în mai multe domenii.",
+		"callToAction": {
+			"text": "DESCOPERĂ CLUBURI ÎN ZONA TA",
+			"link": "/contact"
+		},
+		"video": "https://www.youtube.com/embed/Oog9rGD_CMk?autohide=1&autoplay=1&mute=1"
+	},
+	"content": [
+		{
+			"icon": "headQuestionOutline",
+			"image": {
+				"src": "/images/elev-clubul-ce-inseamna.webp",
+				"alt": "Ce inseamnă?"
+			},
+			"title": "Ce inseamnă?",
+			"description": "Clubul de dezbateri ia ființă în urma unui acord instituțional între ARDOR Muntenia și instituția de învățământ. Clubul este „al școlii” și este coordonat de către un cadru didactic care activează în școala respectivă. În cadrul clubului, elevii școlii învață dezbateri de la A la Z și se pregătesc pentru evenimentele competiționale oferite în circuitul național ARDOR. Dacă nu ai club în școala ta, convinge un cadru didactic să-l coordoneze și să ne scrie la office@ardor-muntenia.ro.",
+			"boxColor": ""
+		},
+		{
+			"icon": "headQuestionOutline",
+			"image": {
+				"src": "/images/elev-clubul-resurse.webp",
+				"alt": "Resurse"
+			},
+			"title": "Resurse",
+			"description": "Deschiderea unui club de dezbateri într-o școală publică de stat nu implică niciun cost din partea instituției partenere, a cadrului didactic care urmează să coordoneze clubul sau a elevilor care or beneficia de aceasta. ARDOR Muntenia va oferi toate informațiile necesare funcționării eficiente a clubului și va pune la dispoziție diverse training-uri, atât pentru profesoii implicați, cît și pentru elevi.",
+			"boxColor": ""
+		}
+	]
+}
