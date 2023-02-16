@@ -5,7 +5,7 @@
 		"description": "La club, elevii învață cum să argumenteze, să gândească critic și să țină discursuri. Suplimentar, descoperă munca în echipă și adrenalina competițiilor ARDOR. Elevii care devin debateri au în general rezultate școlare mai bune și înregistrează performanțe în mai multe domenii.",
 		"callToAction": {
 			"text": "DESCOPERĂ CLUBURI ÎN ZONA TA",
-			"link": "/contact"
+			"link": "/cum-fac-dezbateri/harta-cluburi"
 		},
 		"video": "https://www.youtube.com/embed/Oog9rGD_CMk?autohide=1&autoplay=1&mute=1"
 	},
@@ -30,5 +30,29 @@
 			"description": "Deschiderea unui club de dezbateri într-o școală publică de stat nu implică niciun cost din partea instituției partenere, a cadrului didactic care urmează să coordoneze clubul sau a elevilor care or beneficia de aceasta. ARDOR Muntenia va oferi toate informațiile necesare funcționării eficiente a clubului și va pune la dispoziție diverse training-uri, atât pentru profesoii implicați, cît și pentru elevi.",
 			"boxColor": ""
 		}
-	]
+	],
+	"retroContent": {
+		"heading": "In all debates, use soft words and hard arguments",
+		"backgroundImage": "/images/retrospectiva-ardor-muntenia.webp",
+		"columns": [
+			{
+				"icon": "calendar",
+				"heading": "Calendar",
+				"description": "Data și locul desfășurării tuturor competițiilor, sesiunilor de training, taberelor și evenimentelor care urmează să fie organizate de ARDOR Muntenia sunt actualizate periodic pe site.",
+				"link": "/dezbateri/calendar"
+			},
+			{
+				"icon": "card",
+				"heading": "Cursuri",
+				"description": "Îți punem la dispoziție resursele necesare pentru a învăța să gândești critic, să susții discursuri publice și să îți argumnetezi opiniile în limba engleză",
+				"link": "/dezbateri/cursuri"
+			},
+			{
+				"icon": "notebook",
+				"heading": "Tabere",
+				"description": "Ai ocazia să participi la tabere de dezbatere și de leadership atât ca elev, cât și ca profesor. Cunoaște comunitatea de debateri și dezvoltă-ți abilitățile într-un mediu informal.",
+				"link": "/dezbateri/oportunitati"
+			}
+		]
+	}
 }

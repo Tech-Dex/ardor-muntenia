@@ -128,6 +128,7 @@
 						"/cum-fac-dezbateri/clubul",
 						"/cum-fac-dezbateri/optional-dor",
 						"/cum-fac-dezbateri/profesionisti",
+						"/cum-fac-dezbateri/harta-cluburi",
 					].includes(path)}
 					>Cum fac Dezbateri?
 					<Icon icon={chevronDown} width="auto" />
@@ -136,6 +137,10 @@
 					<a
 						class:active-child={path === "/cum-fac-dezbateri/clubul"}
 						href="/cum-fac-dezbateri/clubul">Clubul</a
+					>
+					<a
+						class:active-child={path === "/cum-fac-dezbateri/harta-cluburi"}
+						href="/cum-fac-dezbateri/harta-cluburi">Harta Cluburi</a
 					>
 					<a
 						class:active-child={path === "/cum-fac-dezbateri/optional-dor"}
@@ -264,6 +269,9 @@
 					</h4>
 					<h4 class:active={path === "/cum-fac-dezbateri/clubul"}>
 						<a href="/cum-fac-dezbateri/clubul">Clubul</a>
+					</h4>
+					<h4 class:active={path === "/cum-fac-dezbateri/harta-cluburi"}>
+						<a href="/cum-fac-dezbateri/harta-cluburi">harta-cluburi</a>
 					</h4>
 					<h4 class:active={path === "/cum-fac-dezbateri/optional-dor"}>
 						<a href="/cum-fac-dezbateri/optional-dor">Optionalul Dor</a>

@@ -3,11 +3,15 @@
 	import HeadingTextLeft from "$lib/components/heading/HeadingTextLeft.svelte";
 	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
 	import BoxTextRightImageLeft from "$lib/components/content/BoxTextRightImageLeft.svelte";
+	import RetroContainer from "$lib/components/content/RetroContainer.svelte";
 
 	export let data;
 
 	let elevClubulHeading = data.data.heading;
 	let elevClubulContent = data.data.content;
+	let retroBgImage = data.data.retroContent.backgroundImage;
+	let retroHeading = data.data.retroContent.heading;
+	let columns = data.data.retroContent.columns;
 </script>
 
 <Fullpage>
@@ -46,4 +50,7 @@
 			</FullpageSection>
 		{/if}
 	{/each}
+	<FullpageSection title="Elev Clubul Retro">
+		<RetroContainer backgroundImage={retroBgImage} {columns} heading={retroHeading} />
+	</FullpageSection>
 </Fullpage>
