@@ -1,32 +1,58 @@
-[
-	{
-		"title": "SHUKAR Club",
-		"description": "SHUKAR Club – Argumente împotriva discriminării a fost un program de dezvoltare pentru tineri romi inițiat de ARDOR Muntenia alături de Agenția „Împreună” și finanțat prin granturile SEE 2009 – 2014, în cadrul Fondului ONG în România.\n\nScopul proiectului a fost de a ajuta tineri ce doresc să fie actori vocali împotriva discriminării să devină portavoci ale nevoilor comunității și modele pentru alți tineri romi, într-un mediu ce le dezvoltă gândirea critică și discursul argumentat, folosind cele mai eficiente metode de învățare.",
-		"image": {
-			"link": "/images/arhiva-shukar.webp",
-			"alt": "SHUKAR Club"
+{
+	"content": [
+		{
+			"title": "SHUKAR Club",
+			"description": "SHUKAR Club – Argumente împotriva discriminării a fost un program de dezvoltare pentru tineri romi inițiat de ARDOR Muntenia alături de Agenția „Împreună” și finanțat prin granturile SEE 2009 – 2014, în cadrul Fondului ONG în România.\n\nScopul proiectului a fost de a ajuta tineri ce doresc să fie actori vocali împotriva discriminării să devină portavoci ale nevoilor comunității și modele pentru alți tineri romi, într-un mediu ce le dezvoltă gândirea critică și discursul argumentat, folosind cele mai eficiente metode de învățare.",
+			"image": {
+				"link": "/images/arhiva-shukar.webp",
+				"alt": "SHUKAR Club"
+			},
+			"backgroundColor": "#ffffff",
+			"textColor": "#ffffff",
+			"boxColor": "#1fa2a3",
+			"callToAction": {
+				"text": "Shukar Club",
+				"link": "https://www.facebook.com/ShukarClub/"
+			}
 		},
-		"backgroundColor": "#ffffff",
-		"textColor": "#ffffff",
-		"boxColor": "#1fa2a3",
-		"callToAction": {
-			"text": "Shukar Club",
-			"link": "https://www.facebook.com/ShukarClub/"
+		{
+			"title": "Elite Summer School",
+			"description": "Elite Summer School a reprezentat un proiect organizat de ARDOR Muntenia, în parteneriat cu British Council și Human Invest, una dintre cele mai mari firme de training din țară.\n\nElite Summer School presupunea 5 zile de cursuri intensive pentru elevii de liceu, susținute de debateri participanți la numeroase concursuri internaționale, manageri și angajați din companii precum Romtelecom, Metro Group, Bancpost, Kaufland și Siveco.",
+			"image": {
+				"link": "/images/arhiva-elite-summer-school.webp",
+				"alt": "Cantemir Debate Extravaganza"
+			},
+			"backgroundColor": "#f7a41e",
+			"textColor": "#ffffff",
+			"boxColor": "#1c1d24",
+			"callToAction": {
+				"text": "Elite summer school",
+				"link": "https://www.ispeak.ro"
+			}
 		}
-	},
-	{
-		"title": "Elite Summer School",
-		"description": "Elite Summer School a reprezentat un proiect organizat de ARDOR Muntenia, în parteneriat cu British Council și Human Invest, una dintre cele mai mari firme de training din țară.\n\nElite Summer School presupunea 5 zile de cursuri intensive pentru elevii de liceu, susținute de debateri participanți la numeroase concursuri internaționale, manageri și angajați din companii precum Romtelecom, Metro Group, Bancpost, Kaufland și Siveco.",
-		"image": {
-			"link": "/images/arhiva-elite-summer-school.webp",
-			"alt": "Cantemir Debate Extravaganza"
-		},
-		"backgroundColor": "#f7a41e",
-		"textColor": "#ffffff",
-		"boxColor": "#1c1d24",
-		"callToAction": {
-			"text": "Elite summer school",
-			"link": "https://www.ispeak.ro"
-		}
+	],
+	"retroContent": {
+		"heading": "In all debates, use soft words and hard arguments",
+		"backgroundImage": "/images/retrospectiva-ardor-muntenia.webp",
+		"columns": [
+			{
+				"icon": "calendar",
+				"heading": "Calendar",
+				"description": "Data și locul desfășurării tuturor competițiilor, sesiunilor de training, taberelor și evenimentelor care urmează să fie organizate de ARDOR Muntenia sunt actualizate periodic pe site.",
+				"link": "/dezbateri/calendar"
+			},
+			{
+				"icon": "card",
+				"heading": "Cursuri",
+				"description": "Îți punem la dispoziție resursele necesare pentru a învăța să gândești critic, să susții discursuri publice și să îți argumnetezi opiniile în limba engleză",
+				"link": "/dezbateri/cursuri"
+			},
+			{
+				"icon": "notebook",
+				"heading": "Tabere",
+				"description": "Ai ocazia să participi la tabere de dezbatere și de leadership atât ca elev, cât și ca profesor. Cunoaște comunitatea de debateri și dezvoltă-ți abilitățile într-un mediu informal.",
+				"link": "/dezbateri/oportunitati"
+			}
+		]
 	}
-]
+}
