@@ -114,8 +114,8 @@
 		}
 		.container div:last-child {
 			align-self: center;
-			margin-top: 0;
-			height: 70%;
+			margin-top: -2%;
+			height: 65%;
 			padding: 0;
 		}
 		h1 {
