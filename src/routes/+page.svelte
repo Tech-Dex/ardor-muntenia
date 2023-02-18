@@ -18,9 +18,9 @@
 
 <div class="gallery">
 	<Fullpage>
-		<FullpageSection>
-			<div class="welcome-landing" />
-		</FullpageSection>
+		<!--		<FullpageSection>-->
+		<!--			<div class="welcome-landing" />-->
+		<!--		</FullpageSection>-->
 		<FullpageSection>
 			{#each galleryCards as card, i}
 				{#if i !== 0}
