@@ -1,0 +1,43 @@
+{
+	"heading": {
+		"image": "/images/predai-tabara-heading.webp",
+		"title": "Dezbatere, Oratorie și Retorica",
+		"description": "Considerăm că este important să oferim instructorilor de debate toate resursele necesare prin care aceștia să poate să livreze mai departe artă dezbaterilor elevilor. De aceea, Tabăra de Leadership se bazează pe noi metode de educație non-formală aplicate prin practică intensă."
+	},
+	"content": [
+		{
+			"icon": "headQuestionOutline",
+			"image": {
+				"src": "/images/predai-tabara-unde-si-cum.webp",
+				"alt": "Ce inseamnă?"
+			},
+			"title": "Unde și cum?",
+			"description": "Este un eveniment ARDOR, organizat în fiecare an în București pentru profesorii din întreaga țară. Acest eveniment are rolul de învățare a metodelor de educație deliberativă și exersare a modului prin care pot să-l aplice în școlile și liceele în care își desfășoara activitatea.",
+			"boxColor": ""
+		}
+	],
+	"retroContent": {
+		"heading": "In all debates, use soft words and hard arguments",
+		"backgroundImage": "/images/retrospectiva-ardor-muntenia.webp",
+		"columns": [
+			{
+				"icon": "card",
+				"heading": "Club",
+				"description": "Profesorii se ocupă cu deschiderea cluburilor în școlile în care predau, cu ajutorul ARDOR Muntenia, care se ocupă de toate formele birocratice.",
+				"link": "/predai/clubul"
+			},
+			{
+				"icon": "card",
+				"heading": "Olimpiada",
+				"description": "În cadrul olimpiadei naționale de dezbateri, profesorii au un rol fundamental în educarea elevilor prin calitatea de arbitru.",
+				"link": "/predai/olimpiada"
+			},
+			{
+				"icon": "notebook",
+				"heading": "Cursuri Acreditate",
+				"description": "ARDOR, asociația noastră umbrelă, a dezvoltat un curs acreditat de formare profesională adrsat cadrelor didactice.",
+				"link": "/predai/cursuri-acreditate"
+			}
+		]
+	}
+}

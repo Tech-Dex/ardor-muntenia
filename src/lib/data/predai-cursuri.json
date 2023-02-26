@@ -1,0 +1,44 @@
+{
+	"heading": {
+		"image": "/images/predai-cursuri-heading.webp",
+		"title": "Curs acreditat (SIPDODOR)",
+		"description": "Unul dintre proiectele prin intermediul cărora punem la îndemâna dumneavoastră metode și instrumente de pedagogie deliberativă este cursul de formare profesională „Strategii Inovative de Predare a Disciplinei Opționale «Dezbateri, Oratorie și Retorică»” (SIPDODOR), acreditat de Ministerul Educației încă din 2016."
+	},
+	"content": [
+		{},
+		{
+			"icon": "headQuestionOutline",
+			"image": {
+				"src": "/images/predai-cursuri-ce-inseamna.webp",
+				"alt": "Ce inseamnă?"
+			},
+			"title": "Ce inseamnă?",
+			"description": "SIPDODOR este adresat cadrelor didactice de orice nivel, inclusiv acelora care nu au experiență în dezbateri. Cursul este unul în care participanții vor reuși să se 'echipeze' cu noțiunile de bază despre dezbaterile academice, apoi despre cum să folosească dezbaterile la clasă și, bineînțeles, pentru cei care predau cursul opțional la liceu, despre cum să predea „Dezbatere, oratorie și retorică\".",
+			"boxColor": ""
+		}
+	],
+	"retroContent": {
+		"heading": "In all debates, use soft words and hard arguments",
+		"backgroundImage": "/images/retrospectiva-ardor-muntenia.webp",
+		"columns": [
+			{
+				"icon": "card",
+				"heading": "Club",
+				"description": "Profesorii se ocupă cu deschiderea cluburilor în școlile în care predau, cu ajutorul ARDOR Muntenia, care se ocupă de toate formele birocratice.",
+				"link": "/predai/clubul"
+			},
+			{
+				"icon": "card",
+				"heading": "Optional",
+				"description": "Răspunde la nevoia a programei școlare de a fi reîmprospătată. Astfel, profesorii au un rol cheie în a învăța să predea această materie.",
+				"link": "/predai/optional"
+			},
+			{
+				"icon": "notebook",
+				"heading": "Olimpiada",
+				"description": "În cadrul olimpiadei naționale de dezbateri, profesorii au un rol fundamental în educarea elevilor prin calitatea de arbitru.",
+				"link": "/predai/olimpiada"
+			}
+		]
+	}
+}

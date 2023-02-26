@@ -1,0 +1,43 @@
+{
+	"heading": {
+		"image": "/images/predai-optional-heading.webp",
+		"title": "Dezbatere, Oratorie și Retorica",
+		"description": "Oferim posibilitatea profesorilor să ofere elevilor un alt tip de informații care i-ar putea ajuta de-a lungul timpului în aplicarea informațiilor pe care le primesc în general la ore."
+	},
+	"content": [
+		{
+			"icon": "headQuestionOutline",
+			"image": {
+				"src": "/images/predai-optional-ce-inseamna.webp",
+				"alt": "Ce inseamnă?"
+			},
+			"title": "Ce inseamnă?",
+			"description": "Răspunde la nevoia programei școlare de a fi reîmprospătată. La opționalul de dezbateri, vei învăța ce reprezintă gândirea critică și cum să îți dezvolți abilitățile de oratorie și argumentare. De asemenea, ARDOR Muntenia asigură training-uri de învățare pentru profesorii care vor să aprofundeze arta dezbaterilor.",
+			"boxColor": ""
+		}
+	],
+	"retroContent": {
+		"heading": "In all debates, use soft words and hard arguments",
+		"backgroundImage": "/images/retrospectiva-ardor-muntenia.webp",
+		"columns": [
+			{
+				"icon": "card",
+				"heading": "Club",
+				"description": "Profesorii se ocupă cu deschiderea cluburilor în școlile în care predau, cu ajutorul ARDOR Muntenia, care se ocupă de toate formele birocratice.",
+				"link": "/predai/clubul"
+			},
+			{
+				"icon": "card",
+				"heading": "Olimpiada",
+				"description": "În cadrul olimpiadei naționale de dezbateri, profesorii au un rol fundamental în educarea elevilor prin calitatea de arbitru.",
+				"link": "/predai/olimpiada"
+			},
+			{
+				"icon": "notebook",
+				"heading": "Cursuri Acreditate",
+				"description": "ARDOR, asociația noastră umbrelă, a dezvoltat un curs acreditat de formare profesională adrsat cadrelor didactice.",
+				"link": "/predai/cursuri-acreditate"
+			}
+		]
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"heading": {
+		"image": "/images/predai-clubul-heading.webp",
+		"title": "Clubul",
+		"description": " Considerăm că profesorii au un impact major în dezvoltarea elevilor, dar de asemenea, activitățile extracurriculare ajută elevii să se formeze personal și profesional. De aceea, considerăm că profesorii au un rol extrem de important în a insuflă elevilor gândirea critică și deprinderea unor abilități de vorbit în public, lăsându-le, astfel, oportunitatea elevilor să iasă în evidența."
+	},
+	"content": [
+		{
+			"icon": "headQuestionOutline",
+			"image": {
+				"src": "/images/predai-clubul-ce-inseamna.webp",
+				"alt": "Ce inseamnă?"
+			},
+			"title": "Ce inseamnă?",
+			"description": "La momentul actual, ARDOR Muntenia administrează peste 60 de cluburi. Astfel, profesorii se ocupă cu deschiderea cluburilor în școlile în care predau. Acest aspect este realizat cu ajutorul asociației. ARDOR Muntenia se ocupă de întreaga procedură necesară deschiderii clubului (nivele birocratice).\nPrimul pas pe care trebuie să îl faceți daca vreți să deschideții un club în școala dumneavoastră este să trimiteți o cerere pe mailul asociației: office@ardor-muntenia.ro. Membrul asociației responsabil de acest lucru este Adrian Malaies Popescu.",
+			"boxColor": ""
+		}
+	],
+	"retroContent": {
+		"heading": "In all debates, use soft words and hard arguments",
+		"backgroundImage": "/images/retrospectiva-ardor-muntenia.webp",
+		"columns": [
+			{
+				"icon": "card",
+				"heading": "Optional",
+				"description": "Răspunde la nevoia a programei școlare de a fi reîmprospătată. Astfel, profesorii au un rol cheie în a învăța să predea această materie.",
+				"link": "/predai/optional"
+			},
+			{
+				"icon": "card",
+				"heading": "Olimpiada",
+				"description": "În cadrul olimpiadei naționale de dezbateri, profesorii au un rol fundamental în educarea elevilor prin calitatea de arbitru.",
+				"link": "/predai/olimpiada"
+			},
+			{
+				"icon": "notebook",
+				"heading": "Cursuri Acreditate",
+				"description": "ARDOR, asociația noastră umbrelă, a dezvoltat un curs acreditat de formare profesională adrsat cadrelor didactice.",
+				"link": "/predai/cursuri-acreditate"
+			}
+		]
+	}
+}

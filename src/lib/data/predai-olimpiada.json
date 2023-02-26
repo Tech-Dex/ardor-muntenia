@@ -1,0 +1,44 @@
+{
+	"heading": {
+		"image": "/images/predai-olimpiada-heading.webp",
+		"title": "Tinerii Dezbat",
+		"description": "Tinerii dezbat este olimpiada națională de dezbateri unde elevii învață rolul comunicării raționale, gândirii critice, dar si aprofundarea oratoriei. Competiția are loc în formatul World Schools, unde, două echipe a câte 3 membri argumentează două paradigme diferite (pro si contra) ale aceleiași tematici (moțiuni)."
+	},
+	"content": [
+		{},
+		{
+			"icon": "headQuestionOutline",
+			"image": {
+				"src": "/images/predai-olimpiada-ce-inseamna.webp",
+				"alt": "Ce inseamnă?"
+			},
+			"title": "Ce inseamnă?",
+			"description": "În cadrul olimpiadei naționale de dezbateri, Tinerii dezbat, profesorii au un rol fundamental în formarea și educarea elevilor prin calitatea de arbitru. Astfel, rolul lor este de a îmbunătății calitățile oratorice ale fiecărui vorbitor prin oferirea unei critici constructive care poate duce atât la dezvoltarea elevilor pe parcursul competiției, cât și în afara acesteia.",
+			"boxColor": ""
+		}
+	],
+	"retroContent": {
+		"heading": "In all debates, use soft words and hard arguments",
+		"backgroundImage": "/images/retrospectiva-ardor-muntenia.webp",
+		"columns": [
+			{
+				"icon": "card",
+				"heading": "Club",
+				"description": "Profesorii se ocupă cu deschiderea cluburilor în școlile în care predau, cu ajutorul ARDOR Muntenia, care se ocupă de toate formele birocratice.",
+				"link": "/predai/clubul"
+			},
+			{
+				"icon": "card",
+				"heading": "Optional",
+				"description": "Răspunde la nevoia a programei școlare de a fi reîmprospătată. Astfel, profesorii au un rol cheie în a învăța să predea această materie.",
+				"link": "/predai/optional"
+			},
+			{
+				"icon": "notebook",
+				"heading": "Cursuri Acreditate",
+				"description": "ARDOR, asociația noastră umbrelă, a dezvoltat un curs acreditat de formare profesională adrsat cadrelor didactice.",
+				"link": "/predai/cursuri-acreditate"
+			}
+		]
+	}
+}
