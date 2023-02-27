@@ -338,34 +338,22 @@
 		</div>
 		<div class="footer-details">
 			<div class="footer-links">
-				<div class="footer-links-left">
-					<a href="/">
-						<p>Home</p>
-					</a>
-					<a href="/cine-suntem">
-						<p>Cine suntem?</p>
-					</a>
-					<a href="/dezbateri">
-						<p>Dezbateri</p>
-					</a>
-				</div>
 				<div class="footer-links-center">
-					<a href="google.com">
+					<span>ARDOR MUNTENIA © 2023 - </span> <span> Built by</span>
+					<a
+						href="https://www.linkedin.com/in/cucereanum/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<p>Marius Cucereanu</p>
 					</a>
-					<a href="google.com">
+					&
+					<a
+						href="https://www.facebook.com/alexandru.rominu"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<p>Dex</p>
-					</a>
-				</div>
-				<div class="footer-links-right">
-					<a href="/cum-fac-dezbateri">
-						<p>Cum fac Dezbateri?</p>
-					</a>
-					<a href="/resurse-debate">
-						<p>Resurse Debate</p>
-					</a>
-					<a href="/contact">
-						<p>Contact</p>
 					</a>
 				</div>
 			</div>
@@ -551,27 +539,11 @@
 		padding: 0;
 	}
 
-	footer .footer-details .footer-links-left {
-		grid-area: footer-links-left;
-		display: flex;
-		flex-direction: row;
-		justify-content: flex-end;
-		align-items: center;
-	}
-
 	footer .footer-details .footer-links-center {
 		grid-area: footer-links-center;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		align-items: center;
-	}
-
-	footer .footer-details .footer-links-right {
-		grid-area: footer-links-right;
-		display: flex;
-		flex-direction: row;
-		justify-content: flex-start;
 		align-items: center;
 	}
 
@@ -596,15 +568,20 @@
 		color: var(--color-tertiary);
 		font-size: 1rem;
 		font-weight: 500;
-		margin: 0.5rem 2rem;
+		margin: 0.5rem 0.5rem;
 	}
 
 	footer .footer-details .footer-links-center a:hover {
 		text-decoration: none;
 		color: var(--color-quinary);
+	}
+	footer .footer-details .footer-links-center span:first-child {
+		text-decoration: none;
+		color: var(--color-tertiary);
 		font-size: 1rem;
-		font-weight: 500;
-		margin: 0.5rem 2rem;
+		font-weight: bold;
+		font-style: italic;
+		margin: 0.5rem 0.5rem;
 	}
 
 	.navbar-mobile {
