@@ -18,17 +18,19 @@
 	<h1>"{heading}"</h1>
 	<div class="columns">
 		{#each columns as column}
-			<div class="column">
-				<div class="iconify">
-					<Icon icon={icons[column.icon]} width="100%" />
+			<a href={column.link}>
+				<div class="column">
+					<div class="iconify">
+						<Icon icon={icons[column.icon]} width="100%" />
+					</div>
+					<div class="texts">
+						<a href={column.link}><h3>{column.heading}</h3></a>
+						<p>
+							{column.description}
+						</p>
+					</div>
 				</div>
-				<div class="texts">
-					<a href={column.link}><h3>{column.heading}</h3></a>
-					<p>
-						{column.description}
-					</p>
-				</div>
-			</div>
+			</a>
 		{/each}
 	</div>
 </div>
@@ -54,6 +56,11 @@
 	}
 	.columns {
 		margin-top: 1rem;
+	}
+	.columns a {
+		text-decoration: none;
+		color: #fff;
+		cursor: pointer;
 	}
 	.column .iconify {
 		width: 2.8rem;
@@ -87,11 +94,7 @@
 		font-size: 0.8rem;
 		font-weight: 600;
 	}
-	.texts a {
-		text-decoration: none;
-		color: #fff;
-		cursor: pointer;
-	}
+
 	@media screen and (min-width: 680px) {
 		h1 {
 			font-size: 3rem;
