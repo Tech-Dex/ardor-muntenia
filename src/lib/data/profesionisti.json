@@ -29,5 +29,24 @@
 		"bottomLeftTitle": "DialogON",
 		"bottomLeftDescription": " Evenimentul pune accentul pe dezvoltarea gândirii critice și a unui un dialog argumentat și civilizat pentru a face diferența între o ceartă și o dezbatere, între o negociere încheiată cu succes și o echipă destrămată. 4 soluții de ateliere de argumentare aplicată care sunt croite pentru ca orice echipă să își echipeze membrii cu gândire critică, receptivitate și reactivitate pentru un mediu de lucru neconflictual.",
 		"bottomRightImage": "/images/profesionisti-quadrate-cariera.webp"
+	},
+	"callToAction": {
+		"heading": "Opotunitățile pe care ți le oferim",
+		"subHeading": "Opotunitățile pe care ți le oferim, află mai multe despre acest program.",
+		"primaryColor": "#ea2340",
+		"callToActionLink": "/cum-fac-dezbateri/clubul",
+		"callToActionTitle": "READ MODE",
+		"contentList": [
+			{
+				"heading": "Alert System",
+				"description": "Our intelligent alert system identifies potential threats",
+				"icon": "book"
+			},
+			{
+				"heading": "Materiale",
+				"description": "Guide your decisions with our wealth of research.",
+				"icon": "account"
+			}
+		]
 	}
 }

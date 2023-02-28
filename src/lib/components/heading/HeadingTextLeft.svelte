@@ -96,9 +96,15 @@
 		color: var(--color-quaternary);
 	}
 
-	@media screen and (min-width: 1450px) and (max-width: 1700px) {
+	@media screen and (min-width: 1450px) {
 		.container div {
 			height: 75%;
+		}
+		.container div:last-child {
+			align-self: center;
+			margin-top: 0;
+			height: 65%;
+			padding: 0;
 		}
 	}
 
@@ -108,7 +114,9 @@
 		}
 		.container div:last-child {
 			align-self: center;
-			margin-top: 20%;
+			margin-top: -2%;
+			height: 65%;
+			padding: 0;
 		}
 		h1 {
 			font-size: 2.4rem;
@@ -173,6 +181,7 @@
 			align-self: center;
 			margin-left: 0;
 			font-size: 1rem;
+			text-align: center;
 		}
 		h1 {
 			font-size: 1.5rem;

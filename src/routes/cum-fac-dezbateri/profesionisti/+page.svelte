@@ -4,12 +4,14 @@
 	import Quadrate from "$lib/components/content/Quadrate.svelte";
 	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
 	import BoxTextRightImageLeft from "$lib/components/content/BoxTextRightImageLeft.svelte";
+	import CallToAction from "../../../lib/components/content/CallToAction.svelte";
 
 	export let data;
 
 	let clubulHeading = data.data.heading;
 	let clubulContent = data.data.content;
 	let clubulQuadrate = data.data.quadrate;
+	let callToAction = data.data.callToAction;
 </script>
 
 <Fullpage>
@@ -58,6 +60,16 @@
 			bottomLeftTitle={clubulQuadrate.bottomLeftTitle}
 			bottomLeftDescription={clubulQuadrate.bottomLeftDescription}
 			bottomRightImage={clubulQuadrate.bottomRightImage}
+		/>
+	</FullpageSection>
+	<FullpageSection>
+		<CallToAction
+			heading={callToAction.heading}
+			subHeading={callToAction.subHeading}
+			primaryColor={callToAction.primaryColor}
+			callToActionLink={callToAction.callToActionLink}
+			contentList={callToAction.contentList}
+			callToActionTitle={callToAction.callToActionTitle}
 		/>
 	</FullpageSection>
 </Fullpage>
