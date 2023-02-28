@@ -34,7 +34,11 @@
 		<div class="box-subheading">
 			<h2>{description}</h2>
 			{#if callToActionText && callToActionUrl}
-				<a href={callToActionUrl}>{callToActionText}</a>
+				{#if !boxColor}
+					<a class="default-call-to-action" href={callToActionUrl}>{callToActionText}</a>
+				{:else}
+					<a href={callToActionUrl}>{callToActionText}</a>
+				{/if}
 			{/if}
 		</div>
 	</div>
@@ -94,6 +98,19 @@
 		color: var(--textColor);
 	}
 
+	.container > div:last-child > .box-subheading > a.default-call-to-action {
+		font-size: 1.5rem;
+		font-weight: 400;
+		text-align: justify;
+		text-decoration: none;
+		color: var(--color-primary);
+		padding: 1rem 2rem;
+		border: 1px solid;
+		border-radius: 0.5rem;
+		border-color: var(--color-primary);
+		margin-top: 1rem;
+	}
+
 	.container > div:last-child > .box-subheading > a {
 		font-size: 1.5rem;
 		font-weight: 400;
@@ -109,6 +126,11 @@
 	.container > div:last-child > .box-subheading > a:hover {
 		background-color: var(--color-primary);
 		color: var(--textColor);
+	}
+
+	.container > div:last-child > .box-subheading > a.default-call-to-action:hover {
+		background-color: var(--color-primary);
+		color: var(--color-quaternary);
 	}
 
 	.container > div:first-child {
