@@ -1,0 +1,57 @@
+[
+	{
+		"start": "2023-02-26 10:00",
+		"end": "2023-02-26 14:00",
+		"title": "The calendar can display background and regular events",
+		"color": "#FE6B64"
+	},
+	{
+		"start": "2023-02-27 16:00",
+		"end": "2023-02-28 08:00",
+		"title": "An event may span to another day",
+		"color": "#B29DD9"
+	},
+	{
+		"start": "2023-02-28 09:00",
+		"end": "2023-02-28 13:00",
+		"title": "Events can be assigned to resources and the calendar has the resources view built-in",
+		"color": "#779ECB"
+	},
+	{
+		"start": "2023-03-01 14:00",
+		"end": "2023-03-01 20:00",
+		"title": "",
+		"color": "#FE6B64"
+	},
+	{
+		"start": "2023-03-01 15:00",
+		"end": "2023-03-01 18:00",
+		"title": "Overlapping events are positioned properly",
+		"color": "#779ECB"
+	},
+	{
+		"start": "2023-03-03 10:00",
+		"end": "2023-03-03 16:00",
+		"titleHTML": "You have complete control over the <i><b>display</b></i> of events…",
+		"color": "#779ECB"
+	},
+	{
+		"start": "2023-03-03 14:00",
+		"end": "2023-03-03 19:00",
+		"title": "…and you can drag and drop the events!",
+		"color": "#FE6B64"
+	},
+	{
+		"start": "2023-03-03 18:00",
+		"end": "2023-03-03 21:00",
+		"title": "",
+		"color": "#B29DD9"
+	},
+	{
+		"start": "2023-02-27",
+		"end": "2023-03-01",
+		"title": "All-day events can be displayed at the top",
+		"color": "#B29DD9",
+		"allDay": true
+	}
+]
