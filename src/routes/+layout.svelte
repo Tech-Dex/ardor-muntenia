@@ -321,19 +321,19 @@
 	<div>
 		<div class="footer-socials">
 			<a class="iconify" href="facebook.com">
-				<Icon icon={facebookIcon} width="42" />
+				<Icon icon={facebookIcon} width="auto" />
 			</a>
 			<Icon icon={slashForward} width="auto" />
 			<a class="iconify" href="instagram.com">
-				<Icon icon={instagramIcon} width="42" />
+				<Icon icon={instagramIcon} width="auto" />
 			</a>
 			<Icon icon={slashForward} width="auto" />
 			<a class="iconify" href="youtube.com">
-				<Icon icon={youtubeIcon} width="42" />
+				<Icon icon={youtubeIcon} width="auto" />
 			</a>
 			<Icon icon={slashForward} width="auto" />
 			<a class="iconify" href="linkedin.com">
-				<Icon icon={linkedinIcon} width="42" />
+				<Icon icon={linkedinIcon} width="auto" />
 			</a>
 		</div>
 		<div class="footer-details">
