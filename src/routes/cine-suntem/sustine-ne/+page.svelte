@@ -63,13 +63,13 @@
 						<div class="iconify">
 							<Icon icon={cloudDownload} width="100%" />
 						</div>
-						<a href={path}>Formular</a>
+						<a href="https://redirectioneaza.ro/ardor-muntenia">Formular</a>
 					</div>
 					<div class="button-icon">
 						<div class="iconify">
 							<Icon icon={cloudDownload} width="100%" />
 						</div>
-						<a href={path}>Împuternicire</a>
+						<a href="https://redirectioneaza.ro/ardor-muntenia">Împuternicire</a>
 					</div>
 				</div>
 			</div>
@@ -95,7 +95,7 @@
 					<div class="iconify">
 						<Icon icon={documentOutline} width="100%" />
 					</div>
-					<a href={path}>Depunde prin SPV</a>
+					<a href="https://pfinternet.anaf.ro/my.policy">Depunde prin SPV</a>
 				</div>
 			</div>
 			<div class="section-content">
@@ -108,7 +108,7 @@
 					<div class="iconify">
 						<Icon icon={email} width="100%" />
 					</div>
-					<a href={path}>Trimite prin email</a>
+					<a href="adrian.malaies.popescu@gmail.com">Trimite prin email</a>
 				</div>
 			</div>
 			<h1>Sponsorizeaza</h1>
@@ -298,7 +298,7 @@
 	@media screen and (min-width: 680px) {
 		.content {
 			justify-content: center;
-			margin-top: 3rem;
+			margin-top: 1rem;
 		}
 		.content img {
 			width: 20rem;
@@ -383,6 +383,100 @@
 			margin: 0 1rem;
 			color: var(--color-secondary);
 			font-size: 1.6rem;
+		}
+	}
+	@media screen and (min-width: 1024px) {
+		.content img {
+			width: 25rem;
+			height: 25rem;
+		}
+		.content h2 {
+			font-size: 2.4rem;
+			margin: 1rem;
+		}
+		.content h5 {
+			font-size: 1.6rem;
+		}
+		.button {
+			width: 20rem;
+		}
+		.header-texts h1 {
+			font-size: 3rem;
+		}
+		.section-content h1 {
+			font-size: 2.4rem;
+		}
+		#section3 h1 {
+			font-size: 2.4rem;
+		}
+		.section-content h3 {
+			margin: 0 6rem;
+			font-size: 1.8rem;
+		}
+		.no-background h1 {
+			margin: 0;
+		}
+		.no-background ul li {
+			font-size: 2rem;
+			letter-spacing: 2.4px;
+			margin: 0.4rem 0;
+		}
+	}
+	@media screen and (min-width: 1400px) {
+		.content img {
+			width: 25rem;
+			height: 25rem;
+		}
+		.content h2 {
+			font-size: 3rem;
+			margin: 1rem;
+		}
+		.content h5 {
+			font-size: 1.6rem;
+			line-height: 3rem;
+		}
+		.header-texts h1 {
+			font-size: 3rem;
+		}
+		.section-content h1 {
+			font-size: 3rem;
+		}
+		.section-content h3 {
+			margin: 0 6rem;
+			font-size: 2rem;
+		}
+		#section3 h1 {
+			font-size: 3rem;
+		}
+		.no-background ul li {
+			font-size: 2.4rem;
+			letter-spacing: 2.4px;
+			line-height: 3.2rem;
+			margin: 1rem 0;
+		}
+		.section-content p {
+			margin: 2rem 10rem;
+			font-style: italic;
+			letter-spacing: 4px;
+			font-size: 1.6rem;
+			text-align: center;
+		}
+		.section-content ul li {
+			margin: 0.4rem 1rem;
+			font-size: 2rem;
+			line-height: 3rem;
+		}
+		.counter-container {
+			margin: 2rem 0;
+		}
+		.counter-container h2 {
+			font-size: 4rem;
+			margin: 1rem 2rem;
+		}
+		.counter-container p {
+			margin: 0 2rem;
+			color: var(--color-secondary);
+			font-size: 2rem;
 		}
 	}
 </style>
