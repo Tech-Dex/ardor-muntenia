@@ -12,20 +12,6 @@
 				</li>
 			{/each}
 		{/if}
-		{#if data.length !== 0}
-			{#each data as item}
-				<li>
-					<a href={item.link}> {item.text} </a>
-				</li>
-			{/each}
-		{/if}
-		{#if data.length !== 0}
-			{#each data as item}
-				<li>
-					<a href={item.link}> {item.text} </a>
-				</li>
-			{/each}
-		{/if}
 	</div>
 </div>
 
@@ -51,6 +37,8 @@
 	}
 	li {
 		margin: 1rem;
+		vertical-align: middle;
+		font-size: 2.4rem;
 	}
 	a:hover {
 		color: var(--color-primary);
