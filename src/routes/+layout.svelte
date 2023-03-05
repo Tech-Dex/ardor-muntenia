@@ -195,9 +195,6 @@
 				<div
 					class={subListOpened === 1 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
-					<h4 class:active={path === "/cine-suntem"}>
-						<a href="/cine-suntem">Cine suntem?</a>
-					</h4>
 					<h4 class:active={path === "/cine-suntem/viziune"}>
 						<a href="/cine-suntem/viziune">Viziune</a>
 					</h4>
@@ -228,9 +225,6 @@
 				<div
 					class={subListOpened === 2 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
-					<h4 class:active={path === "/dezbateri"}>
-						<a href="/dezbateri">Dezbateri</a>
-					</h4>
 					<h4 class:active={path === "/dezbateri/ce-sunt-dezbaterile"}>
 						<a href="/dezbateri/ce-sunt-dezbaterile">Ce sunt dezbaterile?</a>
 					</h4>
@@ -264,9 +258,6 @@
 				<div
 					class={subListOpened === 3 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
-					<h4 class:active={path === "/cum-fac-dezbateri"}>
-						<a href="/cum-fac-dezbateri">Cum fac Dezbateri?</a>
-					</h4>
 					<h4 class:active={path === "/cum-fac-dezbateri/clubul"}>
 						<a href="/cum-fac-dezbateri/clubul">Clubul</a>
 					</h4>
@@ -291,9 +282,6 @@
 				<div
 					class={subListOpened === 4 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
-					<h4 class:active={path === "/resurse-debate"}>
-						<a href="/resurse-debate">Resurse Debate</a>
-					</h4>
 					<h4 class:active={path === "/resurse-debate/elevi"}>
 						<a href="/resurse-debate/elevi">Elevi</a>
 					</h4>
@@ -470,7 +458,7 @@
 		display: none;
 		position: absolute;
 		background-color: var(--color-quaternary);
-		z-index: 1;
+		z-index: 100;
 		top: 2.5rem;
 		box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
 		border-radius: 5px;
