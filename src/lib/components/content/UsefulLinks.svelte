@@ -12,20 +12,6 @@
 				</li>
 			{/each}
 		{/if}
-		{#if data.length !== 0}
-			{#each data as item}
-				<li>
-					<a href={item.link}> {item.text} </a>
-				</li>
-			{/each}
-		{/if}
-		{#if data.length !== 0}
-			{#each data as item}
-				<li>
-					<a href={item.link}> {item.text} </a>
-				</li>
-			{/each}
-		{/if}
 	</div>
 </div>
 
