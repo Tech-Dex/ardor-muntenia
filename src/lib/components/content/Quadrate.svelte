@@ -121,7 +121,7 @@
 		font-weight: 400;
 		color: var(--color-secondary);
 		margin: 0;
-		padding: 0;
+		padding: 0 1rem;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -160,7 +160,7 @@
 		font-weight: 400;
 		color: var(--color-secondary);
 		margin: 0;
-		padding: 0;
+		padding: 0 1rem;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -200,12 +200,14 @@
 		.bottom-left p {
 			font-size: 0.8rem;
 			width: 90%;
+			padding: 0;
 		}
 		.top-right h1 {
 			font-size: 1rem;
 		}
 		.top-right p {
 			font-size: 0.8rem;
+			padding: 0;
 		}
 	}
 </style>
