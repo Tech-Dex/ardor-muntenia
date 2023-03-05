@@ -3,8 +3,10 @@
 	import Heading from "$lib/components/heading/Heading.svelte";
 	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
 	import BoxTextRightImageLeft from "$lib/components/content/BoxTextRightImageLeft.svelte";
+	import UsefulLinks from "$lib/components/content/UsefulLinks.svelte";
 	export let data;
 	let resurseEleviHeading = data.data.heading;
+	let resurseEleviUsefulLinks = data.data.usefulLinks;
 	let resurseEleviContent = data.data.content;
 </script>
 
@@ -17,6 +19,9 @@
 			callToActionText={resurseEleviHeading.callToAction.text}
 			callToActionLink={resurseEleviHeading.callToAction.link}
 		/>
+	</FullpageSection>
+	<FullpageSection title="Dezbateri - Links Utile Elevi">
+		<UsefulLinks data={resurseEleviUsefulLinks} />
 	</FullpageSection>
 	{#each resurseEleviContent as content, i}
 		<FullpageSection title={content.title}>

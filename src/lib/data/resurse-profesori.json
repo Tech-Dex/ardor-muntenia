@@ -8,6 +8,16 @@
 			"link": ""
 		}
 	},
+	"usefulLinks": [
+		{
+			"text": "Caietul profesorului",
+			"link": "http://ardor.org.ro/wp-content/uploads/2016/08/CAIETUL-PROFESORULUI-disciplina-optionala-Dezbatere-Oratorie-si-Retorica.pdf"
+		},
+		{
+			"text": "Calendar competitional",
+			"link": "/dezbateri/calendar"
+		}
+	],
 	"content": [
 		{
 			"title": "Opțional",
