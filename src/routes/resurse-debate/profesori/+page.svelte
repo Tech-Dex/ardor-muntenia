@@ -3,22 +3,27 @@
 	import Heading from "$lib/components/heading/Heading.svelte";
 	import BoxTextLeftImageRight from "$lib/components/content/BoxTextLeftImageRight.svelte";
 	import BoxTextRightImageLeft from "$lib/components/content/BoxTextRightImageLeft.svelte";
+	import UsefulLinks from "$lib/components/content/UsefulLinks.svelte";
 	export let data;
-	let resurseEleviHeading = data.data.heading;
-	let resurseEleviContent = data.data.content;
+	let resurseProfesoriHeading = data.data.heading;
+	let resurseProfesoriUsefulLinks = data.data.usefulLinks;
+	let resurseProfesoriContent = data.data.content;
 </script>
 
 <Fullpage>
-	<FullpageSection title="Dezbateri - Resurse Elevi">
+	<FullpageSection title="Dezbateri - Resurse Profesori">
 		<Heading
-			image={resurseEleviHeading.image}
-			title={resurseEleviHeading.title}
-			description={resurseEleviHeading.description}
-			callToActionText={resurseEleviHeading.callToAction.text}
-			callToActionLink={resurseEleviHeading.callToAction.link}
+			image={resurseProfesoriHeading.image}
+			title={resurseProfesoriHeading.title}
+			description={resurseProfesoriHeading.description}
+			callToActionText={resurseProfesoriHeading.callToAction.text}
+			callToActionLink={resurseProfesoriHeading.callToAction.link}
 		/>
 	</FullpageSection>
-	{#each resurseEleviContent as content, i}
+	<FullpageSection title="Dezbateri - Links Utile Profesori">
+		<UsefulLinks data={resurseProfesoriUsefulLinks} />
+	</FullpageSection>
+	{#each resurseProfesoriContent as content, i}
 		<FullpageSection title={content.title}>
 			{#if i % 2 === 0}
 				<BoxTextLeftImageRight

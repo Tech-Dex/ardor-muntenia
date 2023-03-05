@@ -8,6 +8,16 @@
 			"link": ""
 		}
 	},
+	"usefulLinks": [
+		{
+			"text": "Manualul elevului",
+			"link": "http://ardor.org.ro/manualul-elevului-optional-dezbateri-oratorie-si-retorica/"
+		},
+		{
+			"text": "Calendar competitional",
+			"link": "/dezbateri/calendar"
+		}
+	],
 	"content": [
 		{
 			"title": "Clubul școlar",
