@@ -3,6 +3,9 @@
 		"start": "2023-02-26 10:00",
 		"end": "2023-02-26 14:00",
 		"title": "The calendar can display background and regular events",
+		"extendedProps": {
+			"eventLink": "https://www.google.com"
+		},
 		"color": "#FE6B64"
 	},
 	{

@@ -1,0 +1,52 @@
+{
+	"heading": {
+		"image": "/images/resurse-elevi-heading.webp",
+		"title": "Cum poți deveni cel mai bun debater al generației tale",
+		"description": "- Since 1984 -",
+		"callToAction": {
+			"text": "",
+			"link": ""
+		}
+	},
+	"content": [
+		{
+			"title": "Clubul școlar",
+			"description": "Clubul școlar este locul în care elevii aprofundează arta dezbaterilor, alături de profesori sau foști debateri dedicați",
+			"image": {
+				"link": "/images/resurse-elevi-clubul-scolar.webp",
+				"alt": "Clubul scolar"
+			},
+			"boxColor": "",
+			"callToAction": {
+				"text": "Află mai multe",
+				"link": "/elev/clubul"
+			}
+		},
+		{
+			"title": "Olimpiada",
+			"description": "Tinerii Dezbat este olimpiada națională de dezbateri, organizată de Ministerul Educației Naționale",
+			"image": {
+				"link": "/images/939-1920x1080.webp",
+				"alt": "Olimpiada"
+			},
+			"boxColor": "",
+			"callToAction": {
+				"text": "Află mai multe",
+				"link": "/elev/olimpiada"
+			}
+		},
+		{
+			"title": "Cursurile profesioniste",
+			"description": "Noi oferim cursuri pentru viitorii profesioniști de dezvoltare personala și profesională",
+			"image": {
+				"link": "/images/resurse-elevi-cursurile-profesioniste.webp",
+				"alt": "Cursurile profesioniste"
+			},
+			"boxColor": "",
+			"callToAction": {
+				"text": "Află mai multe",
+				"link": "/dezbateri/cursuri"
+			}
+		}
+	]
+}

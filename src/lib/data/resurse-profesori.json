@@ -1,0 +1,78 @@
+{
+	"heading": {
+		"image": "/images/resurse-profesori-heading.webp",
+		"title": "Cum poți contribui la dezvoltarea personală și profesională a elevilor",
+		"description": "- Since 1984 -",
+		"callToAction": {
+			"text": "",
+			"link": ""
+		}
+	},
+	"content": [
+		{
+			"title": "Opțional",
+			"description": "Răspunde la nevoia a programei școlare de a fi reîmprospătată. Astfel, profesorii au un rol cheie în a învăța să predea această materie",
+			"image": {
+				"link": "/images/939-1920x1080.webp",
+				"alt": "Optionalul de dezbateri"
+			},
+			"boxColor": "",
+			"callToAction": {
+				"text": "Află mai multe",
+				"link": "/predai/optional"
+			}
+		},
+		{
+			"title": "Olimpiadă",
+			"description": "În cadrul olimpiadei naționale de dezbateri, profesorii au un rol fundamental în educarea elevilor prin calitatea de arbitru",
+			"image": {
+				"link": "/images/939-1920x1080.webp",
+				"alt": "Olimpiada de dezbateri"
+			},
+			"boxColor": "",
+			"callToAction": {
+				"text": "Află mai multe",
+				"link": "/predai/olimpiada"
+			}
+		},
+		{
+			"title": "Club",
+			"description": "Profesorii se ocupă cu deschiderea cluburilor în școlile în care predau, cu ajutorul ARDOR Muntenia, care se ocupă de toate formele birocratice",
+			"image": {
+				"link": "/images/939-1920x1080.webp",
+				"alt": "Clubul de dezbateri"
+			},
+			"boxColor": "",
+			"callToAction": {
+				"text": "Află mai multe",
+				"link": "/predai/clubul"
+			}
+		},
+		{
+			"title": "Cursuri acreditate",
+			"description": "ARDOR, asociația noastră umbrelă, a dezvoltat un curs acreditat de formare profesională adrsat cadrelor didactice",
+			"image": {
+				"link": "/images/939-1920x1080.webp",
+				"alt": "Cursuri acreditate"
+			},
+			"boxColor": "",
+			"callToAction": {
+				"text": "Află mai multe",
+				"link": "/predai/cursuri"
+			}
+		},
+		{
+			"title": "Tabăra de Leadership",
+			"description": "Un eveniment ARDOR, care reunește în fiecare an, în București, profesorii din întreaga țară",
+			"image": {
+				"link": "/images/939-1920x1080.webp",
+				"alt": "Tabăra de Leadership"
+			},
+			"boxColor": "",
+			"callToAction": {
+				"text": "Află mai multe",
+				"link": "/predai/tabara"
+			}
+		}
+	]
+}
