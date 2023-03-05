@@ -18,6 +18,11 @@
 		},
 		nowIndicator: true,
 		selectable: true,
+		eventClick: (info) => {
+			if (info.event.extendedProps.eventLink) {
+				window.open(info.event.extendedProps.eventLink, "_blank");
+			}
+		},
 
 		events: data.data,
 	};
