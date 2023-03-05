@@ -320,19 +320,19 @@
 <footer>
 	<div>
 		<div class="footer-socials">
-			<a class="iconify" href="facebook.com">
+			<a class="iconify" href="https://www.facebook.com/ARDORMuntenia/">
 				<Icon icon={facebookIcon} width="auto" />
 			</a>
 			<Icon icon={slashForward} width="auto" />
-			<a class="iconify" href="instagram.com">
+			<a class="iconify" href="https://www.instagram.com/ardormuntenia/">
 				<Icon icon={instagramIcon} width="auto" />
 			</a>
 			<Icon icon={slashForward} width="auto" />
-			<a class="iconify" href="youtube.com">
+			<a class="iconify" href="https://www.youtube.com/@ARDORnational">
 				<Icon icon={youtubeIcon} width="auto" />
 			</a>
 			<Icon icon={slashForward} width="auto" />
-			<a class="iconify" href="linkedin.com">
+			<a class="iconify" href="https://www.linkedin.com/company/ardor-muntenia">
 				<Icon icon={linkedinIcon} width="auto" />
 			</a>
 		</div>
