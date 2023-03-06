@@ -37,6 +37,8 @@
 	}
 	li {
 		margin: 1rem;
+		vertical-align: middle;
+		font-size: 2.4rem;
 	}
 	a:hover {
 		color: var(--color-primary);
