@@ -183,7 +183,9 @@
 
 		<ul>
 			<li>
-				<a class:active={path === "/"} href="/"><h4>Home</h4></a>
+				<a class:active={path === "/"} href="/" on:click={() => (enableMobileMenu = false)}
+					><h4>Home</h4></a
+				>
 			</li>
 			<li>
 				<a href={path} on:click={() => openSubList(1)}
@@ -196,22 +198,28 @@
 					class={subListOpened === 1 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
 					<h4 class:active={path === "/cine-suntem/viziune"}>
-						<a href="/cine-suntem/viziune">Viziune</a>
+						<a href="/cine-suntem/viziune" on:click={() => (enableMobileMenu = false)}>Viziune</a>
 					</h4>
 					<h4 class:active={path === "/cine-suntem/proiecte"}>
-						<a href="/cine-suntem/proiecte">Proiecte</a>
+						<a href="/cine-suntem/proiecte" on:click={() => (enableMobileMenu = false)}>Proiecte</a>
 					</h4>
 					<h4 class:active={path === "/cine-suntem/echipa"}>
-						<a href="/cine-suntem/echipa">Echipa</a>
+						<a href="/cine-suntem/echipa" on:click={() => (enableMobileMenu = false)}>Echipa</a>
 					</h4>
 					<h4 class:active={path === "/cine-suntem/sustinatori"}>
-						<a href="/cine-suntem/sustinatori">Sustinatori</a>
+						<a href="/cine-suntem/sustinatori" on:click={() => (enableMobileMenu = false)}
+							>Sustinatori</a
+						>
 					</h4>
 					<h4 class:active={path === "/cine-suntem/sustine-ne"}>
-						<a href="/cine-suntem/sustine-ne">Sustine-ne</a>
+						<a href="/cine-suntem/sustine-ne" on:click={() => (enableMobileMenu = false)}
+							>Sustine-ne</a
+						>
 					</h4>
 					<h4 class:active={path === "/cine-suntem/testimoniale"}>
-						<a href="/cine-suntem/testimoniale">Testimoniale</a>
+						<a href="/cine-suntem/testimoniale" on:click={() => (enableMobileMenu = false)}
+							>Testimoniale</a
+						>
 					</h4>
 				</div>
 			</li>
@@ -226,25 +234,31 @@
 					class={subListOpened === 2 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
 					<h4 class:active={path === "/dezbateri/ce-sunt-dezbaterile"}>
-						<a href="/dezbateri/ce-sunt-dezbaterile">Ce sunt dezbaterile?</a>
+						<a href="/dezbateri/ce-sunt-dezbaterile" on:click={() => (enableMobileMenu = false)}
+							>Ce sunt dezbaterile?</a
+						>
 					</h4>
 					<h4 class:active={path === "/dezbateri/beneficii"}>
-						<a href="/dezbateri/beneficii">Beneficii</a>
+						<a href="/dezbateri/beneficii" on:click={() => (enableMobileMenu = false)}>Beneficii</a>
 					</h4>
 					<h4 class:active={path === "/dezbateri/competitii"}>
-						<a href="/dezbateri/competitii">Competitii</a>
+						<a href="/dezbateri/competitii" on:click={() => (enableMobileMenu = false)}
+							>Competitii</a
+						>
 					</h4>
 					<h4 class:active={path === "/dezbateri/oportunitati"}>
-						<a href="/dezbateri/oportunitati">Oportunitati</a>
+						<a href="/dezbateri/oportunitati" on:click={() => (enableMobileMenu = false)}
+							>Oportunitati</a
+						>
 					</h4>
 					<h4 class:active={path === "/dezbateri/cursuri"}>
-						<a href="/dezbateri/cursuri">Cursuri</a>
+						<a href="/dezbateri/cursuri" on:click={() => (enableMobileMenu = false)}>Cursuri</a>
 					</h4>
 					<h4 class:active={path === "/dezbateri/calendar"}>
-						<a href="/dezbateri/calendar">Calendar</a>
+						<a href="/dezbateri/calendar" on:click={() => (enableMobileMenu = false)}>Calendar</a>
 					</h4>
 					<h4 class:active={path === "/dezbateri/arhiva"}>
-						<a href="/dezbateri/arhiva">Arhiva</a>
+						<a href="/dezbateri/arhiva" on:click={() => (enableMobileMenu = false)}>Arhiva</a>
 					</h4>
 				</div>
 			</li>
@@ -259,16 +273,24 @@
 					class={subListOpened === 3 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
 					<h4 class:active={path === "/cum-fac-dezbateri/clubul"}>
-						<a href="/cum-fac-dezbateri/clubul">Clubul</a>
+						<a href="/cum-fac-dezbateri/clubul" on:click={() => (enableMobileMenu = false)}
+							>Clubul</a
+						>
 					</h4>
 					<h4 class:active={path === "/cum-fac-dezbateri/harta-cluburi"}>
-						<a href="/cum-fac-dezbateri/harta-cluburi">harta-cluburi</a>
+						<a href="/cum-fac-dezbateri/harta-cluburi" on:click={() => (enableMobileMenu = false)}
+							>harta-cluburi</a
+						>
 					</h4>
 					<h4 class:active={path === "/cum-fac-dezbateri/optional-dor"}>
-						<a href="/cum-fac-dezbateri/optional-dor">Optionalul Dor</a>
+						<a href="/cum-fac-dezbateri/optional-dor" on:click={() => (enableMobileMenu = false)}
+							>Optionalul Dor</a
+						>
 					</h4>
 					<h4 class:active={path === "/cum-fac-dezbateri/profesionisti"}>
-						<a href="/cum-fac-dezbateri/profesionisti">Profesionisti</a>
+						<a href="/cum-fac-dezbateri/profesionisti" on:click={() => (enableMobileMenu = false)}
+							>Profesionisti</a
+						>
 					</h4>
 				</div>
 			</li>
@@ -283,15 +305,21 @@
 					class={subListOpened === 4 ? "nav-item-sub-container-display" : "nav-item-sub-container"}
 				>
 					<h4 class:active={path === "/resurse-debate/elevi"}>
-						<a href="/resurse-debate/elevi">Elevi</a>
+						<a href="/resurse-debate/elevi" on:click={() => (enableMobileMenu = false)}>Elevi</a>
 					</h4>
 					<h4 class:active={path === "/resurse-debate/profesori"}>
-						<a href="/resurse-debate/profesori">Profesori</a>
+						<a href="/resurse-debate/profesori" on:click={() => (enableMobileMenu = false)}
+							>Profesori</a
+						>
 					</h4>
 				</div>
 			</li>
 			<li>
-				<a class:active={path === "/contact"} href="/contact"><h4>Contact</h4></a>
+				<a
+					class:active={path === "/contact"}
+					href="/contact"
+					on:click={() => (enableMobileMenu = false)}><h4>Contact</h4></a
+				>
 			</li>
 		</ul>
 	</div>
