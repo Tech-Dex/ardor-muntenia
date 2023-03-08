@@ -1,0 +1,8 @@
+location / {
+    location ~ \.(webp|ico|gif|png) {
+            expires 7d;
+            add_header Cache-Control "public, no-transform";
+            include /path/to/reverse-proxy.conf;
+    }
+    include /path/to/reverse-proxy.conf;
+}
