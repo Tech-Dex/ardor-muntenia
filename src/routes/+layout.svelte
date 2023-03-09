@@ -593,7 +593,7 @@
 	}
 	footer .footer-details .footer-links-center span:first-child {
 		text-decoration: none;
-		color: var(--color-quinary);
+		color: var(--color-tertiary);
 		font-size: 1rem;
 		font-weight: bold;
 		font-style: italic;
