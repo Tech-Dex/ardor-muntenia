@@ -525,11 +525,11 @@
 	}
 
 	footer .footer-socials .iconify {
-		color: var(--color-tertiary);
+		color: var(--color-quinary);
 	}
 
 	footer .footer-socials .iconify:hover {
-		color: var(--color-quinary);
+		color: var(--color-senary);
 	}
 
 	footer .footer-details {
@@ -593,7 +593,7 @@
 	}
 	footer .footer-details .footer-links-center span:first-child {
 		text-decoration: none;
-		color: var(--color-tertiary);
+		color: var(--color-quinary);
 		font-size: 1rem;
 		font-weight: bold;
 		font-style: italic;
