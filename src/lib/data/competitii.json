@@ -7,9 +7,6 @@
 				"link": "/images/proiect-mmo.webp",
 				"alt": "Muntenia Monthly Open"
 			},
-			"backgroundColor": "#ffffff",
-			"textColor": "#ffffff",
-			"boxColor": "#1fa2a3",
 			"callToAction": {
 				"text": "Pagina de Facebook",
 				"link": "https://www.facebook.com/ARDORMuntenia/"
@@ -22,9 +19,6 @@
 				"link": "/images/proiect-funky-debates.webp",
 				"alt": "Muntenia Monthly Open"
 			},
-			"backgroundColor": "#f7a41e",
-			"textColor": "#ffffff",
-			"boxColor": "#1c1d24",
 			"callToAction": {
 				"text": "Pagina de Facebook",
 				"link": "https://www.facebook.com/ARDORMuntenia/"
@@ -37,9 +31,6 @@
 				"link": "/images/proiect-cdx.webp",
 				"alt": "Cantemir Debate Extravaganza"
 			},
-			"backgroundColor": "#ffffff",
-			"textColor": "#ffffff",
-			"boxColor": "#1fa2a3",
 			"callToAction": {
 				"text": "Pagina de Facebook",
 				"link": "https://www.facebook.com/CantemirDebate/"
@@ -52,9 +43,6 @@
 				"link": "/images/proiect-central-open-2019.webp",
 				"alt": "Pache Open"
 			},
-			"backgroundColor": "#f7a41e",
-			"textColor": "#ffffff",
-			"boxColor": "#1c1d24",
 			"callToAction": {
 				"text": "Pagina de Facebook",
 				"link": "https://www.facebook.com/centraldebateclub/"

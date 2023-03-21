@@ -7,9 +7,6 @@
 				"link": "/images/arhiva-shukar.webp",
 				"alt": "SHUKAR Club"
 			},
-			"backgroundColor": "#ffffff",
-			"textColor": "#ffffff",
-			"boxColor": "#1fa2a3",
 			"callToAction": {
 				"text": "Shukar Club",
 				"link": "https://www.facebook.com/ShukarClub/"
@@ -22,9 +19,6 @@
 				"link": "/images/arhiva-elite-summer-school.webp",
 				"alt": "Cantemir Debate Extravaganza"
 			},
-			"backgroundColor": "#f7a41e",
-			"textColor": "#ffffff",
-			"boxColor": "#1c1d24",
 			"callToAction": {
 				"text": "Elite summer school",
 				"link": "https://www.ispeak.ro"
