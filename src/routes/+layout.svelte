@@ -663,7 +663,7 @@
 
 		.navbar-mobile {
 			display: block;
-
+			overflow-y: scroll;
 			position: fixed;
 			right: 0;
 			top: 0;
