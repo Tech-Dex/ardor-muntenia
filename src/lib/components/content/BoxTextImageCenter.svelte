@@ -36,12 +36,13 @@
 		justify-content: center;
 		align-items: center;
 		color: #fff;
-		padding: 1rem;
 	}
 
 	h3 {
-		font-size: 0.6rem;
+		font-size: 0.7rem;
 		font-weight: 300;
+		padding: 0 1rem;
+		text-align: center;
 	}
 
 	h1 {
