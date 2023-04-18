@@ -386,7 +386,7 @@
 	}
 
 	:global(header) {
-		height: 6vh;
+		height: 6dvh;
 		background-color: var(--color-quaternary);
 		display: flex;
 		justify-content: space-between;
@@ -395,11 +395,11 @@
 	}
 
 	:global(.slot-content) {
-		height: 85vh;
+		height: 85dvh;
 	}
 
 	:global(footer) {
-		height: 9vh;
+		height: 9dvh;
 		background-color: var(--color-secondary);
 		color: var(--color-tertiary);
 		display: grid;
