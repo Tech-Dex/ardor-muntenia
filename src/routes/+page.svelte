@@ -33,8 +33,13 @@
 
 <div class="gallery-mobile">
 	<Fullpage>
-		{#each galleryCards as card}
-			<GalleryCardMobile data={card.data} backgroundImage={card.data.image} />
+		<FullpageSection>
+			<div class="welcome-landing-mobile" />
+		</FullpageSection>
+		{#each galleryCards as card, i}
+			{#if i !== 0}
+				<GalleryCardMobile data={card.data} backgroundImage={card.data.image} />
+			{/if}
 		{/each}
 	</Fullpage>
 </div>
@@ -52,6 +57,15 @@
 		background-position: center;
 		width: 100%;
 		height: 100%;
+	}
+
+	.welcome-landing-mobile {
+		background-image: var(--landing-image);
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: 50% 20%;
 	}
 
 	.gallery-mobile {

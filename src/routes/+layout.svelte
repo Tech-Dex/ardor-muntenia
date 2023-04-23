@@ -386,26 +386,24 @@
 	}
 
 	:global(header) {
-		height: 6dvh;
+		height: 6svh;
 		background-color: var(--color-quaternary);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		min-height: 3rem;
 	}
 
 	:global(.slot-content) {
-		height: 85dvh;
+		height: 85svh;
 	}
 
 	:global(footer) {
-		height: 9dvh;
+		height: 9svh;
 		background-color: var(--color-secondary);
 		color: var(--color-tertiary);
 		display: grid;
 		grid-template-rows: 1fr 1fr;
 		grid-template-areas: "footer-social" "footer-details";
-		min-height: 5.6rem;
 	}
 
 	:global(body) {
@@ -613,6 +611,22 @@
 	}
 
 	@media screen and (min-width: 1024px) and (max-width: 1360px) {
+		:global(header) {
+			height: 10svh;
+		}
+
+		:global(.slot-content) {
+			height: 80svh;
+		}
+
+		:global(footer) {
+			height: 10svh;
+		}
+
+		footer .footer-details {
+			display: none;
+		}
+
 		nav ul li a {
 			font-size: 0.9rem;
 		}
@@ -623,6 +637,22 @@
 	}
 
 	@media screen and (min-width: 1024px) and (max-width: 1264px) {
+		:global(header) {
+			height: 10svh;
+		}
+
+		:global(.slot-content) {
+			height: 80svh;
+		}
+
+		:global(footer) {
+			height: 10svh;
+		}
+
+		footer .footer-details {
+			display: none;
+		}
+
 		.dropdown-content {
 			top: 3rem;
 		}
@@ -633,6 +663,18 @@
 	}
 
 	@media screen and (max-width: 1023px) {
+		:global(header) {
+			height: 10svh;
+		}
+
+		:global(.slot-content) {
+			height: 80svh;
+		}
+
+		:global(footer) {
+			height: 10svh;
+		}
+
 		footer .footer-details {
 			display: none;
 		}
